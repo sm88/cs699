@@ -1,0 +1,342 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head><title>Emacs Cheat Sheet</title>
+<center><h1>Emacs Cheat Sheet</h1></center></head>
+<body>
+
+<table>
+
+<hr>
+<td>
+<table border=1>
+	<tr>
+	<th colspan=2>Basic Survival Commands</th></tr>
+
+	<tr>
+	<td>% emacs</td>
+	<td>Invoke from command shell</td></tr>
+
+	<tr>
+	<td>C-x C-c</td>
+	<td>Exit</td></tr>
+
+	<tr>
+	<td>C-g</td>
+	<td>Clear command state</td></tr>
+
+	<tr>
+	<td>C-u or C-_</td>
+	<td>Undo</td></tr>
+
+	<tr>
+	<td>C-h C-h</td>
+	<td>Help on help</td></tr>
+
+	<tr>
+	<td>C-h a <em>command</em></td>
+	<td>Help apropos</td></tr>
+
+</table>
+
+<td>
+<table border=1>
+	<tr>
+	<th colspan=2>Emacs Notation and Lingo
+
+	<tr>
+	<td>C-<em>char</em></td>
+	<td>Control-<em>char</em></td>
+
+	<tr>
+	<td>M-<em>char</em>
+		<br>Meta-<em>char</em></td>
+	<td>If Alt key is present,
+			hold down Alt while typing <em>char</em>.
+		<br>If no Alt key,
+			type ESC key and then <em>char</em>.</td>
+	<tr>
+	<td>ESC</td>
+	<td>Escape key.  Generally, any one of Esc,
+		F11, or C-[ .</td>
+
+	<tr>
+	<td>Kill</td>
+	<td>Remove from currently active buffer and append to paste buffer.
+		<br>Equivalent to "Cut" in other editors.</td>
+	<tr>
+	<td>sentence</td>
+	<td>In a text buffer:  anything that ends with a period.
+		<br>In a program buffer: anything enclosed in () or {} or [].</td>
+
+	<tr>
+	<td>window</td>
+	<td>an on-screen view of a buffer.</td>
+
+	<tr>
+	<td>buffer</td>
+	<td>an in-memory version of a file,
+		or the terminal window for a utility.</td>
+</table>
+
+</table>
+
+<table border=1>
+	<tr>
+	<th colspan=5>Navigation & Kill
+
+	<tr>
+	<th>
+	<th colspan=2>Navigation
+	<th colspan=2>Kill
+
+	<tr>
+	<th>Where to
+	<th>Backward
+	<th>Forward
+	<th>Backward
+	<th>Forward
+
+	<tr>
+	<td>anywhere in window</td>
+	<td>mouse click</td>
+
+	<tr>
+	<td>next character</td>
+	<td>C-b</td>
+	<td>C-f</td>
+	<td>Rubout (not saved)</td>
+	<td>C-d</td>
+
+	<tr>
+	<td>next word</td>
+	<td>M-b</td>
+	<td>M-f</td>
+	<td>M-Rubout</td>
+	<td>M-d</td>
+
+	<tr>
+	<td>end of line</td>
+	<td>C-a</td>
+	<td>C-e</td>
+	<td> </td>
+	<td>C-k</td>
+
+	<tr>
+	<td>next line</td>
+	<td>C-p</td>
+	<td>C-n</td>
+
+	<tr>
+	<td>next screen</td>
+	<td>M-v</td>
+	<td>C-v</td>
+
+	<tr>
+	<td>next sentence</td>
+	<td>M-e</td>
+	<td>M-a</td>
+	<td> </td>
+	<td>M-k</td>
+
+	<tr>
+	<td>end of buffer</td>
+	<td>M-<</td>
+	<td>M-></td>
+
+	<tr>
+	<td>next occurrence of<br>search string</td>
+	<td>C-r</td>
+	<td>C-s</td>
+
+	<tr>
+	<td>mark<br>(set with C-@)</td>
+	<td colspan=2>C-x C-x</td>
+	<td colspan=2>C-w</td>
+
+	<tr>
+	<td>numbered line</td>
+	<td colspan=2>C-x g number</td>
+	<td> </td>
+
+	<tr>
+	<td>compiler error</td>
+	<td> </td>
+	<td>C-x `
+		</td>
+
+</table>
+
+<table>
+<tr>
+<td>
+
+<table border=1>
+	<tr>
+	<th colspan=3>Buffer & Window Operations
+
+	<tr>
+	<th>Operation</th>
+	<th>Window</th>
+	<th>Buffer</th>
+
+	<tr>
+	<td>create new</td>
+	<td>C-x 2 (horiz)<br>C-x 5 (vert)</td>
+	<td>C-x C-f <em>filename</em></td>
+
+	<tr>
+	<td>delete</td>
+	<td>C-x 0</td>
+	<td>C-x k</td>
+
+	<tr>
+	<td>delete other</td>
+	<td>C-x 1</td>
+
+	<tr>
+	<td>save</td>
+	<td> </td>
+	<td>C-x C-s</td>
+
+	<tr>
+	<td>save as</td>
+	<td> </td>
+	<td>C-x C-w <em>filename</em></td>
+
+	<tr>
+	<td>include file</td>
+	<td> </td>
+	<td>C-x C-i <em>filename</em></td>
+
+	<tr>
+	<td>cursor to next window</td>
+	<td>C-x o<br>or mouse click</td>
+
+	<tr>
+	<td>save all (query)</td>
+	<td> </td>
+	<td>C-x s y y ...</td>
+
+	<tr>
+	<td>show in window</td>
+	<td> </td>
+	<td>C-x b buffername <br>(defaults to previous)</td>
+
+	<tr>
+	<td>list</td>
+	<td>(look at screen)</td>
+	<td>C-x C-b</td>
+</table>
+
+</td>
+<td>
+
+<table border=1>
+	<tr>
+	<th colspan=2>Other Useful Commands
+
+	<tr>
+	<td>C-y</td>
+	<td>paste kill buffer</td>
+
+	<tr>
+	<td>C-x m</td>
+	<td>Compose mail message</td>
+
+	<tr>
+	<td>C-c C-s</td>
+	<td>Send mail</td>
+
+	<tr>
+	<td>C-x c</td>
+	<td>Compile</td>
+
+	<tr>
+	<td>M-x <em>commandname</em> CR</td>
+	<td>Use named command</td>
+
+	<tr>
+	<td>C-q <em>char</em></td>
+	<td>Insert literal <em>char</em></td>
+
+	<tr>
+	<td>C-z q</td>
+	<td>Fill current paragraph</td>
+
+	<tr>
+	<td>C-u 1 2 3 <em>command</em></td>
+	<td>Repeat count</td>
+
+	<tr>
+	<td>C-x ( <em>keystrokes</em> C-x )</td>
+	<td>Define Macro</td>
+
+	<tr>
+	<td>C-e</td>
+	<td>Execute Macro</td>
+
+	<tr>
+	<td>C-x c <br>or M-x compile CR</td>
+	<td>Invoke <em>make</em></td>
+
+	<tr>
+	<td>M-x kill-compiler CR</td>
+	<td>Kill compile</td>
+
+	<tr>
+	<td>M-x load-lib decladebug CR<br>decladebug</td>
+	<td>start decladebug</td>
+
+	<tr>
+	<td>M-x dbx-stop-at</td>
+	<td>set break point at current cursor position</td>
+
+</table>
+
+</table>
+
+<hr><center><em>Copyright 1998 <a href="/~hains/">John Hainsworth</a>. All rights reserved.</em></center></body></html>

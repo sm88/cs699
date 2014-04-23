@@ -1,0 +1,23 @@
+\begin{thebibliography}{9} %the 9 means single digit only as only some refs will be included
+\bibitem{1}
+D. Eck, B. Brundick, T. Fettig, J. Dechoretz and J. Ugljesa, ``Parametric estimating handbook,'' The International Society of Parametric Analysis (ISPA), Fourth Edition. 2009.
+\bibitem{2}
+J. Lynch. Chaos manifesto. The Standish Group. Boston. 2009[Online]. Available:\\
+http://www.standishgroup.com/newsroom/chaos\_2009.php.
+\bibitem{3}
+A. B. Nassif, L. F. Capretz and D. Ho, ``Software estimation in the early stages of the software life cycle,'' in International Conference on Emerging Trends in Computer Science, Communication and Information Technology, 2010, pp. 5-13.
+\bibitem{4}
+B. W. Boehm, Software Engineering Economics. Prentice-Hall, 1981.
+\bibitem{5}
+L. H. Putnam, ``A General Empirical Solution to the Macro Software Sizing and Estimating Problem,'' IEEE Transactions on Software Engineering, vol. 4, pp. 345-361, 1978.
+\bibitem{6}
+D. D. Galorath and M. W. Evans, Software Sizing, Estimation, and Risk Management. Boston, MA, USA: Auerbach Publications, 2006.
+\bibitem{7}
+M. Jørgensen, ``Forecasting of software development work effort: Evidence on expert judgement and formal models,'' International Journal of Forecasting, vol. 23, pp. 449-462, 2007.
+\bibitem{8}
+John Doe. Emacs Tutorial. Available:\\
+http://ergoemacs.org/emacs/emacs\_find\_replace.html
+\bibitem{9}
+John Doe 2. Emacs Tutorial 2. Available:\\
+http://ergoemacs.org/emacs/emacs\_find\_replace.html
+\end{thebibliography}

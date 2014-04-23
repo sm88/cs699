@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>PHP and PostgreSQL Exercises</title>
+<link rel=stylesheet href="../../style.css" type="text/css">
+</link>
+</head>
+
+<body>
+<h2>PHP and PostgreSQL Exercises</h2>
+
+<ol>
+  <li>Install apache2, postgresql, and php5, if not already installed.
+  </li>
+  <li>Ensure that apache2 and postgresql are running as background
+  daemons.
+  </li>
+  <li>Write a "Hello World" php script and place it in the appropriate
+  www directory (usually /var/www).  Access it via your browser in the
+  same machine, and then from a browser in a different machine.
+  Ensure that the php script produces the desired output.  This is a
+  test that php is installed correctly.
+  </li>
+  <li>In this exercise, you've to create a web application to manage
+  the marks of CS699 students (of course, you'll be dealing with dummy
+  marks!).
+      <ol class="a">
+	<li>Now create a database (called marks_db henceforth; but you can
+	    name it anything you want) using the createdb command.  You have to
+	    do this as user postgres, unless you've already created a postgres
+	    user who has privileges to create databases.
+	</li>
+	<li>Create a table called "users" in the database, to store information about each
+	    student: roll number, name, email address, and a login
+  password (for this website, not your LDAP login or NSL/OSL login
+  password).  Designate roll number as the primary key for this table.
+	</li>
+	<li>Create another table called "marks" in the database, to store
+  information about each students' marks in: quiz1, midsem, quiz2,
+  project, and endsem.  Designate roll number as foreign key into the
+  "users" table.
+	</li>
+	<li>Populate the above tables with at least three entries
+  each.  One of the entries in each table has to be corresponding to a
+  user called "admin" who has administrator privileges for this
+  application.  The marks for the "admin" indicate the maximum
+  possible marks in each of the given exams.
+	</li>
+	<li>First write a test php script to display the number of rows in
+  each of the tables.  In this process, you'll discover that the web
+  server does not have permissions to access the database tables.
+  You have to enable these permissions using the GRANT SQL command so
+  that the php script works.
+	</li>
+	<li>Now create a web form for a user to enter his/her roll
+  number and password.  On submitting this form, a php script must be
+  run to show the students' marks as a table.  Don't forget to do
+  error handling such as: non-existent roll number, password mismatch,
+  marks not yet entered, etc.
+	</li>
+	<li><span class="em">Optional [3HP]:</span> Enhance the above
+  form/script so that when the admin
+  logins, the marks of all students are shown as a table.<br />
+	    <b>Note:</b> All optional house point questions to be
+  shown as demos in lab or to a TA separately.
+	</li>
+	<li><span class="em">Optional [up to 10HP]:</span> Enhance the above
+  application to allow the admin to change
+  the marks of any student.  The best is to allow the admin to do this
+  from the above table itself.
+	</li>
+	<li><span class="em">Optional [5HP]:</span> Now enhance the
+  above application enabling cookies.
+	</li>
+	<li><span class="em">Optional [10HP]:</span> Further enhance
+  the application to allow bulk
+  upload/update of the "users" or "students" tables from a csv file.
+  Be sure to do error handling correctly.
+	</li>
+	<li><span class="em">Optional [10HP]:</span> Now enhance the
+  above application so that when the admin
+  updates any students' marks, it emails the particular student with
+  the update.
+	</li>
+      </ol>
+  </li>
+</ol>
+
+<h3>What to submit?</h3>
+
+<p>Submit a tar-gz of your php scripts, as well as an SQL dump of the
+database.  The PostgreSQL manual has information on how to create
+this dump.</p>
+
+<hr />
+<address>Bhaskaran Raman</address>
+<!-- hhmts start -->
+Last modified: Mon Nov  7 09:00:36 IST 2011
+<!-- hhmts end -->
+</body> </html>

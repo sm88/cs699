@@ -1,0 +1,199 @@
+body{ 
+ background-color:#22272D;
+ margin:0;
+ padding:0;
+ border:0;
+ width:100%;
+ color:#FFFFFF;
+}
+
+#container{ 
+ margin:10px auto;
+ font-family:helvetica;
+ width:80%
+}
+
+aside{ 
+ width:220px;
+ margin-left:10px;
+ padding:10px;
+ color:#38C0F4;
+ float:left;
+ border-radius:15px 0px 15px 0px;
+ background-color:#282828;
+ border:1px solid #38C0F4;
+}
+
+#content{ 
+ margin-left:260px;
+ margin-right:10px;
+ border-radius:15px 0px 15px 0px;
+ border-color:#38C0F4;
+ background-color:#282828;
+ border:1px solid #38C0F4;
+ padding:10px;
+}
+
+nav ul{ 
+ margin:0px;
+ padding:0px;
+ list-style-type:none;
+}
+
+nav ul li{ 
+ margin:0px;
+ padding:0px;
+ padding-bottom:4px;
+}
+
+nav ul li a:link, nav ul li a:visited, nav ul li a:hover, nav ul li a:active{
+ display:block;
+ color:#38C0F4;
+ width:100%;
+ height:25px;
+ font-size:16px;
+ text-align:center;
+ background-color:#22272D;
+ border:1px solid #38C0F4;
+ text-decoration:none;
+}
+
+nav ul li a:hover{ 
+ display:block;
+ background-color:#15181D;
+ padding:0px; 
+}
+
+h4{ 
+ color:#38C0F4;
+ text-align:left;
+ line-height:0%;
+ padding:0px;
+ border:0px;
+}
+
+aside h4{ 
+ text-align:center;
+}
+
+footer{ 
+ clear:both;
+ margin-left:10px;
+ margin-right:10px;
+ margin-top:10px;
+ color:#38C0F4;
+ text-align:center;
+ border:1px solid #38C0F4;
+ border-radius:8px;
+ background-color:#282828;
+}
+
+footer a:link, footer a:visited, footer a:hover{ 
+ text-decoration:none;
+ font-size:14px;
+ color:#38C4F4;
+ display:inline;
+ border:0px;
+ background-color:0px;
+ padding:0px;
+}
+
+footer p{ 
+ font-size:12px;
+ text-align:right;
+ line-height:0%;
+}
+
+article h4{ 
+ font-size:20px;
+}
+
+article p{ 
+ text-align:justify;
+ font-size:15px;
+}
+
+article table{ 
+ border:0px;
+ width:100%;
+ text-align:left;
+ border-collapse:collapse;
+}
+
+article table th{ 
+ color:#38C0F4;
+ border:1px solid #38C0F4;
+ text-align:center;
+ font-size:16px;
+}
+
+article table td{ 
+ color:#FFFFFF;
+ text-align:left;
+ border:1px solid #38C0F4;
+ text-decoration:none;
+ padding:5px;
+ font-size:15px;
+}
+
+article a:link, article a:visited, article a:hover{ 
+ text-decoration:none;
+ color:#38C0F4;
+ font-size:15px;
+}
+
+.profile-pic{
+ width:160px;
+ height:160px; 
+ margin:0 auto;
+ border:0px;
+}
+
+.insti-logo{ 
+ width:100px;
+ height:100px;
+ margin:0 auto;
+ border:0px;  
+}
+
+aside p{ 
+ line-height:120%;
+}
+
+.completed-text{ 
+ color:#FFFFFF;
+ text-decoration:line-through;
+}
+
+.normal-text{ 
+ color:#FFFFFF;
+}
+
+hr{ 
+ color:#38C0F4;
+ background-color:#38C0F4;
+ border:1px solid #38C0F4;
+}
+
+header{ 
+ clear:both;
+ border:1px solid #38C0F4;
+ border-radius:15px;
+ color:#38C0F4;
+ padding:10px;
+ margin:10px;
+ padding-top:0px;
+ height:100px;
+ background-color:#282828;
+}
+
+header h1{ 
+ font-size:52px;
+ text-align:left;
+ line-height:0%;
+}
+
+header p{ 
+ text-align:right;
+ line-height:0%;
+}

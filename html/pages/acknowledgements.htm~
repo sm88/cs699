@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Acknowledgement</title>
+    <!--[if lt IE 9]>
+      <script src="../scripts/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 7]>
+      <script>alert("Your browser is pre-historic! This site will not function properly, please update your browser");</script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+     <section id="container">
+         <header>
+           <h1>while ( !( succeed = try( ) ) )</h1>
+           <p class="header-text">-intel</p>
+         </header>
+	 <aside><!--will contain profile pic and recent updates-->
+           <center><img src="../images/profile.jpg" class="profile-pic" title="Sushant Mahajan"/></center>
+	   <h4>Click any link</h4>
+           <hr />
+            <nav>
+             <ul>
+	       <li><a href="../index.htm">about me</a></li>
+               <li><a href="academic.htm">academic</a></li>
+	       <li><a href="projects.htm">projects</a></li>
+	       <li><a href="workex.htm">experience</a></li>
+	       <li><a href="photography.htm">photography</a></li>	     
+	     </ul>
+	    </nav>
+	 </aside>
+
+	 <section id="content"><!--main meat of the page-->
+	    <article>
+	     <h4>acknowledgements</h4>
+	     <p>I declare that this site is entirely my own effort, down to the last closing tag of html and semicolon in css. No code completion/WYSWYG tools were used in the making of this website.
+	     </p>
+	     <p>I have however taken help of various internet sources for making the design better and simpler. These are listed below for those who are interested.
+	     </p>
+	     <h4>internet resources used</h4>
+	     <table>
+	       <tr>
+		 <th>URL</th>
+		 <th>Used For</th>
+		 <th>Code used</th>
+	       </tr>
+	       <tr>
+		 <td><a href="http://www.dynamicdrive.com" target="_blank">dynamicdrive.com</a></td>
+		 <td>Used for learning CSS and techniques for creating 2 column (fixed+fluid) design.</td>
+		 <td>No code has been used directly from the site</td>
+	       </tr>
+	       <tr>
+		 <td><a href="http://www.w3schools.com/html/html5_intro.asp" target="_blank">w3schools.com</a></td>
+		 <td>Used for relearning and recalling HTML 5 tags, which have ben used in this site.</td>
+		 <td>No code has been used directly from the site</td>
+	       </tr>
+	       <tr>
+		 <td><a href="http://ferringtonpost.com/wp-content/uploads/2012/07/Google-Releases-Android-4.1-Jellybean-Source-Code-photo-by-tornell.jpg" target="_blank">ferringtonpost.com</a></td>
+		 <td>Used for finding out the hex codes used in the Android mobile OS, which for the color theme of this site. </td>
+		 <td>No images have been used from the site</td>
+	       </tr>
+	       <!--add sites info-->
+	     </table>
+	     <h4>desktop tools used</h4>
+	     <table>
+	       <tr>
+		 <th>Name</th>
+		 <th>Purpose</th>
+		 <th>License</th>
+	       </tr>
+	       <tr>
+		 <td><a href="http://www.gnu.org/software/emacs/">Emacs</a></td>
+		 <td>IDE/Text Editor used to create this website.</td>
+		 <td>GPL</td>
+	       </tr>
+	       <tr>
+		 <td><a href="https://www.google.com/intl/en_in/chrome/browser/">Google Chrome</a></td>
+		 <td>Viewing/Debugging the web pages.</td>
+		 <td>Google Proprietary</td>
+	       </tr>
+	     </table>
+	    </article>
+	 </section>
+	     
+	 <footer>
+	    <a href="acknowledgements.htm">acknowledgements</a> | <a href="#">assignments</a>
+	    <p>-All wrongs reserved, you may copy anything you like :).</p>
+	 </footer>
+    </section>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Makefile marks=0.5000
+Explanation:
+dat should depend on csv too
+svg should depend on gnu too

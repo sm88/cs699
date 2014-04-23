@@ -1,0 +1,58 @@
+PLAIN
+K 8
+Makefile
+V 19
+file 5-1.0.r1/18086
+K 10
+README.txt
+V 19
+file 2-1.0.r1/19642
+K 8
+combined
+V 19
+file 7-1.0.r1/18355
+K 17
+insertionSort.cpp
+V 19
+file b-1.0.r1/18768
+K 8
+main.cpp
+V 19
+file d-1.0.r1/18956
+K 8
+mysort.h
+V 19
+file 9-1.0.r1/18589
+K 13
+quickSort.cpp
+V 19
+file f-1.0.r1/19136
+END
+ENDREP
+id: 0-1.0.r2/302
+type: dir
+pred: 0-1.0.r1/20155
+count: 1
+text: 2 0 289 289 45737064682f21b309486266aae55b84
+cpath: /cprog
+copyroot: 0 /
+
+PLAIN
+K 5
+cprog
+V 16
+dir 0-1.0.r2/302
+END
+ENDREP
+id: 0.0.r2/488
+type: dir
+pred: 0.0.r1/20328
+count: 2
+text: 2 439 36 36 b62e12a016a607178a107205eb08314f
+cpath: /
+copyroot: 0 /
+
+h-1.0.r1/19411 delete-file false false /cprog/out
+
+
+488 616

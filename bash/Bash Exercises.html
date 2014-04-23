@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>Bash Exercises</title>
+<style>
+ol.a
+{
+list-style-type:lower-alpha;
+}
+h2
+{
+color:red;
+}
+h3 {color:blue;}
+table {border:solid;}
+td {border:solid;}
+.em { color:red; font-weight:bold }
+</style>
+</head>
+
+<body>
+<h2>Bash Exercises</h2>
+
+<p>Some of the exercises below are <span class="em">optional</span>
+carrying <span class="em">house points</span>.  You need not have to
+submit these as part of your mandatory exercises.  The house points
+for these optional exercises are <span class="em">counted once per
+house</span>, and will count against the name of the student
+submitting the earliest.  Note that you have to submit all exercises
+at once: so it will be better for your house if different members
+submit different optional parts.</p>
+
+<p>Of course I encourage everyone to try all the exercises at leisure,
+or at least learn the solutions from colleagues, after the submission
+deadline.</p>
+
+<h3>Bash file templates</h3>
+
+<p>For each exercise, you are given a bash file template.  Edit this
+template for your solution.  In each case, the details of what you are
+supposed to do in the script is given in the template file.  This is
+inculcate in you the habit of documenting a script as part of the
+script itself, through appropriate comments.  This is also how future
+exams (in bash) will appear.</p>
+
+<h3>Test cases (coming up)</h3>
+
+<p>In some cases, test input and the expected output for the test
+input is given.  Check against these.  Again, future exams (in bash)
+will follow this format: while evaluating, I will use a script against
+one or more test inputs.</p>
+
+<h3>Submission instructions (coming up)</h3>
+
+<p>You are given the script prepare-upload.sh which will do the
+obvious.  Upload the tgz file resulting from this to moodle as your
+submission.</p>
+
+<ol>
+  <li>Simple sequence of commands, simple if-then-else:
+      <ol class="a">
+	<li><b>tex2pdf.sh</b>
+	    Script to generate dvi from latex file,
+	    and tar the entire directory.
+	    <br>
+	    <i>Concepts exercised:</i> script as a sequence of commands
+	</li><li><b>tex2pdf-a.sh</b>
+	    Script to generate dvi from latex file,
+	    and tar the entire directory, taking one argument.
+	    <br>
+	    <i>Concepts exercised:</i> command line argument
+	</li><li><b>tex2pdf-b.sh</b>
+	    Script to generate dvi from latex file,
+	    and tar the entire directory, taking one argument.  Check
+	    latex compilation success.  <i>Hint</i> Learn the use of
+	    the special shell variable "$?".
+	    <br>
+	    <i>Concepts exercised:</i> checking command exit status,
+	    if-then-else
+	</li><li><span class="em">Optional [5HP]:</span>
+	    <b>tex2pdf-c.sh</b>
+	    Script to generate dvi from latex file from any location
+	    and tar the entire directory from the parent directory, taking one argument.  Check
+	    latex compilation success.  <i>Hint</i> Learn the use of
+	    pwd, dirname, and basename; perhaps also pushd and popd.
+	    <br>
+	    <i>Concepts exercised:</i> Learning to change directories
+  using pushd and popd,
+  getting the working directory, dirname, and basename.
+        </li><li><b>tcd.sh</b> Timed cd.
+	    <br>
+	    <i>Concepts exercised:</i> if-then-else, combining conditionals
+        </li>
+	<li><b>myopen.sh</b>
+	    This script opens a file using the right program.
+	    <br>
+	    <i>Concepts exercised:</i> if-then-else, string manipulation
+	</li>
+	<li><span class="em">Optional [1HP]:</span>
+	    <b>myopen-a.sh</b>
+	    This script opens a file using the right program, and can
+  handle sophisticated extension possibilities
+	    <br>
+	    <i>Concepts exercised:</i> if-then-else, string manipulation
+	</li>
+      </ol>
+  </li>
+  <li>Involving loops:
+      <ol class="a">
+	<li><b>photo-rename.sh</b>
+	    Write a bash script called photo-rename.sh to rename, in a given
+	    directory, all files of the form ddmmyyyyANY.jpg to
+	    yyyy-mm-dd-ANY.jpg<br>
+	    Here, 'dd', 'mm', 'yyyy' correspond to the two digit date, two
+	    digit month, and four digit year when the photo was taken, and
+	    'ANY' corresponds to any string (including the empty string, it
+	    may include spaces).
+	    The first three fields fields consist only of digits 0 to 9.<br>
+	    Your script should ignore jpg files which are not of the form
+	    ddmmyyyyANY.jpg<br>
+	    Your script should take the directory name as argument; if no
+	    argument is given, it must print the usage and exit with exit
+	    value 1.  If the given argument does not correspond to a
+	    directory, the script must exit with exit value 2.<br>
+	    <br>
+	    <i>Concepts exercised:</i> loops, learning to handle
+  spaces in file/dir names
+	</li>
+	<li><b>myopen-generic.sh</b>
+	    This is an enhancement to myopen.sh, making it more
+	    generic.
+	    <br>
+	    <i>Concepts exercised:</i> simple I/O redirection, string manipulation
+	</li>
+	<li><span class="em">Optional [1HP]:</span>
+	    <b>myopen-generic-a.sh</b>
+	    The configuration file should by default be myopen.cfg in the
+	    home directory.  Your script should support overriding this default
+	    with an environment variable MYOPENCFG; if this environment variable
+	    is set, its value should be taken as the configuration file.
+	    <br>
+	    <i>Concepts exercised:</i> use of environment variables
+	</li>
+      </ol>
+  </li>
+  <li>Involving pipes:
+      <ol class="a">
+        <li><b>photo-dates.sh</b>
+	    Script to print the date and time of a photo.
+	    <br>
+	    <i>Concepts exercised:</i> simple use of pipe
+	</li>
+        <li><span class="em">Optional [2HP]:</span>
+	    <b>photo-dates-a.sh</b>
+	    Script to print the date and time of several photos.
+	    <br>
+	    <i>Concepts exercised:</i> simple use of pipe, loops,
+	    string manipulation
+	</li>
+	<li><b>get-ip.sh</b>
+	    Script to get the IP address of your machine.
+	    <br>
+	    <i>Concepts exercised:</i> simple use of pipe
+	</li>
+	<li><span class="em">Optional [2HP]:</span>
+	    <b>get-ip-a.sh</b>
+	    Script to print only the IP address of your machine.
+	    <br>
+	    <i>Concepts exercised:</i> simple use of pipe, string
+	    manipulation
+	</li>
+	<li><b>num-uploaded.sh</b>
+	    Script to find out how many students have submitted their
+	    bash assignment so far.
+	    <br>
+	    <i>Concepts exercised:</i> use of pipe
+	</li>
+	<li><span class="em">Optional [10HP]:</span>
+	    <b>tar-scp.sh</b>
+	    Script to tar and copy the result to another machine,
+	    WITHOUT creating any file, in a SINGLE LINE command.
+	    <br>
+	    <i>Concepts exercised:</i> forcing tar to output to
+	    stdout, using ssh to execute a command, use of pipe
+	</li>
+      </ol>
+  </li>
+  <li>Involving sed, awk: (coming up)
+  </li>
+</ol>
+
+<hr>
+<address>Bhaskaran Raman</address>
+<!-- hhmts start -->
+Last modified: Sat Aug 31 08:41:57 IST 2013
+<!-- hhmts end -->
+ 
+</body></html>

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Acknowledgement</title>
+    <!--[if lt IE 9]>
+      <script src="../scripts/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 7]>
+      <script>alert("Your browser is pre-historic! This site will not function properly, please update your browser");</script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+     <section id="container">
+         <header>
+           <h1>while ( !( succeed = try( ) ) )</h1>
+           <p class="header-text">-intel</p>
+         </header>
+	 <aside><!--will contain profile pic and recent updates-->
+           <center><img src="../images/profile.jpg" class="profile-pic" title="Sushant Mahajan"/></center>
+	   <h4>Click any link</h4>
+           <hr />
+            <nav>
+             <ul>
+	       <li><a href="../index.htm">about me</a></li>
+               <li><a href="academic.htm">academic</a></li>
+	       <li><a href="projects.htm">projects</a></li>
+	       <li><a href="workex.htm">experience</a></li>
+	       <li><a href="photography.htm">photography</a></li>	     
+	     </ul>
+	    </nav>
+	 </aside>
+
+	 <section id="content"><!--main meat of the page-->
+	    <article>
+	     <h4>acknowledgements</h4>
+	     <hr />
+	     <p>I declare that this site is entirely my own effort, down to the last closing tag of html and semicolon in css. No code completion/WYSWYG tools were used in the making of this website.
+	     </p>
+	     <p>I have however taken help of various internet sources for making the design better and simpler. These are listed below for those who are interested.
+	     </p>
+	     <h4>Internet resources</h4>
+	     <table>
+	       <tr>
+		 <th>URL</th>
+		 <th>Used For</th>
+		 <th>Code used</th>
+	       </tr>
+	       <!--add sites info-->
+	     </table>
+	     <h4>Tools</h4
+	    </article>
+	 </section>
+	     
+	 <footer>
+	    <a href="acknowledgements.htm">acknowledgement</a> | <a href="#">assignments</a>
+	    <p>-All wrongs reserved, you may copy anything you like :).</p>
+	 </footer>
+    </section>
+</body>
+</html>

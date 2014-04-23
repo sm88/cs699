@@ -1,0 +1,14 @@
+-When doing stdout redirection to a file, the file is created first and then the command is run,
+-Using cat -, causes cat to read from the stdin and when we do a <file.txt it reads the file. This is cat level redirection.
+-When we do directly, it is shell level.
+- << is used for here-document. It is used to embed data within a script. Example: cat << EOF > out.txt . This'll cause the shell to take input until an EOF is specified.
+- control structures like loops and access control blocks can also be redirected from script. Example:
+function test(){
+	echo "hello"
+}>out.txt
+- echo command with -n flag DOES NOT create a newline.
+- pipes connect the out of a command to in of the other.
+- with less and more we can also search for strings. 
+Example: 
+\bytes
+- ctrl+D is EOF for stdin

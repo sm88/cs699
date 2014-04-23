@@ -1,0 +1,50 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{2}
+\emph{{Chaos manifesto}},
+  \url{http://www.standishgroup.com/newsroom/chaos\_2009.php}.
+
+\bibitem{9}
+\emph{{Emacs tutorial}}, \url{http://www.emacs.org/}.
+
+\bibitem{8}
+\emph{{Latex Tutorial}}, \url{http://tex.stackexchange.com/}.
+
+\bibitem{4}
+B.~W. Boehm, \emph{{Software Engineering Economics}}, Software Engineering
+  Economics, Jan 1981.
+
+\bibitem{5}
+\bysame, \emph{{Forecasting of software development work effort: Evidence on
+  expert judgement and formal models}}, International Journal of Forecasting,
+  vol. 23, pp. 449-462, July 2007.
+
+\bibitem{3}
+Joseph Camp, Joshua Robinson, Christopher Steger, and Edward Knightly,
+  \emph{{Software estimation in the early stages of the software life cycle}},
+  International Conference on Emerging Trends in Computer Science,
+  Communication and Information Technology, Dec 2010.
+
+\bibitem{1}
+D.~Eck, B.~Brundick, T.~Fettig, J.~Dechoretz, and J.~Ugljesa, \emph{{Parametric
+  estimating handbook}}, The International Society of Parametric Analysis
+  (ISPA), Fourth Edition., Nov 2009.
+
+\bibitem{7}
+M.~Jørgensen, \emph{{Forecasting of software development work effort: Evidence
+  on expert judgement and formal models}}, International Journal of
+  Forecasting, vol. 23, pp. 449-462, 2007, July 2007.
+
+\bibitem{6}
+L.~H. Putnam, \emph{{A General Empirical Solution to the Macro Software Sizing
+  and Estimating Problem}}, IEEE Transactions on Software Engineering, vol. 4,
+  pp. 345-361, July 1978.
+
+\end{thebibliography}

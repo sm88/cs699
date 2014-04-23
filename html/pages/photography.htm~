@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Photography</title>
+    <!--[if lt IE 9]>
+      <script src="../scripts/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 7]>
+      <script>alert("Your browser is pre-historic! This site will not function properly, please update your browser");</script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+     <section id="container">
+         <header>
+           <h1>while ( !( succeed = try( ) ) )</h1>
+           <p class="header-text">-intel</p>
+         </header>
+	 <aside><!--will contain profile pic and recent updates-->
+           <center><img src="../images/profile.jpg" class="profile-pic" title="Sushant Mahajan"/></center>
+	   <h4>Click any link</h4>
+           <hr />
+            <nav>
+             <ul>
+	       <li><a href="../index.htm">about me</a></li>
+               <li><a href="academic.htm">academic</a></li>
+	       <li><a href="projects.htm">projects</a></li>
+	       <li><a href="workex.htm">experience</a></li>
+	       <li><a href="photography.htm">photography</a></li>	     
+	     </ul>
+	    </nav>
+	 </aside>
+
+	 <section id="content"><!--main meat of the page-->
+	    <article>
+	     <h4>photography</h4>
+	     <hr />
+	     <h1>Under construction!</h1>	     
+	    </article>
+	 </section>
+	     
+	 <footer>
+	    <a href="acknowledgements.htm">acknowledgements</a> | <a href="#">assignments</a>
+	    <p>-All wrongs reserved, you may copy anything you like :).</p>
+	 </footer>
+    </section>
+</body>
+</html>

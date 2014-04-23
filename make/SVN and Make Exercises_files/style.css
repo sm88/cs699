@@ -1,0 +1,12 @@
+ol.a
+{
+list-style-type:lower-alpha;
+}
+h2
+{
+color:red;
+}
+h3 {color:blue;}
+table {border:solid;}
+td {border:solid;}
+.em { color:red; font-weight:bold }

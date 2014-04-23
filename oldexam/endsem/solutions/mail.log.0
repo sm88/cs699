@@ -1,0 +1,118 @@
+Nov 10 07:47:34 synerg postfix/pickup[24971]: 4F5E3248E1D: uid=0 from=<root>
+Nov 10 07:47:34 synerg postfix/cleanup[1052]: 4F5E3248E1D: message-id=<20111110021734.4F5E3248E1D@synerg.cse.iitb.ac.in>
+Nov 10 07:47:34 synerg postfix/qmgr[6356]: 4F5E3248E1D: from=<root@synerg.cse.iitb.ac.in>, size=652, nrcpt=1 (queue active)
+Nov 10 07:47:34 synerg postfix/local[1054]: 4F5E3248E1D: to=<synerg@synerg.cse.iitb.ac.in>, orig_to=<root>, relay=local, delay=0.52, delays=0.48/0.01/0/0.02, dsn=5.1.1, status=bounced (unknown user: "synerg")
+Nov 10 07:47:34 synerg postfix/cleanup[1052]: 6F552248E1E: message-id=<20111110021734.6F552248E1E@synerg.cse.iitb.ac.in>
+Nov 10 07:47:34 synerg postfix/bounce[1055]: 4F5E3248E1D: sender non-delivery notification: 6F552248E1E
+Nov 10 07:47:34 synerg postfix/qmgr[6356]: 6F552248E1E: from=<>, size=2487, nrcpt=1 (queue active)
+Nov 10 07:47:34 synerg postfix/qmgr[6356]: 4F5E3248E1D: removed
+Nov 10 07:47:34 synerg postfix/local[1054]: 6F552248E1E: to=<synerg@synerg.cse.iitb.ac.in>, orig_to=<root@synerg.cse.iitb.ac.in>, relay=local, delay=0.06, delays=0.04/0/0/0.02, dsn=5.1.1, status=bounced (unknown user: "synerg")
+Nov 10 07:47:34 synerg postfix/qmgr[6356]: 6F552248E1E: removed
+Nov 11 11:57:55 synerg postfix/pickup[4477]: 4BEBF248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 11:57:55 synerg postfix/cleanup[4590]: 4BEBF248E1D: message-id=<bug-38-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 11:57:55 synerg postfix/qmgr[6356]: 4BEBF248E1D: from=<puru@cse.iitb.ac.in>, size=1649, nrcpt=1 (queue active)
+Nov 11 11:57:58 synerg postfix/smtp[4592]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 11:57:58 synerg postfix/smtp[4592]: 4BEBF248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=3.5, delays=0.23/0.19/3.1/0.01, dsn=2.0.0, status=sent (250 Ok: queued as 2E70B13900)
+Nov 11 11:57:58 synerg postfix/qmgr[6356]: 4BEBF248E1D: removed
+Nov 11 12:02:41 synerg postfix/pickup[4477]: 56D5A248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:02:41 synerg postfix/cleanup[4626]: 56D5A248E1D: message-id=<bug-39-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:02:41 synerg postfix/qmgr[6356]: 56D5A248E1D: from=<puru@cse.iitb.ac.in>, size=1625, nrcpt=1 (queue active)
+Nov 11 12:02:41 synerg postfix/smtp[4628]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:02:41 synerg postfix/smtp[4628]: 56D5A248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.06/0.01/0.07/0.01, dsn=2.0.0, status=sent (250 Ok: queued as D96AE13900)
+Nov 11 12:02:41 synerg postfix/qmgr[6356]: 56D5A248E1D: removed
+Nov 11 12:05:23 synerg postfix/pickup[4477]: AF0A3248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:05:23 synerg postfix/cleanup[4644]: AF0A3248E1D: message-id=<bug-40-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:05:23 synerg postfix/qmgr[6356]: AF0A3248E1D: from=<puru@cse.iitb.ac.in>, size=1742, nrcpt=1 (queue active)
+Nov 11 12:05:23 synerg postfix/smtp[4646]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:05:23 synerg postfix/smtp[4646]: AF0A3248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.22, delays=0.05/0.01/0.15/0.02, dsn=2.0.0, status=sent (250 Ok: queued as 511D813900)
+Nov 11 12:05:23 synerg postfix/qmgr[6356]: AF0A3248E1D: removed
+Nov 11 12:08:15 synerg postfix/pickup[4477]: A2A9C248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:08:15 synerg postfix/cleanup[4653]: A2A9C248E1D: message-id=<bug-41-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:08:15 synerg postfix/qmgr[6356]: A2A9C248E1D: from=<puru@cse.iitb.ac.in>, size=1654, nrcpt=1 (queue active)
+Nov 11 12:08:15 synerg postfix/smtp[4655]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:08:15 synerg postfix/smtp[4655]: A2A9C248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.07/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok: queued as 3737913900)
+Nov 11 12:08:15 synerg postfix/qmgr[6356]: A2A9C248E1D: removed
+Nov 11 12:09:47 synerg postfix/pickup[4477]: F2BC4248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:09:47 synerg postfix/cleanup[4653]: F2BC4248E1D: message-id=<bug-42-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:09:48 synerg postfix/qmgr[6356]: F2BC4248E1D: from=<puru@cse.iitb.ac.in>, size=1591, nrcpt=1 (queue active)
+Nov 11 12:09:48 synerg postfix/smtp[4655]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:09:48 synerg postfix/smtp[4655]: F2BC4248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.06/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok: queued as 8084813900)
+Nov 11 12:09:48 synerg postfix/qmgr[6356]: F2BC4248E1D: removed
+Nov 11 12:11:08 synerg postfix/pickup[4477]: 5FF15248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:11:08 synerg postfix/cleanup[4653]: 5FF15248E1D: message-id=<bug-43-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:11:08 synerg postfix/qmgr[6356]: 5FF15248E1D: from=<puru@cse.iitb.ac.in>, size=1622, nrcpt=1 (queue active)
+Nov 11 12:11:08 synerg postfix/smtp[4655]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:11:08 synerg postfix/smtp[4655]: 5FF15248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.07/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok: queued as E23B913900)
+Nov 11 12:11:08 synerg postfix/qmgr[6356]: 5FF15248E1D: removed
+Nov 11 12:13:26 synerg postfix/pickup[4477]: 88312248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:13:26 synerg postfix/cleanup[4689]: 88312248E1D: message-id=<bug-44-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:13:26 synerg postfix/qmgr[6356]: 88312248E1D: from=<puru@cse.iitb.ac.in>, size=1726, nrcpt=1 (queue active)
+Nov 11 12:13:26 synerg postfix/smtp[4691]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:13:26 synerg postfix/smtp[4691]: 88312248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.06/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok: queued as 16A6113900)
+Nov 11 12:13:26 synerg postfix/qmgr[6356]: 88312248E1D: removed
+Nov 11 12:15:20 synerg postfix/pickup[4477]: F0A7F248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:15:20 synerg postfix/cleanup[4698]: F0A7F248E1D: message-id=<bug-45-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:15:20 synerg postfix/qmgr[6356]: F0A7F248E1D: from=<puru@cse.iitb.ac.in>, size=1718, nrcpt=1 (queue active)
+Nov 11 12:15:21 synerg postfix/smtp[4700]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:15:21 synerg postfix/smtp[4700]: F0A7F248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.06/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok: queued as 7E15013900)
+Nov 11 12:15:21 synerg postfix/qmgr[6356]: F0A7F248E1D: removed
+Nov 11 12:23:01 synerg postfix/pickup[4477]: A0727248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:23:01 synerg postfix/cleanup[4746]: A0727248E1D: message-id=<20111111065301.A0727248E1D@synerg.cse.iitb.ac.in>
+Nov 11 12:23:01 synerg postfix/qmgr[6356]: A0727248E1D: from=<puru@cse.iitb.ac.in>, size=1795, nrcpt=1 (queue active)
+Nov 11 12:23:01 synerg postfix/pickup[4477]: A8E39248E1E: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:23:01 synerg postfix/cleanup[4746]: A8E39248E1E: message-id=<20111111065301.A8E39248E1E@synerg.cse.iitb.ac.in>
+Nov 11 12:23:01 synerg postfix/qmgr[6356]: A8E39248E1E: from=<puru@cse.iitb.ac.in>, size=1717, nrcpt=1 (queue active)
+Nov 11 12:23:03 synerg postfix/smtp[4749]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:23:03 synerg postfix/smtp[4751]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:23:03 synerg postfix/smtp[4751]: A8E39248E1E: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=1.9, delays=0.04/0.01/1.8/0.01, dsn=2.0.0, status=sent (250 Ok: queued as E6ED513906)
+Nov 11 12:23:03 synerg postfix/qmgr[6356]: A8E39248E1E: removed
+Nov 11 12:23:03 synerg postfix/smtp[4749]: A0727248E1D: to=<nitin_g@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=1.9, delays=0.06/0.01/1.8/0.02, dsn=2.0.0, status=sent (250 Ok: queued as E974213900)
+Nov 11 12:23:03 synerg postfix/qmgr[6356]: A0727248E1D: removed
+Nov 11 12:28:56 synerg postfix/pickup[4477]: 6ACAE248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:28:56 synerg postfix/cleanup[4800]: 6ACAE248E1D: message-id=<bug-46-8@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:28:56 synerg postfix/qmgr[6356]: 6ACAE248E1D: from=<puru@cse.iitb.ac.in>, size=1863, nrcpt=1 (queue active)
+Nov 11 12:28:56 synerg postfix/pickup[4477]: 7346A248E1C: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 11 12:28:56 synerg postfix/cleanup[4800]: 7346A248E1C: message-id=<bug-46-6@http.www.cse.iitb.ac.in/synerg/bugzilla/>
+Nov 11 12:28:56 synerg postfix/qmgr[6356]: 7346A248E1C: from=<puru@cse.iitb.ac.in>, size=1817, nrcpt=1 (queue active)
+Nov 11 12:28:56 synerg postfix/smtp[4804]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:28:56 synerg postfix/smtp[4805]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 11 12:28:56 synerg postfix/smtp[4804]: 6ACAE248E1D: to=<nitin_g@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.28, delays=0.06/0.01/0.16/0.05, dsn=2.0.0, status=sent (250 Ok: queued as 16CCA13900)
+Nov 11 12:28:56 synerg postfix/qmgr[6356]: 6ACAE248E1D: removed
+Nov 11 12:28:56 synerg postfix/smtp[4805]: 7346A248E1C: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.32, delays=0.03/0.01/0.26/0.02, dsn=2.0.0, status=sent (250 Ok: queued as 2DED913906)
+Nov 11 12:28:56 synerg postfix/qmgr[6356]: 7346A248E1C: removed
+Nov 12 03:39:12 synerg postfix/pickup[6184]: B983C248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 12 03:39:12 synerg postfix/cleanup[6300]: B983C248E1D: message-id=<20111111220912.B983C248E1D@synerg.cse.iitb.ac.in>
+Nov 12 03:39:12 synerg postfix/qmgr[6356]: B983C248E1D: from=<puru@cse.iitb.ac.in>, size=1842, nrcpt=1 (queue active)
+Nov 12 03:39:12 synerg postfix/smtp[6303]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 12 03:39:12 synerg postfix/smtp[6303]: B983C248E1D: to=<nitin_g@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.21, delays=0.08/0.01/0.1/0.03, dsn=2.0.0, status=sent (250 Ok: queued as 3852E13900)
+Nov 12 03:39:12 synerg postfix/qmgr[6356]: B983C248E1D: removed
+Nov 12 03:39:55 synerg postfix/pickup[6184]: 7D9A4248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 12 03:39:55 synerg postfix/cleanup[6300]: 7D9A4248E1D: message-id=<20111111220955.7D9A4248E1D@synerg.cse.iitb.ac.in>
+Nov 12 03:39:55 synerg postfix/qmgr[6356]: 7D9A4248E1D: from=<puru@cse.iitb.ac.in>, size=1537, nrcpt=1 (queue active)
+Nov 12 03:39:55 synerg postfix/smtp[6303]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 12 03:39:55 synerg postfix/smtp[6303]: 7D9A4248E1D: to=<nitin_g@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.06/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok: queued as E575813900)
+Nov 12 03:39:55 synerg postfix/qmgr[6356]: 7D9A4248E1D: removed
+Nov 14 10:35:07 synerg postfix/pickup[11138]: 37DF0248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 14 10:35:07 synerg postfix/cleanup[11245]: 37DF0248E1D: message-id=<20111114050507.37DF0248E1D@synerg.cse.iitb.ac.in>
+Nov 14 10:35:07 synerg postfix/qmgr[6356]: 37DF0248E1D: from=<puru@cse.iitb.ac.in>, size=1708, nrcpt=1 (queue active)
+Nov 14 10:35:07 synerg postfix/smtp[11247]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 14 10:35:07 synerg postfix/smtp[11247]: 37DF0248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.65, delays=0.2/0.08/0.34/0.03, dsn=2.0.0, status=sent (250 Ok: queued as 9708213900)
+Nov 14 10:35:07 synerg postfix/qmgr[6356]: 37DF0248E1D: removed
+Nov 14 10:36:19 synerg postfix/pickup[11138]: 510D4248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 14 10:36:19 synerg postfix/cleanup[11245]: 510D4248E1D: message-id=<20111114050619.510D4248E1D@synerg.cse.iitb.ac.in>
+Nov 14 10:36:19 synerg postfix/qmgr[6356]: 510D4248E1D: from=<puru@cse.iitb.ac.in>, size=1682, nrcpt=1 (queue active)
+Nov 14 10:36:19 synerg postfix/smtp[11247]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 14 10:36:19 synerg postfix/smtp[11247]: 510D4248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.05/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok: queued as 4596813900)
+Nov 14 10:36:19 synerg postfix/qmgr[6356]: 510D4248E1D: removed
+Nov 14 18:02:01 synerg postfix/pickup[11929]: 6F3CC248E1D: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 14 18:02:01 synerg postfix/cleanup[11975]: 6F3CC248E1D: message-id=<20111114123201.6F3CC248E1D@synerg.cse.iitb.ac.in>
+Nov 14 18:02:01 synerg postfix/qmgr[6356]: 6F3CC248E1D: from=<puru@cse.iitb.ac.in>, size=1644, nrcpt=1 (queue active)
+Nov 14 18:02:01 synerg postfix/pickup[11929]: 78261248E1C: uid=33 from=<puru@cse.iitb.ac.in>
+Nov 14 18:02:01 synerg postfix/cleanup[11975]: 78261248E1C: message-id=<20111114123201.78261248E1C@synerg.cse.iitb.ac.in>
+Nov 14 18:02:01 synerg postfix/qmgr[6356]: 78261248E1C: from=<puru@cse.iitb.ac.in>, size=1642, nrcpt=1 (queue active)
+Nov 14 18:02:01 synerg postfix/smtp[11980]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 14 18:02:01 synerg postfix/smtp[11979]: certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25: untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Nov 14 18:02:01 synerg postfix/smtp[11980]: 78261248E1C: to=<umesh@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.03/0.01/0.12/0.03, dsn=2.0.0, status=sent (250 Ok: queued as 686D013900)
+Nov 14 18:02:01 synerg postfix/qmgr[6356]: 78261248E1C: removed
+Nov 14 18:02:01 synerg postfix/smtp[11979]: 6F3CC248E1D: to=<preethi@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.25, delays=0.08/0.01/0.13/0.03, dsn=2.0.0, status=sent (250 Ok: queued as 6BE9F13906)
+Nov 14 18:02:01 synerg postfix/qmgr[6356]: 6F3CC248E1D: removed

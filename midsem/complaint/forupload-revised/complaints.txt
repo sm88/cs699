@@ -1,0 +1,29 @@
+Enter the text of your complaints below, only in the space provided.
+Be brief.
+
+Also, for each complaint, provide a revised/correct script, which is a
+minimal modification of your original script.  I will manually check
+each modification against your original submission, and permit only
+those which involve 'minor' changes (e.g. forgot a semicolon, used a
+gnuplot command which works only in newer versions).
+
+------------ Question-1: Indentation complaints ------------
+Write the text of your complaint below, not more than 5 lines
+
+------------ Question-2: tabulate-marks.sh complaints ------------
+Write the text of your complaint below, not more than 5 lines
+
+------------ Question-3: cpnew.sh complaints ------------
+Write the text of your complaint below, not more than 5 lines
+
+------------ Question-4: iitb-papers.sh complaints ------------
+Write the text of your complaint below, not more than 5 lines
+
+------------ Question-5: genplot.sh complaints ------------
+I had added an echo for debugging purposes(line 68) that I overlooked. Thus when the output was piped to gnuplot that extra text was also sent and resulted in error.
+Anyway, the .eps file is generating both via directly running my file as well as test script. The gnuplot version on my linux box is "gnuplot 4.4 patchlevel 3". I have made a mistake in checking for title environment variable(line 48, added a NOT) but that was for 2 marks only.
+So finally, the original script is giving correct result for 4 marks.
+
+------------ Question-6: zrn.sh complaints ------------
+Write the text of your complaint below, not more than 5 lines
+

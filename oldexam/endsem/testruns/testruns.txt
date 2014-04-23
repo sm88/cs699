@@ -1,0 +1,285 @@
+==================== tabulate-makefile-marks.sh ====================
+
+cd /path/to/testruns/makefile-corr
+/path/to/tabulate-makefile-marks.sh
+
+will output (without the ----):
+----
+111,0.7500
+222,0.5000
+333,0.0000
+456,0.7500
+78910,1.0000
+----
+
+==================== quiz2-sec04.sed ====================
+
+sed -f quiz2-sec04.sed hp-stats-solution0.py
+
+will output (without the ----):
+----
+for hname in houseNames:
+    houseMatrix[hname] = filter(lambda row: re.match("^"+hname+"$", row[2]), HPMatrix)
+    houseWiseStudentCount[hname] = len(houseMatrix[hname])
+----
+
+sed -f quiz2-sec04.sed hp-stats-solution1.py
+
+will output (without the ----):
+----
+dummy1=None
+dummy2=None
+for hname in houseNames:
+    houseMatrix[hname] = filter(lambda row: re.match("^"+hname+"$", row[2]), HPMatrix)
+    houseWiseStudentCount[hname] = len(houseMatrix[hname])
+----
+
+sed -f quiz2-sec04.sed hp-stats-solution2.py
+
+will output (without the ----):
+----
+filter(None, None)
+for hname in houseNames:
+    houseMatrix[hname] = filter(lambda row: re.match("^"+hname+"$", row[2]), HPMatrix)
+    houseWiseStudentCount[hname] = len(houseMatrix[hname])
+----
+
+==================== gen-quiz2-secX.sh ====================
+
+rm -f /tmp/quiz2-sec05.sed
+bash gen-quiz2-secX.sh 05 < quiz2-sec04.sed > /tmp/quiz2-sec05.sed
+sed -f /tmp/quiz2-sec05.sed hp-stats-solution1.py
+
+will output (without the ----):
+----
+dummy1=None
+for hname in houseNames:
+    houseWiseHP[hname] = sum(map(lambda row: sum(map(lambda x: (len(x) > 0) and int(x) or 0, row[3:])), houseMatrix[hname]))
+----
+
+==================== maillog.awk ====================
+
+awk -f maillog.awk /path/to/testruns/mail.log.example1
+
+will output (without the ----):
+----
+ 873FD248DF9 <www-data@orodruin.cse.iitb.ac.in> <asterix@cse.iitb.ac.in> 1065
+ 5C592248DF9 <www-data@orodruin.cse.iitb.ac.in> <obelix@cse.iitb.ac.in> 1037
+ 06A9F248DF9 <www-data@orodruin.cse.iitb.ac.in> <obelix@cse.iitb.ac.in> 1037
+----
+
+Note: white space match need not be exact in your output
+
+awk -f maillog.awk /path/to/testruns/mail.log.example2
+
+will output (without the ----):
+----
+ C69A6248DF9 <www-data@orodruin.cse.iitb.ac.in> <asparagus@cse.iitb.ac.in> 1422
+ 264E0248DF9 <www-data@orodruin.cse.iitb.ac.in> <asterix@cse.iitb.ac.in> 1066
+ 1D4A1248DF9 <www-data@orodruin.cse.iitb.ac.in> <asterix@cse.iitb.ac.in> 1066
+----
+
+==================== count-bytes.awk ====================
+
+awk -f count-bytes.awk /path/to/testruns/mail.log.example1
+
+will output (without the ----):
+----
+3139
+----
+
+awk -f count-bytes.awk /path/to/testruns/mail.log.example2
+
+will output (without the ----):
+----
+3554
+----
+
+awk -f count-bytes.awk /path/to/testruns/mail.log.example3
+
+will output (without the ----):
+----
+211095
+----
+
+==================== count-bytes-per-recipient.awk ====================
+
+awk -f count-bytes-per-recipient.awk /path/to/testruns/mail.log.example3 | sort
+
+will output (without the ----):
+----
+<asparagus@cse.iitb.ac.in> 13245
+<asterix@cse.iitb.ac.in> 8526
+<bacteria@cse.iitb.ac.in> 6878
+<beefix@iitb.ac.in> 3446
+<brawnix@cse.iitb.ac.in> 4287
+<brutus@cse.iitb.ac.in> 6574
+<bucolix@cse.iitb.ac.in> 3214
+<cacofonix@cse.iitb.ac.in> 6660
+<caesar@cse.iitb.ac.in> 6576
+<cleopatra@cse.iitb.ac.in> 9817
+<crismusbonus@cse.iitb.ac.in> 1198
+<dogmatix@cse.iitb.ac.in> 14079
+<ekonomikrisis@cse.iitb.ac.in> 9245
+<fulliautomatix@cse.iitb.ac.in> 12825
+<geriatrix@cse.iitb.ac.in> 4287
+<getafix@cse.iitb.ac.in> 4263
+<impedimenta@gmail.com> 5280
+<influenza@iitb.ac.in> 3192
+<instantmix@cse.iitb.ac.in> 5250
+<jellibabix@cse.iitb.ac.in> 7684
+<obelix@cse.iitb.ac.in> 4150
+<odius@cse.iitb.ac.in> 5782
+<pecanmix@cse.iitb.ac.in> 4325
+<pompey@gmail.com> 4345
+<prolix@cse.iitb.ac.in> 17001
+<prolix@gmail.com> 986
+<saxophonix@cse.iitb.ac.in> 9220
+<unhygenix@gmail.com> 7483
+<violinstix@cse.iitb.ac.in> 4291
+<vitalstatistix@cse.iitb.ac.in> 9029
+----
+
+==================== count-emails-recd.awk ====================
+
+awk -f count-emails-recd.awk /path/to/testruns/mail.log.example1 | sort
+
+will output (without the ----):
+----
+<asterix@cse.iitb.ac.in> 1
+<obelix@cse.iitb.ac.in> 2
+----
+
+awk -f count-emails-recd.awk /path/to/testruns/mail.log.example2 | sort
+
+will output (without the ----):
+----
+<asparagus@cse.iitb.ac.in> 1
+<asterix@cse.iitb.ac.in> 2
+----
+
+==================== eratosthenes.py ====================
+
+python eratosthenes.py 20
+
+after uncommenting the "print nums" line
+
+will print (without the ----):
+----
+[2, 3, 5, 7, 11, 13, 17, 19]
+----
+
+python eratosthenes.py 23
+
+after uncommenting the "print nums" line
+
+will print (without the ----):
+----
+[2, 3, 5, 7, 11, 13, 17, 19, 23]
+----
+
+==================== hp-for-the-day.py ====================
+
+python /path/to/hp-for-the-day.py /path/to/day1-hp.txt
+with the Check01 print lines uncommented
+
+will output (without the ----):
+----
+['RAWAL', 'NAMIT', 'LALIT']
+['VAIBHAV', 'GUPTA']
+['GAURAV', 'CHOUDHARY']
+['LALIT', 'SWAMI']
+['PATEL', 'SMITKUMAR', 'ASHVINBHAI']
+['SAIF', 'HUSENALI', 'HASAN']
+['BALLA', 'SAI', 'BHUVAN', 'TEJA']
+['GAURAV', 'TORKA']
+['SHAH', 'PARARTH', 'PARESH']
+['KANWAL', 'PRAKASH', 'SINGH']
+['PRIYANK', 'GUPTA']
+['TARIQUE', 'AZIZ']
+['VAIBHAV', 'KRISHAN']
+['GOPI', 'SIVAKANTH']
+['GANJI', 'DHIRAJ']
+['GAURAV', 'SINGH', 'CHAUHAN']
+----
+
+python /path/to/hp-for-the-day.py /path/to/day1-hp.txt
+with the Check02 print lines uncommented
+
+will output (without the ----):
+----
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+----
+
+python /path/to/hp-for-the-day.py /path/to/day1-hp.txt
+
+will output (without the ----):
+----
+0
+1
+0
+0
+0
+3
+0
+0
+0
+0
+0
+1
+2
+0
+0
+0
+----
+
+python /path/to/hp-for-the-day.py /path/to/day2-hp.txt
+
+will exit with exit value 2 since 'vaibhav' has more than one entry
+matching in the csv file
+
+----
+
+python /path/to/hp-for-the-day.py /path/to/day3-hp.txt
+
+will exit with exit value 3 since 'vaibhav asterix' has no matching
+entry in the csv file
+
+----
+
+python /path/to/hp-for-the-day.py /path/to/day4-hp.txt
+
+will output (without the ----):
+----
+0
+4
+0
+0
+0
+3
+0
+0
+0
+0
+0
+1
+2
+0
+0
+0
+----

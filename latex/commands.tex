@@ -1,0 +1,96 @@
+\documentclass{[titlepage]article}
+\pagestyle{plain}
+\title{Learning \Latex}
+\author{Sushant Mahajan}
+\date{14th August, 2013}
+%%\renewcommand{\baselinestretch}{2}	%%increase spacing between lines
+\begin{document}
+\maketitle
+\begin{abstract}
+There have been many documents in the recent history. But some of them have stood out. This document will strive to parallel those and after reading the following sections, you will believe it too...
+\end{abstract}
+\tableofcontents
+\newpage
+\begin{verbatim}
+\documentclass[<font-size>pt]{<document-class>}
+\end{verbatim}
+This command sets the style of the document and takes an optional font-size parameter. This should be the first command in the document.
+
+\begin{verbatim}
+\begin{document}
+\end{verbatim}
+Marks the beginning of the body of the document
+
+\begin{verbatim}
+\end{document}
+\end{verbatim}
+Marks the end of the document. Can be used for error checking as latex will not process the document after reading the end tag, so it can be inserted anywhere in the middle to figure out where an error might have been.
+
+\section{Title Section 1}
+Marks the end of the document. \label{second-rep}Can be used for error checking as latex will not process the document after reading the end tag, so it can be inserted anywhere in the middle to figure out where an error might have been.
+
+\section{Title Section 2}
+Marks the end of the document. Can be used for error checking as latex will not process the document after reading the end tag, so it can be ref Section \ref{second-rep} inserted anywhere in the middle to figure out where an error might have been.
+
+\section{Title Section 3}
+This is section three
+\section{Section 4}
+This is section four
+\section{Normal Distribution}
+$$
+\eta = \frac{1}{\sqrt{2\pi\sigma^{2}}}{e}^\frac{-(x-\mu)^{2}}{2\sigma^{2}}
+$$
+%%second
+$$
+\sqrt{x^2 + y^2}\hspace{1 cm}\mbox{if and only if}\hspace{1 cm}x = y = 0
+$$
+%%third
+$$
+\frac{a}{b} > 0\hspace{1 cm}\mbox{implies that}\hspace{1 cm} ab > 0
+$$
+
+$\;\mbox{hello}$	%%most space
+
+$\:\mbox{hello}$	%%little less
+
+$\!\mbox{hello}$	%%negative space
+
+$\,\mbox{hello}$	%%single space
+son-of-a-bitch
+1996--8
+I speak code---really
+My \underline{name} \textbf{is} \emph{``Sushant'' ``Mahajan''}
+\LaTeX\
+\LaTeX
+$$
+\left[
+\begin{array}{rclr}
+a&b&c\\
+d&e&f\\
+g&h&i\\
+j&k&l\\
+\end{array}
+\right]
+$$
+
+\begin{tabular}{|c|c|c|}
+\hline
+A&B&C\\
+\hline
+1&2&3\\
+\hline
+4&5&6\\
+\hline
+7&8&9\\
+\hline
+\end{tabular}
+$\hat{a}, \dot{a}, \tilde{a}, \vec{a}$
+\begin{eqnarray*}
+1+2+\cdots+n &=& \frac{1}{2}((1+2+\ldots+n)+(n+\ldots+2+1))\\
+&=& \frac{1}{2}\underbrace{(n+1)+(n+1)+\ldots+(n+1)}_{\mbox{$n$ copies}}\\
+\end{eqnarray*}
+
+$$
+\lim_{n\rightarrow\infty} \left( 1 + \frac{x}{n} \right)^n = e^x
+$$
+\end{document}

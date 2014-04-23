@@ -1,0 +1,506 @@
+cscope 15 $HOME/Desktop/cs699/make/make-co/forupload/makefile-C               0000002392
+	@insertionSort.cpp
+
+1 
+	$ö£πi⁄S‹t
+(*
+aLi°
+, 
+aSèπ
+, 
+aEnd
+){
+
+2 
+j
+ = 
+aSèπ
+ + 1; j < 
+aEnd
+ - 1; j++){
+
+3 
+key
+ = 
+aLi°
+[
+j
+];
+
+4 
+i
+ = 
+j
+-1;
+
+5 
+i
+>=0 && 
+aLi°
+[i]>=
+key
+){
+
+6 
+aLi°
+[
+i
++1]=aList[i];
+
+7 
+i
+--;
+
+9 
+aLi°
+[
+i
++1] = 
+key
+;
+
+11 
+	}
+}
+
+	@main.cpp
+
+1 
+	~<io°ªam
+>
+
+2 
+	~<c°dlib
+>
+
+3 
+	~"mys‹t.h
+"
+
+4 
+	~<ve˘‹
+>
+
+6 
+usög
+ 
+«me•a˚
+ 
+	g°d
+;
+
+8 
+¥ötLi°
+(
+ve˘‹
+<>&);
+
+10 
+	$maö
+(
+aArgCou¡
+, **
+aArgs
+){
+
+11 
+ve˘‹
+<> 
+li°
+;
+
+12 
+ödex
+ = 0;
+
+13 
+u£rSize
+ = 0;
+
+15 if(
+aArgCou¡
+ <2){
+
+16 
+cout
+<<"Ußge: s‹ã∏[size_of_li°]Çumbî(s)"<<
+ídl
+<<"DefaultsÅo 10000Çumbers!"<<endl;
+
+17 
+	`exô
+(0);
+
+20 
+¥e„ºedSize
+ = 
+MAX_LENGTH
+;
+
+21 if(
+aArgCou¡
+ == 2){
+
+22 
+u£rSize
+ = 
+	`©oi
+(
+aArgs
+[1]);
+
+23 
+¥e„ºedSize
+ = 
+u£rSize
+ > 
+MAX_LENGTH
+ ? MAX_LENGTH : userSize;
+
+29 
+num
+ = -1;
+
+30 
+cö
+ >> 
+num
+;
+
+31 
+li°
+.
+	`push_back
+(
+num
+);
+
+32 
+ödex
+++;
+
+33 }
+ödex
+ < 
+¥e„ºedSize
+);
+
+35 if(
+ödex
+ <
+INSERTION_SORT_LIMIT
+){
+
+36 
+cout
+<<"CÆlög in£πi⁄s‹àÆg‹ôhm!"<<
+ídl
+;
+
+37 
+	`ö£πi⁄S‹t
+((*)&
+li°
+[0] ,0 ,
+ödex
+ + 1);
+
+40 
+cout
+<<"CÆl⁄g quicks‹àÆg‹ôhm!"<<
+ídl
+;
+
+41 
+	`quickS‹t
+((*)&
+li°
+[0], 0, 
+ödex
+);
+
+43 
+	`¥ötLi°
+(
+li°
+);
+
+46 
+	}
+}
+
+48 
+¥ötLi°
+(
+ve˘‹
+<>& 
+aLi°
+){
+
+49 
+	gve˘‹
+<>::
+ôî©‹
+ 
+ô
+ = 
+aLi°
+.
+begö
+(); 
+	gô
+ !aLi°.
+íd
+(); it++){
+
+50 
+	gcout
+<<*
+	gô
+<<
+	gídl
+;
+
+	@mysort.h
+
+1 #i‚de‡
+_MYSORT_H_
+
+
+2 
+	#_MYSORT_H_
+
+
+	)
+
+9 
+quickS‹t
+(*
+aLi°
+, 
+aSèπ
+, 
+aEnd
+);
+
+16 
+ö£πi⁄S‹t
+(*
+aLi°
+, 
+aSèπ
+, 
+aEnd
+);
+
+19 c⁄° 
+	gINSERTION_SORT_THRESHOLD
+ = 10;
+
+22 c⁄° 
+	gMAX_LENGTH
+ = 10000;
+
+25 c⁄° 
+	gINSERTION_SORT_LIMIT
+ = 100;
+
+	@quickSort.cpp
+
+1 
+	~"mys‹t.h
+"
+
+3 
+usög
+ 
+«me•a˚
+ 
+	g°d
+;
+
+5 
+	$∑πôi⁄
+(*
+aLi°
+, 
+aSèπ
+, 
+aEnd
+){
+
+6 
+pivŸ
+ = 
+aLi°
+[
+aEnd
+-1];
+
+7 
+i
+ = 
+aSèπ
+-1;
+
+8 
+ãmp
+=-1;
+
+10 
+j
+ = 
+aSèπ
+;j < 
+aEnd
+; j++){
+
+11 if(
+aLi°
+[
+j
+] < 
+pivŸ
+){
+
+12 
+i
+++;
+
+13 
+ãmp
+ = 
+aLi°
+[
+j
+];
+
+14 
+aLi°
+[
+j
+] =áLi°[
+i
+];
+
+15 
+aLi°
+[
+i
+] = 
+ãmp
+;
+
+19 
+ãmp
+ = 
+aLi°
+[
+i
++1];
+
+20 
+aLi°
+[
+i
++1] = 
+pivŸ
+;
+
+21 
+aLi°
+[
+aEnd
+-1] = 
+ãmp
+;
+
+22  (
+i
++1);
+
+23 
+	}
+}
+
+25 
+	$quickS‹t
+(*
+aLi°
+, 
+aSèπ
+, 
+aEnd
+){
+
+26 if(
+aEnd
+ - 
+aSèπ
+ < 
+INSERTION_SORT_THRESHOLD
+)
+
+27 
+	`ö£πi⁄S‹t
+(
+aLi°
+, 
+aSèπ
+, 
+aEnd
+);
+
+28 if(
+aSèπ
+ < 
+aEnd
+){
+
+29 
+pos
+ = 
+	`∑πôi⁄
+(
+aLi°
+, 
+aSèπ
+, 
+aEnd
+);
+
+30 
+	`quickS‹t
+(
+aLi°
+, 
+aSèπ
+, 
+pos
+);
+
+31 
+	`quickS‹t
+(
+aLi°
+, 
+pos
++1, 
+aEnd
+);
+
+33 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+4
+50
+insertionSort.cpp
+main.cpp
+mysort.h
+quickSort.cpp

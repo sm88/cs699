@@ -1,0 +1,1150 @@
+Oct  4 13:02:06, orodruin postfix/pickup[17331], 873FD248DF9, uid=33 from=<www-data>
+Oct  4 13:02:06, orodruin postfix/cleanup[17555], 873FD248DF9, message-id=<20111004073206.873FD248DF9@orodruin.cse.iitb.ac.in>
+Oct  4 13:02:06, orodruin postfix/qmgr[6321], 873FD248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct  4 13:02:06, orodruin postfix/smtp[17557], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  4 13:02:06, orodruin postfix/smtp[17557], 873FD248DF9, to=<asterix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.44, delays=0.14/0.19/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D879C13900)
+Oct  4 13:02:06, orodruin postfix/qmgr[6321], 873FD248DF9, removed
+Oct  4 23:05:25, orodruin postfix/pickup[18965], 5C592248DF9, uid=33 from=<www-data>
+Oct  4 23:05:25, orodruin postfix/cleanup[19272], 5C592248DF9, message-id=<20111004173525.5C592248DF9@orodruin.cse.iitb.ac.in>
+Oct  4 23:05:25, orodruin postfix/qmgr[6321], 5C592248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1037, nrcpt=1 (queue active)
+Oct  4 23:05:25, orodruin postfix/smtp[19274], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  4 23:05:25, orodruin postfix/smtp[19274], 5C592248DF9, to=<obelix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.03/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 907E213900)
+Oct  4 23:05:25, orodruin postfix/qmgr[6321], 5C592248DF9, removed
+Oct  4 23:06:19, orodruin postfix/pickup[19279], 06A9F248DF9, uid=33 from=<www-data>
+Oct  4 23:06:19, orodruin postfix/cleanup[19272], 06A9F248DF9, message-id=<20111004173619.06A9F248DF9@orodruin.cse.iitb.ac.in>
+Oct  4 23:06:19, orodruin postfix/qmgr[6321], 06A9F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1037, nrcpt=1 (queue active)
+Oct  4 23:06:19, orodruin postfix/smtp[19274], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  4 23:06:19, orodruin postfix/smtp[19274], 06A9F248DF9, to=<obelix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.05/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 37C6913900)
+Oct  4 23:06:19, orodruin postfix/qmgr[6321], 06A9F248DF9, removed
+Oct  5 09:01:07, orodruin postfix/pickup[19737], 8207E248DF9, uid=33 from=<www-data>
+Oct  5 09:01:07, orodruin postfix/cleanup[20009], 8207E248DF9, message-id=<20111005033107.8207E248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 09:01:07, orodruin postfix/qmgr[6321], 8207E248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1195, nrcpt=1 (queue active)
+Oct  5 09:01:07, orodruin postfix/smtp[20011], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 09:01:07, orodruin postfix/smtp[20011], 8207E248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.33, delays=0.08/0.15/0.08/0.02, dsn=2.0.0, status=sent (250 Ok, queued as 0448413900)
+Oct  5 09:01:07, orodruin postfix/qmgr[6321], 8207E248DF9, removed
+Oct  5 09:06:25, orodruin postfix/pickup[20012], 46D83248DF9, uid=33 from=<www-data>
+Oct  5 09:06:25, orodruin postfix/cleanup[20016], 46D83248DF9, message-id=<20111005033625.46D83248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 09:06:25, orodruin postfix/qmgr[6321], 46D83248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1073, nrcpt=1 (queue active)
+Oct  5 09:06:25, orodruin postfix/smtp[20018], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 09:06:25, orodruin postfix/smtp[20018], 46D83248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.07/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 9A4C913900)
+Oct  5 09:06:25, orodruin postfix/qmgr[6321], 46D83248DF9, removed
+Oct  5 09:06:42, orodruin postfix/pickup[20012], 881D7248DF9, uid=33 from=<www-data>
+Oct  5 09:06:42, orodruin postfix/cleanup[20016], 881D7248DF9, message-id=<20111005033642.881D7248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 09:06:42, orodruin postfix/qmgr[6321], 881D7248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1073, nrcpt=1 (queue active)
+Oct  5 09:06:42, orodruin postfix/smtp[20018], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 09:06:42, orodruin postfix/smtp[20018], 881D7248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.04/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D473813900)
+Oct  5 09:06:42, orodruin postfix/qmgr[6321], 881D7248DF9, removed
+Oct  5 11:06:00, orodruin postfix/pickup[20135], 136C0248DF9, uid=33 from=<www-data>
+Oct  5 11:06:00, orodruin postfix/cleanup[20157], 136C0248DF9, message-id=<20111005053600.136C0248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 11:06:00, orodruin postfix/qmgr[6321], 136C0248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct  5 11:06:00, orodruin postfix/smtp[20159], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 11:06:00, orodruin postfix/smtp[20159], 136C0248DF9, to=<asterix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.21, delays=0.1/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 72F3213900)
+Oct  5 11:06:00, orodruin postfix/qmgr[6321], 136C0248DF9, removed
+Oct  5 11:57:31, orodruin postfix/pickup[20135], 6BF99248DF9, uid=33 from=<www-data>
+Oct  5 11:57:31, orodruin postfix/cleanup[20245], 6BF99248DF9, message-id=<20111005062731.6BF99248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 11:57:31, orodruin postfix/qmgr[6321], 6BF99248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1073, nrcpt=1 (queue active)
+Oct  5 11:57:31, orodruin postfix/smtp[20247], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 11:57:31, orodruin postfix/smtp[20247], 6BF99248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.05/0.01/0.1/0.02, dsn=2.0.0, status=sent (250 Ok, queued as CA16813906)
+Oct  5 11:57:31, orodruin postfix/qmgr[6321], 6BF99248DF9, removed
+Oct  5 12:06:13, orodruin postfix/pickup[20135], 9A87B248DF9, uid=33 from=<www-data>
+Oct  5 12:06:13, orodruin postfix/cleanup[20253], 9A87B248DF9, message-id=<20111005063613.9A87B248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 12:06:13, orodruin postfix/qmgr[6321], 9A87B248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1073, nrcpt=1 (queue active)
+Oct  5 12:06:13, orodruin postfix/smtp[20255], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 12:06:13, orodruin postfix/smtp[20255], 9A87B248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.06/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 01C3F13900)
+Oct  5 12:06:13, orodruin postfix/qmgr[6321], 9A87B248DF9, removed
+Oct  5 12:14:11, orodruin postfix/pickup[20135], C89D3248DF9, uid=33 from=<www-data>
+Oct  5 12:14:11, orodruin postfix/cleanup[20282], C89D3248DF9, message-id=<20111005064411.C89D3248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 12:14:11, orodruin postfix/qmgr[6321], C89D3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct  5 12:14:11, orodruin postfix/smtp[20284], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 12:14:12, orodruin postfix/smtp[20284], C89D3248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.24, delays=0.07/0.01/0.15/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3FA5213900)
+Oct  5 12:14:12, orodruin postfix/qmgr[6321], C89D3248DF9, removed
+Oct  5 12:16:00, orodruin postfix/pickup[20135], 66F76248DF9, uid=33 from=<www-data>
+Oct  5 12:16:00, orodruin postfix/cleanup[20288], 66F76248DF9, message-id=<20111005064600.66F76248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 12:16:00, orodruin postfix/qmgr[6321], 66F76248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct  5 12:16:00, orodruin postfix/smtp[20290], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 12:16:00, orodruin postfix/smtp[20290], 66F76248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.06/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as BDAF013900)
+Oct  5 12:16:00, orodruin postfix/qmgr[6321], 66F76248DF9, removed
+Oct  5 12:53:07, orodruin postfix/pickup[20294], 0C152248DF9, uid=33 from=<www-data>
+Oct  5 12:53:07, orodruin postfix/cleanup[20342], 0C152248DF9, message-id=<20111005072307.0C152248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 12:53:07, orodruin postfix/qmgr[6321], 0C152248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1323, nrcpt=1 (queue active)
+Oct  5 12:53:07, orodruin postfix/smtp[20344], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 12:53:07, orodruin postfix/smtp[20344], 0C152248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.05/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 6513313900)
+Oct  5 12:53:07, orodruin postfix/qmgr[6321], 0C152248DF9, removed
+Oct  5 13:18:27, orodruin postfix/pickup[20294], EB875248DF9, uid=33 from=<www-data>
+Oct  5 13:18:27, orodruin postfix/cleanup[20385], EB875248DF9, message-id=<20111005074827.EB875248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 13:18:27, orodruin postfix/qmgr[6321], EB875248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct  5 13:18:28, orodruin postfix/smtp[20387], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 13:18:28, orodruin postfix/smtp[20387], EB875248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.08/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 54B7B13900)
+Oct  5 13:18:28, orodruin postfix/qmgr[6321], EB875248DF9, removed
+Oct  5 13:38:22, orodruin postfix/pickup[20294], 6B7C9248DF9, uid=33 from=<www-data>
+Oct  5 13:38:22, orodruin postfix/cleanup[20425], 6B7C9248DF9, message-id=<20111005080822.6B7C9248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 13:38:22, orodruin postfix/qmgr[6321], 6B7C9248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct  5 13:38:22, orodruin postfix/smtp[20427], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 13:38:22, orodruin postfix/smtp[20427], 6B7C9248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.05/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as C2B6F13900)
+Oct  5 13:38:22, orodruin postfix/qmgr[6321], 6B7C9248DF9, removed
+Oct  5 13:39:08, orodruin postfix/pickup[20294], 28A65248DF9, uid=33 from=<www-data>
+Oct  5 13:39:08, orodruin postfix/cleanup[20425], 28A65248DF9, message-id=<20111005080908.28A65248DF9@orodruin.cse.iitb.ac.in>
+Oct  5 13:39:08, orodruin postfix/qmgr[6321], 28A65248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct  5 13:39:08, orodruin postfix/smtp[20427], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  5 13:39:08, orodruin postfix/smtp[20427], 28A65248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.05/0/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 87DDF13900)
+Oct  5 13:39:08, orodruin postfix/qmgr[6321], 28A65248DF9, removed
+Oct  6 20:29:32, orodruin postfix/pickup[23364], C69A6248DF9, uid=33 from=<www-data>
+Oct  6 20:29:32, orodruin postfix/cleanup[23448], C69A6248DF9, message-id=<20111006145932.C69A6248DF9@orodruin.cse.iitb.ac.in>
+Oct  6 20:29:32, orodruin postfix/qmgr[6321], C69A6248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1422, nrcpt=1 (queue active)
+Oct  6 20:29:32, orodruin postfix/smtp[23450], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  6 20:29:33, orodruin postfix/smtp[23450], C69A6248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.32, delays=0.12/0.08/0.08/0.03, dsn=2.0.0, status=sent (250 Ok, queued as A5CD713900)
+Oct  6 20:29:33, orodruin postfix/qmgr[6321], C69A6248DF9, removed
+Oct  6 23:43:59, orodruin postfix/pickup[23709], 264E0248DF9, uid=33 from=<www-data>
+Oct  6 23:43:59, orodruin postfix/cleanup[23774], 264E0248DF9, message-id=<20111006181359.264E0248DF9@orodruin.cse.iitb.ac.in>
+Oct  6 23:43:59, orodruin postfix/qmgr[6321], 264E0248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct  6 23:43:59, orodruin postfix/smtp[23776], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  6 23:43:59, orodruin postfix/smtp[23776], 264E0248DF9, to=<asterix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.22, delays=0.09/0.01/0.1/0.03, dsn=2.0.0, status=sent (250 Ok, queued as ECE4C13900)
+Oct  6 23:43:59, orodruin postfix/qmgr[6321], 264E0248DF9, removed
+Oct  6 23:49:00, orodruin postfix/pickup[23709], 1D4A1248DF9, uid=33 from=<www-data>
+Oct  6 23:49:00, orodruin postfix/cleanup[23818], 1D4A1248DF9, message-id=<20111006181900.1D4A1248DF9@orodruin.cse.iitb.ac.in>
+Oct  6 23:49:00, orodruin postfix/qmgr[6321], 1D4A1248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct  6 23:49:00, orodruin postfix/smtp[23820], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  6 23:49:00, orodruin postfix/smtp[23820], 1D4A1248DF9, to=<asterix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.21, delays=0.09/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as DE96A13900)
+Oct  6 23:49:00, orodruin postfix/qmgr[6321], 1D4A1248DF9, removed
+Oct  7 08:34:45, orodruin postfix/pickup[24500], B5A27248DF9, uid=33 from=<www-data>
+Oct  7 08:34:45, orodruin postfix/cleanup[24754], B5A27248DF9, message-id=<20111007030445.B5A27248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 08:34:45, orodruin postfix/qmgr[6321], B5A27248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1074, nrcpt=1 (queue active)
+Oct  7 08:34:45, orodruin postfix/smtp[24756], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 08:34:45, orodruin postfix/smtp[24756], B5A27248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.25, delays=0.07/0.09/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as ACBAA13900)
+Oct  7 08:34:45, orodruin postfix/qmgr[6321], B5A27248DF9, removed
+Oct  7 08:34:57, orodruin postfix/pickup[24500], 018BA248DF9, uid=33 from=<www-data>
+Oct  7 08:34:57, orodruin postfix/cleanup[24754], 018BA248DF9, message-id=<20111007030457.018BA248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 08:34:57, orodruin postfix/qmgr[6321], 018BA248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1074, nrcpt=1 (queue active)
+Oct  7 08:34:57, orodruin postfix/smtp[24756], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 08:34:57, orodruin postfix/smtp[24756], 018BA248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.06/0/0.07/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D3A2F13900)
+Oct  7 08:34:57, orodruin postfix/qmgr[6321], 018BA248DF9, removed
+Oct  7 09:53:16, orodruin postfix/pickup[24820], CAAC7248DF9, uid=33 from=<www-data>
+Oct  7 09:53:16, orodruin postfix/cleanup[24863], CAAC7248DF9, message-id=<20111007042316.CAAC7248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 09:53:16, orodruin postfix/qmgr[6321], CAAC7248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1017, nrcpt=1 (queue active)
+Oct  7 09:53:16, orodruin postfix/smtp[24865], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 09:53:16, orodruin postfix/smtp[24865], CAAC7248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.05/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as B18ED13900)
+Oct  7 09:53:16, orodruin postfix/qmgr[6321], CAAC7248DF9, removed
+Oct  7 10:31:46, orodruin postfix/pickup[24820], 8D184248DF9, uid=33 from=<www-data>
+Oct  7 10:31:46, orodruin postfix/cleanup[24961], 8D184248DF9, message-id=<20111007050146.8D184248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 10:31:46, orodruin postfix/qmgr[6321], 8D184248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1003, nrcpt=1 (queue active)
+Oct  7 10:31:46, orodruin postfix/smtp[24963], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 10:31:46, orodruin postfix/smtp[24963], 8D184248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.05/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 72C6413900)
+Oct  7 10:31:46, orodruin postfix/qmgr[6321], 8D184248DF9, removed
+Oct  7 11:26:49, orodruin postfix/pickup[25005], 20E18248DF9, uid=33 from=<www-data>
+Oct  7 11:26:49, orodruin postfix/cleanup[25124], 20E18248DF9, message-id=<20111007055649.20E18248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 11:26:49, orodruin postfix/qmgr[6321], 20E18248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=996, nrcpt=1 (queue active)
+Oct  7 11:26:49, orodruin postfix/smtp[25126], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 11:26:49, orodruin postfix/smtp[25126], 20E18248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.08/0.01/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 15D4E13900)
+Oct  7 11:26:49, orodruin postfix/qmgr[6321], 20E18248DF9, removed
+Oct  7 11:31:48, orodruin postfix/pickup[25005], C64D3248DF9, uid=33 from=<www-data>
+Oct  7 11:31:48, orodruin postfix/cleanup[25139], C64D3248DF9, message-id=<20111007060148.C64D3248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 11:31:48, orodruin postfix/qmgr[6321], C64D3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=996, nrcpt=1 (queue active)
+Oct  7 11:31:48, orodruin postfix/smtp[25141], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 11:31:48, orodruin postfix/smtp[25141], C64D3248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.07/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as B42B813900)
+Oct  7 11:31:48, orodruin postfix/qmgr[6321], C64D3248DF9, removed
+Oct  7 11:50:24, orodruin postfix/pickup[25005], DCF28248DF9, uid=33 from=<www-data>
+Oct  7 11:50:24, orodruin postfix/cleanup[25237], DCF28248DF9, message-id=<20111007062024.DCF28248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 11:50:24, orodruin postfix/qmgr[6321], DCF28248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=996, nrcpt=1 (queue active)
+Oct  7 11:50:24, orodruin postfix/smtp[25239], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 11:50:25, orodruin postfix/smtp[25239], DCF28248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.06/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as CDD3913900)
+Oct  7 11:50:25, orodruin postfix/qmgr[6321], DCF28248DF9, removed
+Oct  7 11:51:15, orodruin postfix/pickup[25005], 817E9248DF9, uid=33 from=<www-data>
+Oct  7 11:51:15, orodruin postfix/cleanup[25237], 817E9248DF9, message-id=<20111007062115.817E9248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 11:51:15, orodruin postfix/qmgr[6321], 817E9248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=955, nrcpt=1 (queue active)
+Oct  7 11:51:15, orodruin postfix/smtp[25239], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 11:51:15, orodruin postfix/smtp[25239], 817E9248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.07/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 6EE3E13900)
+Oct  7 11:51:15, orodruin postfix/qmgr[6321], 817E9248DF9, removed
+Oct  7 18:06:48, orodruin postfix/pickup[26488], 9BC3C248DF9, uid=33 from=<www-data>
+Oct  7 18:06:48, orodruin postfix/cleanup[26614], 9BC3C248DF9, message-id=<20111007123648.9BC3C248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 18:06:48, orodruin postfix/qmgr[6321], 9BC3C248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1195, nrcpt=1 (queue active)
+Oct  7 18:06:48, orodruin postfix/smtp[26616], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 18:06:48, orodruin postfix/smtp[26616], 9BC3C248DF9, to=<beefix@iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.1/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 9D3CA13906)
+Oct  7 18:06:48, orodruin postfix/qmgr[6321], 9BC3C248DF9, removed
+Oct  7 18:09:34, orodruin postfix/pickup[26488], DDE01248DF9, uid=33 from=<www-data>
+Oct  7 18:09:34, orodruin postfix/cleanup[26645], DDE01248DF9, message-id=<20111007123934.DDE01248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 18:09:34, orodruin postfix/qmgr[6321], DDE01248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1038, nrcpt=1 (queue active)
+Oct  7 18:09:34, orodruin postfix/smtp[26647], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 18:09:35, orodruin postfix/smtp[26647], DDE01248DF9, to=<obelix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.1/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D4DF51390B)
+Oct  7 18:09:35, orodruin postfix/qmgr[6321], DDE01248DF9, removed
+Oct  7 18:50:24, orodruin postfix/pickup[26488], A3F1F248DF9, uid=33 from=<www-data>
+Oct  7 18:50:24, orodruin postfix/cleanup[26776], A3F1F248DF9, message-id=<20111007132024.A3F1F248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 18:50:24, orodruin postfix/qmgr[6321], A3F1F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=986, nrcpt=1 (queue active)
+Oct  7 18:50:24, orodruin postfix/smtp[26778], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 18:50:24, orodruin postfix/smtp[26778], A3F1F248DF9, to=<prolix@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.07/0.01/0.1/0.02, dsn=2.0.0, status=sent (250 Ok, queued as AB41413900)
+Oct  7 18:50:24, orodruin postfix/qmgr[6321], A3F1F248DF9, removed
+Oct  7 18:51:16, orodruin postfix/pickup[26488], 0D645248DF9, uid=33 from=<www-data>
+Oct  7 18:51:16, orodruin postfix/cleanup[26776], 0D645248DF9, message-id=<20111007132116.0D645248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 18:51:16, orodruin postfix/qmgr[6321], 0D645248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1016, nrcpt=1 (queue active)
+Oct  7 18:51:16, orodruin postfix/smtp[26778], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 18:51:16, orodruin postfix/smtp[26778], 0D645248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.04/0/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 1270E13906)
+Oct  7 18:51:16, orodruin postfix/qmgr[6321], 0D645248DF9, removed
+Oct  7 18:52:13, orodruin postfix/pickup[26488], 9887E248DF9, uid=33 from=<www-data>
+Oct  7 18:52:13, orodruin postfix/cleanup[26776], 9887E248DF9, message-id=<20111007132213.9887E248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 18:52:13, orodruin postfix/qmgr[6321], 9887E248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct  7 18:52:13, orodruin postfix/smtp[26778], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 18:52:13, orodruin postfix/smtp[26778], 9887E248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.06/0/0.14/0.01, dsn=2.0.0, status=sent (250 Ok, queued as A27FF13906)
+Oct  7 18:52:13, orodruin postfix/qmgr[6321], 9887E248DF9, removed
+Oct  7 21:06:32, orodruin postfix/pickup[27070], 4EAE2248DF9, uid=33 from=<www-data>
+Oct  7 21:06:32, orodruin postfix/cleanup[27123], 4EAE2248DF9, message-id=<20111007153632.4EAE2248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 21:06:32, orodruin postfix/qmgr[6321], 4EAE2248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1586, nrcpt=1 (queue active)
+Oct  7 21:06:32, orodruin postfix/smtp[27125], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 21:06:32, orodruin postfix/smtp[27125], 4EAE2248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.06/0.01/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 6146313900)
+Oct  7 21:06:32, orodruin postfix/qmgr[6321], 4EAE2248DF9, removed
+Oct  7 22:07:57, orodruin postfix/pickup[27070], 3AF02248DF9, uid=33 from=<www-data>
+Oct  7 22:07:57, orodruin postfix/cleanup[27246], 3AF02248DF9, message-id=<20111007163757.3AF02248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 22:07:57, orodruin postfix/qmgr[6321], 3AF02248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=887, nrcpt=1 (queue active)
+Oct  7 22:07:57, orodruin postfix/smtp[27248], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 22:07:57, orodruin postfix/smtp[27248], 3AF02248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.06/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 4DB0F13900)
+Oct  7 22:07:57, orodruin postfix/qmgr[6321], 3AF02248DF9, removed
+Oct  7 23:10:21, orodruin postfix/pickup[27290], 429AF248DF9, uid=33 from=<www-data>
+Oct  7 23:10:21, orodruin postfix/cleanup[27486], 429AF248DF9, message-id=<20111007174021.429AF248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 23:10:21, orodruin postfix/qmgr[6321], 429AF248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1676, nrcpt=1 (queue active)
+Oct  7 23:10:21, orodruin postfix/smtp[27488], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 23:10:21, orodruin postfix/smtp[27488], 429AF248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.21, delays=0.07/0.01/0.1/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 5E6B713900)
+Oct  7 23:10:21, orodruin postfix/qmgr[6321], 429AF248DF9, removed
+Oct  7 23:10:42, orodruin postfix/pickup[27290], 34AE7248DF9, uid=33 from=<www-data>
+Oct  7 23:10:42, orodruin postfix/cleanup[27486], 34AE7248DF9, message-id=<20111007174042.34AE7248DF9@orodruin.cse.iitb.ac.in>
+Oct  7 23:10:42, orodruin postfix/qmgr[6321], 34AE7248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1768, nrcpt=1 (queue active)
+Oct  7 23:10:42, orodruin postfix/smtp[27488], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  7 23:10:42, orodruin postfix/smtp[27488], 34AE7248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.07/0/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 524D513900)
+Oct  7 23:10:42, orodruin postfix/qmgr[6321], 34AE7248DF9, removed
+Oct  8 06:00:02, orodruin postfix/master[6295], terminating on signal 15
+Oct  8 06:31:43, orodruin postfix/master[6316], daemon started -- version 2.5.1, configuration /etc/postfix
+Oct  8 07:48:16, orodruin postfix/pickup[6341], 10130248DF9, uid=33 from=<www-data>
+Oct  8 07:48:16, orodruin postfix/cleanup[7212], 10130248DF9, message-id=<20111008021816.10130248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 07:48:16, orodruin postfix/qmgr[6342], 10130248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1033, nrcpt=1 (queue active)
+Oct  8 07:48:16, orodruin postfix/smtp[7214], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 07:48:16, orodruin postfix/smtp[7214], 10130248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.64, delays=0.14/0.37/0.1/0.03, dsn=2.0.0, status=sent (250 Ok, queued as CE12413900)
+Oct  8 07:48:16, orodruin postfix/qmgr[6342], 10130248DF9, removed
+Oct  8 07:49:22, orodruin postfix/pickup[6341], 3661D248DF9, uid=33 from=<www-data>
+Oct  8 07:49:22, orodruin postfix/cleanup[7212], 3661D248DF9, message-id=<20111008021922.3661D248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 07:49:22, orodruin postfix/qmgr[6342], 3661D248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1033, nrcpt=1 (queue active)
+Oct  8 07:49:22, orodruin postfix/smtp[7214], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 07:49:22, orodruin postfix/smtp[7214], 3661D248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.04/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 804E613900)
+Oct  8 07:49:22, orodruin postfix/qmgr[6342], 3661D248DF9, removed
+Oct  8 15:13:30, orodruin postfix/pickup[7694], 1527D248DF9, uid=33 from=<www-data>
+Oct  8 15:13:30, orodruin postfix/cleanup[7743], 1527D248DF9, message-id=<20111008094330.1527D248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 15:13:30, orodruin postfix/qmgr[6342], 1527D248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1195, nrcpt=1 (queue active)
+Oct  8 15:13:30, orodruin postfix/smtp[7745], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 15:13:30, orodruin postfix/smtp[7745], 1527D248DF9, to=<odius@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.03/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 557B813900)
+Oct  8 15:13:30, orodruin postfix/qmgr[6342], 1527D248DF9, removed
+Oct  8 15:22:41, orodruin postfix/pickup[7694], D8EFC248DF9, uid=33 from=<www-data>
+Oct  8 15:22:41, orodruin postfix/cleanup[7771], D8EFC248DF9, message-id=<20111008095241.D8EFC248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 15:22:41, orodruin postfix/qmgr[6342], D8EFC248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1237, nrcpt=1 (queue active)
+Oct  8 15:22:41, orodruin postfix/smtp[7773], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 15:22:42, orodruin postfix/smtp[7773], D8EFC248DF9, to=<odius@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.07/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 2DDBF13900)
+Oct  8 15:22:42, orodruin postfix/qmgr[6342], D8EFC248DF9, removed
+Oct  8 15:24:25, orodruin postfix/pickup[7694], DAF4B248DF9, uid=33 from=<www-data>
+Oct  8 15:24:25, orodruin postfix/cleanup[7780], DAF4B248DF9, message-id=<20111008095425.DAF4B248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 15:24:25, orodruin postfix/qmgr[6342], DAF4B248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1157, nrcpt=1 (queue active)
+Oct  8 15:24:25, orodruin postfix/smtp[7782], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 15:24:26, orodruin postfix/smtp[7782], DAF4B248DF9, to=<odius@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.03/0.01/0.08/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 27F1F13900)
+Oct  8 15:24:26, orodruin postfix/qmgr[6342], DAF4B248DF9, removed
+Oct  8 15:25:19, orodruin postfix/pickup[7694], 058E7248DF9, uid=33 from=<www-data>
+Oct  8 15:25:19, orodruin postfix/cleanup[7780], 058E7248DF9, message-id=<20111008095519.058E7248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 15:25:19, orodruin postfix/qmgr[6342], 058E7248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1157, nrcpt=1 (queue active)
+Oct  8 15:25:19, orodruin postfix/smtp[7782], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 15:25:19, orodruin postfix/smtp[7782], 058E7248DF9, to=<odius@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.05/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 45D0313900)
+Oct  8 15:25:19, orodruin postfix/qmgr[6342], 058E7248DF9, removed
+Oct  8 16:11:59, orodruin postfix/pickup[7694], 93BEA248DF9, uid=33 from=<www-data>
+Oct  8 16:11:59, orodruin postfix/cleanup[7894], 93BEA248DF9, message-id=<20111008104159.93BEA248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 16:11:59, orodruin postfix/qmgr[6342], 93BEA248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1050, nrcpt=1 (queue active)
+Oct  8 16:11:59, orodruin postfix/smtp[7896], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 16:11:59, orodruin postfix/smtp[7896], 93BEA248DF9, to=<instantmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.07/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D7AAA13900)
+Oct  8 16:11:59, orodruin postfix/qmgr[6342], 93BEA248DF9, removed
+Oct  8 17:31:00, orodruin postfix/pickup[7920], B4ADC248DF9, uid=33 from=<www-data>
+Oct  8 17:31:00, orodruin postfix/cleanup[8101], B4ADC248DF9, message-id=<20111008120100.B4ADC248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 17:31:00, orodruin postfix/qmgr[6342], B4ADC248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1064, nrcpt=1 (queue active)
+Oct  8 17:31:00, orodruin postfix/smtp[8103], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 17:31:00, orodruin postfix/smtp[8103], B4ADC248DF9, to=<influenza@iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.08/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as EA66513900)
+Oct  8 17:31:00, orodruin postfix/qmgr[6342], B4ADC248DF9, removed
+Oct  8 17:32:09, orodruin postfix/pickup[7920], E8EC7248DF9, uid=33 from=<www-data>
+Oct  8 17:32:09, orodruin postfix/cleanup[8101], E8EC7248DF9, message-id=<20111008120209.E8EC7248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 17:32:09, orodruin postfix/qmgr[6342], E8EC7248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1064, nrcpt=1 (queue active)
+Oct  8 17:32:10, orodruin postfix/smtp[8103], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 17:32:10, orodruin postfix/smtp[8103], E8EC7248DF9, to=<influenza@iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.04/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 22BCE13900)
+Oct  8 17:32:10, orodruin postfix/qmgr[6342], E8EC7248DF9, removed
+Oct  8 18:47:59, orodruin postfix/pickup[8131], 21DB7248DF9, uid=33 from=<www-data>
+Oct  8 18:47:59, orodruin postfix/cleanup[8212], 21DB7248DF9, message-id=<20111008131759.21DB7248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 18:47:59, orodruin postfix/qmgr[6342], 21DB7248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1185, nrcpt=1 (queue active)
+Oct  8 18:47:59, orodruin postfix/smtp[8214], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 18:47:59, orodruin postfix/smtp[8214], 21DB7248DF9, to=<brawnix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.07/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 4F5F613900)
+Oct  8 18:47:59, orodruin postfix/qmgr[6342], 21DB7248DF9, removed
+Oct  8 18:54:22, orodruin postfix/pickup[8131], 84073248DF9, uid=33 from=<www-data>
+Oct  8 18:54:22, orodruin postfix/cleanup[8221], 84073248DF9, message-id=<20111008132422.84073248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 18:54:22, orodruin postfix/qmgr[6342], 84073248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1034, nrcpt=1 (queue active)
+Oct  8 18:54:22, orodruin postfix/smtp[8223], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 18:54:22, orodruin postfix/smtp[8223], 84073248DF9, to=<brawnix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.21, delays=0.04/0.01/0.15/0.02, dsn=2.0.0, status=sent (250 Ok, queued as B8AD013900)
+Oct  8 18:54:22, orodruin postfix/qmgr[6342], 84073248DF9, removed
+Oct  8 19:26:43, orodruin postfix/pickup[8131], 6711C248DF9, uid=33 from=<www-data>
+Oct  8 19:26:43, orodruin postfix/cleanup[8377], 6711C248DF9, message-id=<20111008135643.6711C248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 19:26:43, orodruin postfix/qmgr[6342], 6711C248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1036, nrcpt=1 (queue active)
+Oct  8 19:26:43, orodruin postfix/smtp[8379], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 19:26:43, orodruin postfix/smtp[8379], 6711C248DF9, to=<odius@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.05/0.01/0.08/0.04, dsn=2.0.0, status=sent (250 Ok, queued as 88E1913900)
+Oct  8 19:26:43, orodruin postfix/qmgr[6342], 6711C248DF9, removed
+Oct  8 19:29:42, orodruin postfix/pickup[8131], B6B3A248DF9, uid=33 from=<www-data>
+Oct  8 19:29:42, orodruin postfix/cleanup[8405], B6B3A248DF9, message-id=<20111008135942.B6B3A248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 19:29:42, orodruin postfix/qmgr[6342], B6B3A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=996, nrcpt=1 (queue active)
+Oct  8 19:29:42, orodruin postfix/smtp[8407], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 19:29:42, orodruin postfix/smtp[8407], B6B3A248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.03/0.01/0.07/0.01, dsn=2.0.0, status=sent (250 Ok, queued as CEBD713900)
+Oct  8 19:29:42, orodruin postfix/qmgr[6342], B6B3A248DF9, removed
+Oct  8 19:30:50, orodruin postfix/pickup[8131], AC440248DF9, uid=33 from=<www-data>
+Oct  8 19:30:50, orodruin postfix/cleanup[8405], AC440248DF9, message-id=<20111008140050.AC440248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 19:30:50, orodruin postfix/qmgr[6342], AC440248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1050, nrcpt=1 (queue active)
+Oct  8 19:30:50, orodruin postfix/smtp[8407], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 19:30:50, orodruin postfix/smtp[8407], AC440248DF9, to=<instantmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.08/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as C4B4913900)
+Oct  8 19:30:50, orodruin postfix/qmgr[6342], AC440248DF9, removed
+Oct  8 19:32:56, orodruin postfix/pickup[8131], D792E248DF9, uid=33 from=<www-data>
+Oct  8 19:32:56, orodruin postfix/cleanup[8430], D792E248DF9, message-id=<20111008140256.D792E248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 19:32:56, orodruin postfix/qmgr[6342], D792E248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1050, nrcpt=1 (queue active)
+Oct  8 19:32:56, orodruin postfix/smtp[8432], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 19:32:57, orodruin postfix/smtp[8432], D792E248DF9, to=<instantmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.06/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as F2B3B13900)
+Oct  8 19:32:57, orodruin postfix/qmgr[6342], D792E248DF9, removed
+Oct  8 19:33:21, orodruin postfix/pickup[8131], A04D5248DF9, uid=33 from=<www-data>
+Oct  8 19:33:21, orodruin postfix/cleanup[8430], A04D5248DF9, message-id=<20111008140321.A04D5248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 19:33:21, orodruin postfix/qmgr[6342], A04D5248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1202, nrcpt=1 (queue active)
+Oct  8 19:33:21, orodruin postfix/smtp[8432], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 19:33:21, orodruin postfix/smtp[8432], A04D5248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.05/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as BD73E13900)
+Oct  8 19:33:21, orodruin postfix/qmgr[6342], A04D5248DF9, removed
+Oct  8 19:40:06, orodruin postfix/pickup[8439], 230A5248DF9, uid=33 from=<www-data>
+Oct  8 19:40:06, orodruin postfix/cleanup[8455], 230A5248DF9, message-id=<20111008141006.230A5248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 19:40:06, orodruin postfix/qmgr[6342], 230A5248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1061, nrcpt=1 (queue active)
+Oct  8 19:40:06, orodruin postfix/smtp[8457], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 19:40:06, orodruin postfix/smtp[8457], 230A5248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.03/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3FE1C13900)
+Oct  8 19:40:06, orodruin postfix/qmgr[6342], 230A5248DF9, removed
+Oct  8 19:42:37, orodruin postfix/pickup[8439], 09D9F248DF9, uid=33 from=<www-data>
+Oct  8 19:42:37, orodruin postfix/cleanup[8462], 09D9F248DF9, message-id=<20111008141237.09D9F248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 19:42:37, orodruin postfix/qmgr[6342], 09D9F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1191, nrcpt=1 (queue active)
+Oct  8 19:42:37, orodruin postfix/smtp[8464], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 19:42:37, orodruin postfix/smtp[8464], 09D9F248DF9, to=<pecanmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.05/0.01/0.08/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 29EAE13900)
+Oct  8 19:42:37, orodruin postfix/qmgr[6342], 09D9F248DF9, removed
+Oct  8 20:02:57, orodruin postfix/pickup[8439], 55EFA248DF9, uid=33 from=<www-data>
+Oct  8 20:02:57, orodruin postfix/cleanup[8487], 55EFA248DF9, message-id=<20111008143257.55EFA248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 20:02:57, orodruin postfix/qmgr[6342], 55EFA248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1062, nrcpt=1 (queue active)
+Oct  8 20:02:57, orodruin postfix/smtp[8489], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 20:02:57, orodruin postfix/smtp[8489], 55EFA248DF9, to=<pecanmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.25, delays=0.06/0.01/0.15/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 875C313900)
+Oct  8 20:02:57, orodruin postfix/qmgr[6342], 55EFA248DF9, removed
+Oct  8 20:11:21, orodruin postfix/pickup[8439], 0C47F248DF9, uid=33 from=<www-data>
+Oct  8 20:11:21, orodruin postfix/cleanup[8523], 0C47F248DF9, message-id=<20111008144121.0C47F248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 20:11:21, orodruin postfix/qmgr[6342], 0C47F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1010, nrcpt=1 (queue active)
+Oct  8 20:11:21, orodruin postfix/smtp[8525], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 20:11:21, orodruin postfix/smtp[8525], 0C47F248DF9, to=<pecanmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.03/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as 2B26613900)
+Oct  8 20:11:21, orodruin postfix/qmgr[6342], 0C47F248DF9, removed
+Oct  8 20:13:16, orodruin postfix/pickup[8439], 71232248DF9, uid=33 from=<www-data>
+Oct  8 20:13:16, orodruin postfix/cleanup[8536], 71232248DF9, message-id=<20111008144316.71232248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 20:13:16, orodruin postfix/qmgr[6342], 71232248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1061, nrcpt=1 (queue active)
+Oct  8 20:13:16, orodruin postfix/smtp[8538], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 20:13:16, orodruin postfix/smtp[8538], 71232248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.08/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 908BF13900)
+Oct  8 20:13:16, orodruin postfix/qmgr[6342], 71232248DF9, removed
+Oct  8 20:13:59, orodruin postfix/pickup[8439], 0817F248DF9, uid=33 from=<www-data>
+Oct  8 20:13:59, orodruin postfix/cleanup[8536], 0817F248DF9, message-id=<20111008144359.0817F248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 20:13:59, orodruin postfix/qmgr[6342], 0817F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1050, nrcpt=1 (queue active)
+Oct  8 20:13:59, orodruin postfix/smtp[8538], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 20:13:59, orodruin postfix/smtp[8538], 0817F248DF9, to=<instantmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.04/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 200B913900)
+Oct  8 20:13:59, orodruin postfix/qmgr[6342], 0817F248DF9, removed
+Oct  8 21:57:49, orodruin postfix/master[6316], terminating on signal 15
+Oct  8 22:11:49, orodruin postfix/master[6301], daemon started -- version 2.5.1, configuration /etc/postfix
+Oct  8 22:53:20, orodruin postfix/pickup[6355], 5655B248DF9, uid=33 from=<www-data>
+Oct  8 22:53:20, orodruin postfix/cleanup[7010], 5655B248DF9, message-id=<20111008172320.5655B248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 22:53:20, orodruin postfix/qmgr[6356], 5655B248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1195, nrcpt=1 (queue active)
+Oct  8 22:53:20, orodruin postfix/smtp[7012], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 22:53:20, orodruin postfix/smtp[7012], 5655B248DF9, to=<caesar@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.43, delays=0.11/0.21/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 1B4FE13900)
+Oct  8 22:53:20, orodruin postfix/qmgr[6356], 5655B248DF9, removed
+Oct  8 23:02:09, orodruin postfix/pickup[6355], 81C4C248DF9, uid=33 from=<www-data>
+Oct  8 23:02:09, orodruin postfix/cleanup[7033], 81C4C248DF9, message-id=<20111008173209.81C4C248DF9@orodruin.cse.iitb.ac.in>
+Oct  8 23:02:09, orodruin postfix/qmgr[6356], 81C4C248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1075, nrcpt=1 (queue active)
+Oct  8 23:02:09, orodruin postfix/smtp[7035], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  8 23:02:09, orodruin postfix/smtp[7035], 81C4C248DF9, to=<caesar@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.22, delays=0.05/0.01/0.15/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 12D8513900)
+Oct  8 23:02:09, orodruin postfix/qmgr[6356], 81C4C248DF9, removed
+Oct  9 00:37:13, orodruin postfix/pickup[7107], 8D0B2248DF9, uid=33 from=<www-data>
+Oct  9 00:37:13, orodruin postfix/cleanup[7169], 8D0B2248DF9, message-id=<20111008190713.8D0B2248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:37:13, orodruin postfix/qmgr[6356], 8D0B2248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1075, nrcpt=1 (queue active)
+Oct  9 00:37:13, orodruin postfix/smtp[7171], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:37:13, orodruin postfix/smtp[7171], 8D0B2248DF9, to=<caesar@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.04/0.01/0.15/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 1FA4813900)
+Oct  9 00:37:13, orodruin postfix/qmgr[6356], 8D0B2248DF9, removed
+Oct  9 00:45:57, orodruin postfix/pickup[7107], 9177A248DF9, uid=33 from=<www-data>
+Oct  9 00:45:57, orodruin postfix/cleanup[7194], 9177A248DF9, message-id=<20111008191557.9177A248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:45:57, orodruin postfix/qmgr[6356], 9177A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1180, nrcpt=1 (queue active)
+Oct  9 00:45:57, orodruin postfix/smtp[7196], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:45:57, orodruin postfix/smtp[7196], 9177A248DF9, to=<bucolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.22, delays=0.08/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as 1DD1413900)
+Oct  9 00:45:57, orodruin postfix/qmgr[6356], 9177A248DF9, removed
+Oct  9 00:49:50, orodruin postfix/pickup[7107], E6DD1248DF9, uid=33 from=<www-data>
+Oct  9 00:49:50, orodruin postfix/cleanup[7201], E6DD1248DF9, message-id=<20111008191950.E6DD1248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:49:50, orodruin postfix/qmgr[6356], E6DD1248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1198, nrcpt=1 (queue active)
+Oct  9 00:49:51, orodruin postfix/smtp[7203], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:49:51, orodruin postfix/smtp[7203], E6DD1248DF9, to=<pompey@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.04/0.01/0.07/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 6BCB513900)
+Oct  9 00:49:51, orodruin postfix/qmgr[6356], E6DD1248DF9, removed
+Oct  9 00:51:45, orodruin postfix/pickup[7107], EF830248DF9, uid=33 from=<www-data>
+Oct  9 00:51:45, orodruin postfix/cleanup[7207], EF830248DF9, message-id=<20111008192145.EF830248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:51:45, orodruin postfix/qmgr[6356], EF830248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1017, nrcpt=1 (queue active)
+Oct  9 00:51:46, orodruin postfix/smtp[7209], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:51:46, orodruin postfix/smtp[7209], EF830248DF9, to=<bucolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.04/0.01/0.13/0.02, dsn=2.0.0, status=sent (250 Ok, queued as 7F5DF13906)
+Oct  9 00:51:46, orodruin postfix/qmgr[6356], EF830248DF9, removed
+Oct  9 00:52:09, orodruin postfix/pickup[7107], A2848248DF9, uid=33 from=<www-data>
+Oct  9 00:52:09, orodruin postfix/cleanup[7207], A2848248DF9, message-id=<20111008192209.A2848248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:52:09, orodruin postfix/qmgr[6356], A2848248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1017, nrcpt=1 (queue active)
+Oct  9 00:52:09, orodruin postfix/smtp[7209], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:52:09, orodruin postfix/smtp[7209], A2848248DF9, to=<bucolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.04/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 21FE713900)
+Oct  9 00:52:09, orodruin postfix/qmgr[6356], A2848248DF9, removed
+Oct  9 00:53:32, orodruin postfix/pickup[7107], 65720248DF9, uid=33 from=<www-data>
+Oct  9 00:53:32, orodruin postfix/cleanup[7207], 65720248DF9, message-id=<20111008192332.65720248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:53:32, orodruin postfix/qmgr[6356], 65720248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1208, nrcpt=1 (queue active)
+Oct  9 00:53:32, orodruin postfix/smtp[7209], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:53:32, orodruin postfix/smtp[7209], 65720248DF9, to=<brutus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.05/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as DEE3213900)
+Oct  9 00:53:32, orodruin postfix/qmgr[6356], 65720248DF9, removed
+Oct  9 00:53:46, orodruin postfix/pickup[7107], 3BCA3248DF9, uid=33 from=<www-data>
+Oct  9 00:53:46, orodruin postfix/cleanup[7207], 3BCA3248DF9, message-id=<20111008192346.3BCA3248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:53:46, orodruin postfix/qmgr[6356], 3BCA3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1208, nrcpt=1 (queue active)
+Oct  9 00:53:46, orodruin postfix/smtp[7209], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:53:46, orodruin postfix/smtp[7209], 3BCA3248DF9, to=<brutus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.05/0/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as BC89E13900)
+Oct  9 00:53:46, orodruin postfix/qmgr[6356], 3BCA3248DF9, removed
+Oct  9 00:53:55, orodruin postfix/pickup[7107], 82BA3248DF9, uid=33 from=<www-data>
+Oct  9 00:53:55, orodruin postfix/cleanup[7207], 82BA3248DF9, message-id=<20111008192355.82BA3248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:53:55, orodruin postfix/qmgr[6356], 82BA3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1208, nrcpt=1 (queue active)
+Oct  9 00:53:55, orodruin postfix/smtp[7209], 82BA3248DF9, to=<brutus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.07/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 05A5813900)
+Oct  9 00:53:55, orodruin postfix/qmgr[6356], 82BA3248DF9, removed
+Oct  9 00:54:11, orodruin postfix/pickup[7107], 4F86D248DF9, uid=33 from=<www-data>
+Oct  9 00:54:11, orodruin postfix/cleanup[7207], 4F86D248DF9, message-id=<20111008192411.4F86D248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:54:11, orodruin postfix/qmgr[6356], 4F86D248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1030, nrcpt=1 (queue active)
+Oct  9 00:54:11, orodruin postfix/smtp[7209], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:54:11, orodruin postfix/smtp[7209], 4F86D248DF9, to=<brutus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.03/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as C454713900)
+Oct  9 00:54:11, orodruin postfix/qmgr[6356], 4F86D248DF9, removed
+Oct  9 00:58:49, orodruin postfix/pickup[7107], C4631248DF9, uid=33 from=<www-data>
+Oct  9 00:58:49, orodruin postfix/cleanup[7237], C4631248DF9, message-id=<20111008192849.C4631248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 00:58:49, orodruin postfix/qmgr[6356], C4631248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=946, nrcpt=1 (queue active)
+Oct  9 00:58:49, orodruin postfix/pickup[7107], CC1812481E1, uid=33 from=<www-data>
+Oct  9 00:58:49, orodruin postfix/cleanup[7237], CC1812481E1, message-id=<20111008192849.CC1812481E1@orodruin.cse.iitb.ac.in>
+Oct  9 00:58:49, orodruin postfix/qmgr[6356], CC1812481E1, from=<www-data@orodruin.cse.iitb.ac.in>, size=958, nrcpt=1 (queue active)
+Oct  9 00:58:49, orodruin postfix/smtp[7242], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:58:49, orodruin postfix/smtp[7242], C4631248DF9, to=<umesh@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.05/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as 5055613900)
+Oct  9 00:58:49, orodruin postfix/qmgr[6356], C4631248DF9, removed
+Oct  9 00:58:49, orodruin postfix/smtp[7243], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 00:58:50, orodruin postfix/smtp[7243], CC1812481E1, to=<brutus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.24, delays=0.03/0.01/0.19/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 66B1D13906)
+Oct  9 00:58:50, orodruin postfix/qmgr[6356], CC1812481E1, removed
+Oct  9 01:41:35, orodruin postfix/pickup[7263], 83966248DF9, uid=33 from=<www-data>
+Oct  9 01:41:35, orodruin postfix/cleanup[7289], 83966248DF9, message-id=<20111008201135.83966248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 01:41:35, orodruin postfix/qmgr[6356], 83966248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1075, nrcpt=1 (queue active)
+Oct  9 01:41:35, orodruin postfix/smtp[7291], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 01:41:35, orodruin postfix/smtp[7291], 83966248DF9, to=<caesar@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.04/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 055C613900)
+Oct  9 01:41:35, orodruin postfix/qmgr[6356], 83966248DF9, removed
+Oct  9 02:56:06, orodruin postfix/pickup[7263], 2B395248DF9, uid=33 from=<www-data>
+Oct  9 02:56:06, orodruin postfix/cleanup[7345], 2B395248DF9, message-id=<20111008212606.2B395248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 02:56:06, orodruin postfix/qmgr[6356], 2B395248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1188, nrcpt=1 (queue active)
+Oct  9 02:56:06, orodruin postfix/smtp[7347], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 02:56:06, orodruin postfix/smtp[7347], 2B395248DF9, to=<geriatrix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.06/0.01/0.08/0.03, dsn=2.0.0, status=sent (250 Ok, queued as A779113900)
+Oct  9 02:56:06, orodruin postfix/qmgr[6356], 2B395248DF9, removed
+Oct  9 03:01:40, orodruin postfix/pickup[7348], 97A4A248DF9, uid=33 from=<www-data>
+Oct  9 03:01:40, orodruin postfix/cleanup[7392], 97A4A248DF9, message-id=<20111008213140.97A4A248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 03:01:40, orodruin postfix/qmgr[6356], 97A4A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct  9 03:01:40, orodruin postfix/smtp[7394], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 03:01:40, orodruin postfix/smtp[7394], 97A4A248DF9, to=<pompey@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.23, delays=0.04/0.01/0.14/0.04, dsn=2.0.0, status=sent (250 Ok, queued as 2AFD513900)
+Oct  9 03:01:40, orodruin postfix/qmgr[6356], 97A4A248DF9, removed
+Oct  9 08:41:42, orodruin postfix/pickup[7863], 05F41248DF9, uid=33 from=<www-data>
+Oct  9 08:41:42, orodruin postfix/cleanup[7967], 05F41248DF9, message-id=<20111009031142.05F41248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 08:41:42, orodruin postfix/qmgr[6356], 05F41248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=996, nrcpt=1 (queue active)
+Oct  9 08:41:42, orodruin postfix/smtp[7969], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 08:41:42, orodruin postfix/smtp[7969], 05F41248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.29, delays=0.1/0.08/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 8541113900)
+Oct  9 08:41:42, orodruin postfix/qmgr[6356], 05F41248DF9, removed
+Oct  9 10:38:18, orodruin postfix/pickup[8009], 93261248DF9, uid=33 from=<www-data>
+Oct  9 10:38:18, orodruin postfix/cleanup[8072], 93261248DF9, message-id=<20111009050818.93261248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 10:38:18, orodruin postfix/qmgr[6356], 93261248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1061, nrcpt=1 (queue active)
+Oct  9 10:38:18, orodruin postfix/smtp[8074], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 10:38:18, orodruin postfix/smtp[8074], 93261248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.04/0.01/0.13/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 0576113900)
+Oct  9 10:38:18, orodruin postfix/qmgr[6356], 93261248DF9, removed
+Oct  9 10:39:20, orodruin postfix/pickup[8009], 76D36248DF9, uid=33 from=<www-data>
+Oct  9 10:39:20, orodruin postfix/cleanup[8072], 76D36248DF9, message-id=<20111009050920.76D36248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 10:39:20, orodruin postfix/qmgr[6356], 76D36248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1055, nrcpt=1 (queue active)
+Oct  9 10:39:20, orodruin postfix/smtp[8074], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 10:39:20, orodruin postfix/smtp[8074], 76D36248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.04/0/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D7B4313900)
+Oct  9 10:39:20, orodruin postfix/qmgr[6356], 76D36248DF9, removed
+Oct  9 10:39:46, orodruin postfix/pickup[8009], EA0CE248DF9, uid=33 from=<www-data>
+Oct  9 10:39:46, orodruin postfix/cleanup[8072], EA0CE248DF9, message-id=<20111009050946.EA0CE248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 10:39:46, orodruin postfix/qmgr[6356], EA0CE248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1055, nrcpt=1 (queue active)
+Oct  9 10:39:47, orodruin postfix/smtp[8074], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 10:39:47, orodruin postfix/smtp[8074], EA0CE248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.05/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 50DDD13900)
+Oct  9 10:39:47, orodruin postfix/qmgr[6356], EA0CE248DF9, removed
+Oct  9 10:49:32, orodruin postfix/pickup[8009], 49313248DF9, uid=33 from=<www-data>
+Oct  9 10:49:32, orodruin postfix/cleanup[8099], 49313248DF9, message-id=<20111009051932.49313248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 10:49:32, orodruin postfix/qmgr[6356], 49313248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1055, nrcpt=1 (queue active)
+Oct  9 10:49:32, orodruin postfix/smtp[8101], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 10:49:32, orodruin postfix/smtp[8101], 49313248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.05/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as AAD7013900)
+Oct  9 10:49:32, orodruin postfix/qmgr[6356], 49313248DF9, removed
+Oct  9 10:50:41, orodruin postfix/pickup[8009], 7658B248DF9, uid=33 from=<www-data>
+Oct  9 10:50:41, orodruin postfix/cleanup[8099], 7658B248DF9, message-id=<20111009052041.7658B248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 10:50:41, orodruin postfix/qmgr[6356], 7658B248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1034, nrcpt=1 (queue active)
+Oct  9 10:50:41, orodruin postfix/smtp[8101], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 10:50:41, orodruin postfix/smtp[8101], 7658B248DF9, to=<brawnix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.05/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D174913900)
+Oct  9 10:50:41, orodruin postfix/qmgr[6356], 7658B248DF9, removed
+Oct  9 12:19:09, orodruin postfix/pickup[8208], 973AB248DF9, uid=33 from=<www-data>
+Oct  9 12:19:09, orodruin postfix/cleanup[8317], 973AB248DF9, message-id=<20111009064909.973AB248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 12:19:09, orodruin postfix/qmgr[6356], 973AB248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1194, nrcpt=1 (queue active)
+Oct  9 12:19:09, orodruin postfix/smtp[8319], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 12:19:09, orodruin postfix/smtp[8319], 973AB248DF9, to=<jellibabix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.03/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as F1BC213900)
+Oct  9 12:19:09, orodruin postfix/qmgr[6356], 973AB248DF9, removed
+Oct  9 12:33:02, orodruin postfix/pickup[8208], E8C13248DF9, uid=33 from=<www-data>
+Oct  9 12:33:02, orodruin postfix/cleanup[8354], E8C13248DF9, message-id=<20111009070302.E8C13248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 12:33:02, orodruin postfix/qmgr[6356], E8C13248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1107, nrcpt=1 (queue active)
+Oct  9 12:33:03, orodruin postfix/smtp[8356], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 12:33:03, orodruin postfix/smtp[8356], E8C13248DF9, to=<jellibabix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.22, delays=0.06/0.01/0.14/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 5553313900)
+Oct  9 12:33:03, orodruin postfix/qmgr[6356], E8C13248DF9, removed
+Oct  9 12:34:52, orodruin postfix/pickup[8208], E0920248DF9, uid=33 from=<www-data>
+Oct  9 12:34:52, orodruin postfix/cleanup[8374], E0920248DF9, message-id=<20111009070452.E0920248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 12:34:52, orodruin postfix/qmgr[6356], E0920248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=962, nrcpt=1 (queue active)
+Oct  9 12:34:52, orodruin postfix/smtp[8376], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 12:34:53, orodruin postfix/smtp[8376], E0920248DF9, to=<brutus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.03/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3F84513900)
+Oct  9 12:34:53, orodruin postfix/qmgr[6356], E0920248DF9, removed
+Oct  9 12:56:25, orodruin postfix/pickup[8400], 915FD248DF9, uid=33 from=<www-data>
+Oct  9 12:56:25, orodruin postfix/cleanup[8405], 915FD248DF9, message-id=<20111009072625.915FD248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 12:56:25, orodruin postfix/qmgr[6356], 915FD248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1050, nrcpt=1 (queue active)
+Oct  9 12:56:25, orodruin postfix/smtp[8407], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 12:56:25, orodruin postfix/smtp[8407], 915FD248DF9, to=<instantmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.06/0.01/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as EE04B13900)
+Oct  9 12:56:25, orodruin postfix/qmgr[6356], 915FD248DF9, removed
+Oct  9 13:57:16, orodruin postfix/pickup[8400], 41538248DF9, uid=33 from=<www-data>
+Oct  9 13:57:16, orodruin postfix/cleanup[8490], 41538248DF9, message-id=<20111009082716.41538248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 13:57:16, orodruin postfix/qmgr[6356], 41538248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct  9 13:57:16, orodruin postfix/smtp[8492], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 13:57:16, orodruin postfix/smtp[8492], 41538248DF9, to=<asterix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.06/0.02/0.1/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 9A39613900)
+Oct  9 13:57:16, orodruin postfix/qmgr[6356], 41538248DF9, removed
+Oct  9 14:17:51, orodruin postfix/pickup[8400], ECB29248DF9, uid=33 from=<www-data>
+Oct  9 14:17:51, orodruin postfix/cleanup[8522], ECB29248DF9, message-id=<20111009084751.ECB29248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 14:17:51, orodruin postfix/qmgr[6356], ECB29248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1182, nrcpt=1 (queue active)
+Oct  9 14:17:52, orodruin postfix/smtp[8524], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 14:17:52, orodruin postfix/smtp[8524], ECB29248DF9, to=<getafix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.04/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 4E34A13900)
+Oct  9 14:17:52, orodruin postfix/qmgr[6356], ECB29248DF9, removed
+Oct  9 14:20:49, orodruin postfix/pickup[8400], 3A59A248DF9, uid=33 from=<www-data>
+Oct  9 14:20:49, orodruin postfix/cleanup[8528], 3A59A248DF9, message-id=<20111009085049.3A59A248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 14:20:49, orodruin postfix/qmgr[6356], 3A59A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1055, nrcpt=1 (queue active)
+Oct  9 14:20:49, orodruin postfix/smtp[8530], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 14:20:49, orodruin postfix/smtp[8530], 3A59A248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.09/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 9194113900)
+Oct  9 14:20:49, orodruin postfix/qmgr[6356], 3A59A248DF9, removed
+Oct  9 15:02:23, orodruin postfix/pickup[8531], E9CCA248DF9, uid=33 from=<www-data>
+Oct  9 15:02:23, orodruin postfix/cleanup[8591], E9CCA248DF9, message-id=<20111009093223.E9CCA248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 15:02:23, orodruin postfix/qmgr[6356], E9CCA248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1075, nrcpt=1 (queue active)
+Oct  9 15:02:24, orodruin postfix/smtp[8593], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 15:02:24, orodruin postfix/smtp[8593], E9CCA248DF9, to=<caesar@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.05/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 4CA2B13900)
+Oct  9 15:02:24, orodruin postfix/qmgr[6356], E9CCA248DF9, removed
+Oct  9 16:25:27, orodruin postfix/pickup[8718], 8D46F248DF9, uid=33 from=<www-data>
+Oct  9 16:25:27, orodruin postfix/cleanup[8789], 8D46F248DF9, message-id=<20111009105527.8D46F248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 16:25:27, orodruin postfix/qmgr[6356], 8D46F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1062, nrcpt=1 (queue active)
+Oct  9 16:25:27, orodruin postfix/smtp[8791], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 16:25:27, orodruin postfix/smtp[8791], 8D46F248DF9, to=<pecanmix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.04/0.01/0.1/0.04, dsn=2.0.0, status=sent (250 Ok, queued as E3DA013900)
+Oct  9 16:25:27, orodruin postfix/qmgr[6356], 8D46F248DF9, removed
+Oct  9 20:28:59, orodruin postfix/pickup[9233], 67A2C248DF9, uid=33 from=<www-data>
+Oct  9 20:28:59, orodruin postfix/cleanup[9270], 67A2C248DF9, message-id=<20111009145859.67A2C248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 20:28:59, orodruin postfix/qmgr[6356], 67A2C248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1056, nrcpt=1 (queue active)
+Oct  9 20:28:59, orodruin postfix/smtp[9272], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 20:28:59, orodruin postfix/smtp[9272], 67A2C248DF9, to=<impedimenta@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.06/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as B3F1013900)
+Oct  9 20:28:59, orodruin postfix/qmgr[6356], 67A2C248DF9, removed
+Oct  9 20:29:11, orodruin postfix/pickup[9233], A8EF0248DF9, uid=33 from=<www-data>
+Oct  9 20:29:11, orodruin postfix/cleanup[9270], A8EF0248DF9, message-id=<20111009145911.A8EF0248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 20:29:11, orodruin postfix/qmgr[6356], A8EF0248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1056, nrcpt=1 (queue active)
+Oct  9 20:29:11, orodruin postfix/smtp[9272], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 20:29:11, orodruin postfix/smtp[9272], A8EF0248DF9, to=<impedimenta@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.04/0/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 0451D13900)
+Oct  9 20:29:11, orodruin postfix/qmgr[6356], A8EF0248DF9, removed
+Oct  9 20:29:17, orodruin postfix/pickup[9233], 6E535248DF9, uid=33 from=<www-data>
+Oct  9 20:29:17, orodruin postfix/cleanup[9270], 6E535248DF9, message-id=<20111009145917.6E535248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 20:29:17, orodruin postfix/qmgr[6356], 6E535248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1056, nrcpt=1 (queue active)
+Oct  9 20:29:17, orodruin postfix/smtp[9272], 6E535248DF9, to=<impedimenta@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.11, delays=0.04/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as AC68913900)
+Oct  9 20:29:17, orodruin postfix/qmgr[6356], 6E535248DF9, removed
+Oct  9 20:48:49, orodruin postfix/pickup[9233], 63125248DF9, uid=33 from=<www-data>
+Oct  9 20:48:49, orodruin postfix/cleanup[9314], 63125248DF9, message-id=<20111009151849.63125248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 20:48:49, orodruin postfix/qmgr[6356], 63125248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct  9 20:48:49, orodruin postfix/smtp[9316], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 20:48:49, orodruin postfix/smtp[9316], 63125248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.07/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as B0D9313900)
+Oct  9 20:48:49, orodruin postfix/qmgr[6356], 63125248DF9, removed
+Oct  9 21:53:42, orodruin postfix/pickup[9319], 1F8F8248DF9, uid=33 from=<www-data>
+Oct  9 21:53:42, orodruin postfix/cleanup[9374], 1F8F8248DF9, message-id=<20111009162342.1F8F8248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 21:53:42, orodruin postfix/qmgr[6356], 1F8F8248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1055, nrcpt=1 (queue active)
+Oct  9 21:53:42, orodruin postfix/smtp[9376], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 21:53:42, orodruin postfix/smtp[9376], 1F8F8248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.06/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 6A8E813900)
+Oct  9 21:53:42, orodruin postfix/qmgr[6356], 1F8F8248DF9, removed
+Oct  9 22:00:35, orodruin postfix/pickup[9319], A1FB3248DF9, uid=33 from=<www-data>
+Oct  9 22:00:35, orodruin postfix/cleanup[9391], A1FB3248DF9, message-id=<20111009163035.A1FB3248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 22:00:35, orodruin postfix/qmgr[6356], A1FB3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct  9 22:00:35, orodruin postfix/smtp[9393], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 22:00:35, orodruin postfix/smtp[9393], A1FB3248DF9, to=<asterix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.06/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as E68C813900)
+Oct  9 22:00:35, orodruin postfix/qmgr[6356], A1FB3248DF9, removed
+Oct  9 22:01:05, orodruin postfix/pickup[9319], D26E2248DF9, uid=33 from=<www-data>
+Oct  9 22:01:05, orodruin postfix/cleanup[9391], D26E2248DF9, message-id=<20111009163105.D26E2248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 22:01:05, orodruin postfix/qmgr[6356], D26E2248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1186, nrcpt=1 (queue active)
+Oct  9 22:01:06, orodruin postfix/smtp[9393], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 22:01:06, orodruin postfix/smtp[9393], D26E2248DF9, to=<cacofonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.23, delays=0.04/0/0.18/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3B78213900)
+Oct  9 22:01:06, orodruin postfix/qmgr[6356], D26E2248DF9, removed
+Oct  9 22:02:04, orodruin postfix/pickup[9319], 9570F248DF9, uid=33 from=<www-data>
+Oct  9 22:02:04, orodruin postfix/cleanup[9391], 9570F248DF9, message-id=<20111009163204.9570F248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 22:02:04, orodruin postfix/qmgr[6356], 9570F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1186, nrcpt=1 (queue active)
+Oct  9 22:02:04, orodruin postfix/smtp[9393], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 22:02:04, orodruin postfix/smtp[9393], 9570F248DF9, to=<cacofonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.04/0/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as E06AC13900)
+Oct  9 22:02:04, orodruin postfix/qmgr[6356], 9570F248DF9, removed
+Oct  9 22:32:57, orodruin postfix/pickup[9465], 7CE91248DF9, uid=33 from=<www-data>
+Oct  9 22:32:57, orodruin postfix/cleanup[9469], 7CE91248DF9, message-id=<20111009170257.7CE91248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 22:32:57, orodruin postfix/qmgr[6356], 7CE91248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1072, nrcpt=1 (queue active)
+Oct  9 22:32:57, orodruin postfix/smtp[9471], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 22:32:57, orodruin postfix/smtp[9471], 7CE91248DF9, to=<cacofonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.06/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as C6F1713900)
+Oct  9 22:32:57, orodruin postfix/qmgr[6356], 7CE91248DF9, removed
+Oct  9 22:50:12, orodruin postfix/pickup[9465], E49AD248DF9, uid=33 from=<www-data>
+Oct  9 22:50:12, orodruin postfix/cleanup[9519], E49AD248DF9, message-id=<20111009172012.E49AD248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 22:50:12, orodruin postfix/qmgr[6356], E49AD248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1033, nrcpt=1 (queue active)
+Oct  9 22:50:13, orodruin postfix/smtp[9521], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 22:50:13, orodruin postfix/smtp[9521], E49AD248DF9, to=<geriatrix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.04/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 35F7813900)
+Oct  9 22:50:13, orodruin postfix/qmgr[6356], E49AD248DF9, removed
+Oct  9 22:50:33, orodruin postfix/pickup[9465], 4745F248DF9, uid=33 from=<www-data>
+Oct  9 22:50:33, orodruin postfix/cleanup[9519], 4745F248DF9, message-id=<20111009172033.4745F248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 22:50:33, orodruin postfix/qmgr[6356], 4745F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1033, nrcpt=1 (queue active)
+Oct  9 22:50:33, orodruin postfix/smtp[9521], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 22:50:33, orodruin postfix/smtp[9521], 4745F248DF9, to=<geriatrix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.04/0/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 8DD7A13900)
+Oct  9 22:50:33, orodruin postfix/qmgr[6356], 4745F248DF9, removed
+Oct  9 23:31:19, orodruin postfix/pickup[9465], 86459248DF9, uid=33 from=<www-data>
+Oct  9 23:31:19, orodruin postfix/cleanup[9630], 86459248DF9, message-id=<20111009180119.86459248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 23:31:19, orodruin postfix/qmgr[6356], 86459248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct  9 23:31:19, orodruin postfix/smtp[9632], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 23:31:19, orodruin postfix/smtp[9632], 86459248DF9, to=<unhygenix@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.25, delays=0.06/0.01/0.15/0.03, dsn=2.0.0, status=sent (250 Ok, queued as D79DF13900)
+Oct  9 23:31:19, orodruin postfix/qmgr[6356], 86459248DF9, removed
+Oct  9 23:31:25, orodruin postfix/pickup[9465], 76730248DF9, uid=33 from=<www-data>
+Oct  9 23:31:25, orodruin postfix/cleanup[9630], 76730248DF9, message-id=<20111009180125.76730248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 23:31:25, orodruin postfix/qmgr[6356], 76730248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct  9 23:31:25, orodruin postfix/smtp[9632], 76730248DF9, to=<unhygenix@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.08/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as AD27213900)
+Oct  9 23:31:25, orodruin postfix/qmgr[6356], 76730248DF9, removed
+Oct  9 23:51:24, orodruin postfix/pickup[9465], 14E7A248DF9, uid=33 from=<www-data>
+Oct  9 23:51:24, orodruin postfix/cleanup[9655], 14E7A248DF9, message-id=<20111009182124.14E7A248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 23:51:24, orodruin postfix/qmgr[6356], 14E7A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1188, nrcpt=1 (queue active)
+Oct  9 23:51:24, orodruin postfix/smtp[9657], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 23:51:24, orodruin postfix/smtp[9657], 14E7A248DF9, to=<saxophonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.03/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 5543413900)
+Oct  9 23:51:24, orodruin postfix/qmgr[6356], 14E7A248DF9, removed
+Oct  9 23:52:13, orodruin postfix/pickup[9465], EB504248DF9, uid=33 from=<www-data>
+Oct  9 23:52:13, orodruin postfix/cleanup[9655], EB504248DF9, message-id=<20111009182213.EB504248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 23:52:13, orodruin postfix/qmgr[6356], EB504248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1081, nrcpt=1 (queue active)
+Oct  9 23:52:14, orodruin postfix/smtp[9657], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 23:52:14, orodruin postfix/smtp[9657], EB504248DF9, to=<caesar@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.06/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 35DDD13900)
+Oct  9 23:52:14, orodruin postfix/qmgr[6356], EB504248DF9, removed
+Oct  9 23:52:49, orodruin postfix/pickup[9465], 536CB248DF9, uid=33 from=<www-data>
+Oct  9 23:52:49, orodruin postfix/cleanup[9655], 536CB248DF9, message-id=<20111009182249.536CB248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 23:52:49, orodruin postfix/qmgr[6356], 536CB248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1188, nrcpt=1 (queue active)
+Oct  9 23:52:49, orodruin postfix/smtp[9657], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 23:52:49, orodruin postfix/smtp[9657], 536CB248DF9, to=<saxophonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.04/0/0.11/0, dsn=2.0.0, status=sent (250 Ok, queued as 983AD13900)
+Oct  9 23:52:49, orodruin postfix/qmgr[6356], 536CB248DF9, removed
+Oct  9 23:53:15, orodruin postfix/pickup[9465], BEDAE248DF9, uid=33 from=<www-data>
+Oct  9 23:53:15, orodruin postfix/cleanup[9655], BEDAE248DF9, message-id=<20111009182315.BEDAE248DF9@orodruin.cse.iitb.ac.in>
+Oct  9 23:53:15, orodruin postfix/qmgr[6356], BEDAE248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1188, nrcpt=1 (queue active)
+Oct  9 23:53:15, orodruin postfix/smtp[9657], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct  9 23:53:15, orodruin postfix/smtp[9657], BEDAE248DF9, to=<saxophonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.04/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 0775313900)
+Oct  9 23:53:15, orodruin postfix/qmgr[6356], BEDAE248DF9, removed
+Oct 10 00:13:51, orodruin postfix/pickup[9678], 3EEE7248DF9, uid=33 from=<www-data>
+Oct 10 00:13:51, orodruin postfix/cleanup[9698], 3EEE7248DF9, message-id=<20111009184351.3EEE7248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 00:13:51, orodruin postfix/qmgr[6356], 3EEE7248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1074, nrcpt=1 (queue active)
+Oct 10 00:13:51, orodruin postfix/smtp[9700], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 00:13:51, orodruin postfix/smtp[9700], 3EEE7248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.03/0.01/0.1/0.04, dsn=2.0.0, status=sent (250 Ok, queued as 85A2A13900)
+Oct 10 00:13:51, orodruin postfix/qmgr[6356], 3EEE7248DF9, removed
+Oct 10 01:09:51, orodruin postfix/pickup[9678], A9560248DF9, uid=33 from=<www-data>
+Oct 10 01:09:51, orodruin postfix/cleanup[9738], A9560248DF9, message-id=<20111009193951.A9560248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 01:09:51, orodruin postfix/qmgr[6356], A9560248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 01:09:51, orodruin postfix/smtp[9740], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 01:09:51, orodruin postfix/smtp[9740], A9560248DF9, to=<asterix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.21, delays=0.07/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as E7C4313900)
+Oct 10 01:09:51, orodruin postfix/qmgr[6356], A9560248DF9, removed
+Oct 10 08:27:17, orodruin postfix/pickup[10199], 9881B248DF9, uid=33 from=<www-data>
+Oct 10 08:27:17, orodruin postfix/cleanup[10203], 9881B248DF9, message-id=<20111010025717.9881B248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 08:27:17, orodruin postfix/qmgr[6356], 9881B248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1072, nrcpt=1 (queue active)
+Oct 10 08:27:17, orodruin postfix/smtp[10205], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 08:27:17, orodruin postfix/smtp[10205], 9881B248DF9, to=<cacofonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.26, delays=0.07/0.09/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as DD8D213900)
+Oct 10 08:27:17, orodruin postfix/qmgr[6356], 9881B248DF9, removed
+Oct 10 08:32:26, orodruin postfix/pickup[10199], 4622A248DF9, uid=33 from=<www-data>
+Oct 10 08:32:26, orodruin postfix/cleanup[10209], 4622A248DF9, message-id=<20111010030226.4622A248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 08:32:26, orodruin postfix/qmgr[6356], 4622A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1072, nrcpt=1 (queue active)
+Oct 10 08:32:26, orodruin postfix/smtp[10211], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 08:32:26, orodruin postfix/smtp[10211], 4622A248DF9, to=<cacofonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.07/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 7207213900)
+Oct 10 08:32:26, orodruin postfix/qmgr[6356], 4622A248DF9, removed
+Oct 10 08:51:02, orodruin postfix/pickup[10199], 44087248DF9, uid=33 from=<www-data>
+Oct 10 08:51:02, orodruin postfix/cleanup[10241], 44087248DF9, message-id=<20111010032102.44087248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 08:51:02, orodruin postfix/qmgr[6356], 44087248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1074, nrcpt=1 (queue active)
+Oct 10 08:51:02, orodruin postfix/smtp[10243], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 08:51:02, orodruin postfix/smtp[10243], 44087248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.04/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 764A113900)
+Oct 10 08:51:02, orodruin postfix/qmgr[6356], 44087248DF9, removed
+Oct 10 09:13:07, orodruin postfix/pickup[10199], 2472F248DF9, uid=33 from=<www-data>
+Oct 10 09:13:07, orodruin postfix/cleanup[10269], 2472F248DF9, message-id=<20111010034307.2472F248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 09:13:07, orodruin postfix/qmgr[6356], 2472F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1033, nrcpt=1 (queue active)
+Oct 10 09:13:07, orodruin postfix/smtp[10271], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 09:13:07, orodruin postfix/smtp[10271], 2472F248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.08/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 5B80013900)
+Oct 10 09:13:07, orodruin postfix/qmgr[6356], 2472F248DF9, removed
+Oct 10 09:13:20, orodruin postfix/pickup[10199], 674D4248DF9, uid=33 from=<www-data>
+Oct 10 09:13:20, orodruin postfix/cleanup[10269], 674D4248DF9, message-id=<20111010034320.674D4248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 09:13:20, orodruin postfix/qmgr[6356], 674D4248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1033, nrcpt=1 (queue active)
+Oct 10 09:13:20, orodruin postfix/smtp[10271], 674D4248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.09, delays=0.03/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 8B7B113900)
+Oct 10 09:13:20, orodruin postfix/qmgr[6356], 674D4248DF9, removed
+Oct 10 09:13:40, orodruin postfix/pickup[10199], 5B1CB248DF9, uid=33 from=<www-data>
+Oct 10 09:13:40, orodruin postfix/cleanup[10269], 5B1CB248DF9, message-id=<20111010034340.5B1CB248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 09:13:40, orodruin postfix/qmgr[6356], 5B1CB248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1033, nrcpt=1 (queue active)
+Oct 10 09:13:40, orodruin postfix/smtp[10271], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 09:13:40, orodruin postfix/smtp[10271], 5B1CB248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.03/0/0.16/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 960B213900)
+Oct 10 09:13:40, orodruin postfix/qmgr[6356], 5B1CB248DF9, removed
+Oct 10 09:13:59, orodruin postfix/pickup[10199], BA636248DF9, uid=33 from=<www-data>
+Oct 10 09:13:59, orodruin postfix/cleanup[10269], BA636248DF9, message-id=<20111010034359.BA636248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 09:13:59, orodruin postfix/qmgr[6356], BA636248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1019, nrcpt=1 (queue active)
+Oct 10 09:13:59, orodruin postfix/smtp[10271], BA636248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.07/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as E072413900)
+Oct 10 09:13:59, orodruin postfix/qmgr[6356], BA636248DF9, removed
+Oct 10 09:21:20, orodruin postfix/pickup[10199], B6B8A248DF9, uid=33 from=<www-data>
+Oct 10 09:21:20, orodruin postfix/cleanup[10294], B6B8A248DF9, message-id=<20111010035120.B6B8A248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 09:21:20, orodruin postfix/qmgr[6356], B6B8A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1019, nrcpt=1 (queue active)
+Oct 10 09:21:20, orodruin postfix/smtp[10296], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 09:21:20, orodruin postfix/smtp[10296], B6B8A248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.05/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as E3A2A13900)
+Oct 10 09:21:20, orodruin postfix/qmgr[6356], B6B8A248DF9, removed
+Oct 10 09:54:58, orodruin postfix/pickup[10398], BE60D248DF9, uid=33 from=<www-data>
+Oct 10 09:54:58, orodruin postfix/cleanup[10405], BE60D248DF9, message-id=<20111010042458.BE60D248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 09:54:58, orodruin postfix/qmgr[6356], BE60D248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1055, nrcpt=1 (queue active)
+Oct 10 09:54:58, orodruin postfix/smtp[10407], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 09:54:58, orodruin postfix/smtp[10407], BE60D248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.05/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as EC96413900)
+Oct 10 09:54:58, orodruin postfix/qmgr[6356], BE60D248DF9, removed
+Oct 10 10:00:49, orodruin postfix/pickup[10398], B8A96248DF9, uid=33 from=<www-data>
+Oct 10 10:00:49, orodruin postfix/cleanup[10427], B8A96248DF9, message-id=<20111010043049.B8A96248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 10:00:49, orodruin postfix/qmgr[6356], B8A96248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 10:00:49, orodruin postfix/smtp[10429], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 10:00:49, orodruin postfix/smtp[10429], B8A96248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.03/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as E495713900)
+Oct 10 10:00:49, orodruin postfix/qmgr[6356], B8A96248DF9, removed
+Oct 10 10:06:04, orodruin postfix/pickup[10398], 0EF62248DF9, uid=33 from=<www-data>
+Oct 10 10:06:04, orodruin postfix/cleanup[10458], 0EF62248DF9, message-id=<20111010043604.0EF62248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 10:06:04, orodruin postfix/qmgr[6356], 0EF62248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1055, nrcpt=1 (queue active)
+Oct 10 10:06:04, orodruin postfix/smtp[10460], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 10:06:04, orodruin postfix/smtp[10460], 0EF62248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.06/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3E33913900)
+Oct 10 10:06:04, orodruin postfix/qmgr[6356], 0EF62248DF9, removed
+Oct 10 10:32:53, orodruin postfix/pickup[10398], 0190A248DF9, uid=33 from=<www-data>
+Oct 10 10:32:53, orodruin postfix/cleanup[10493], 0190A248DF9, message-id=<20111010050253.0190A248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 10:32:53, orodruin postfix/qmgr[6356], 0190A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 10:32:53, orodruin postfix/smtp[10495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 10:32:53, orodruin postfix/smtp[10495], 0190A248DF9, to=<asterix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.07/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 2A69713900)
+Oct 10 10:32:53, orodruin postfix/qmgr[6356], 0190A248DF9, removed
+Oct 10 10:34:01, orodruin postfix/pickup[10398], 29351248DF9, uid=33 from=<www-data>
+Oct 10 10:34:01, orodruin postfix/cleanup[10493], 29351248DF9, message-id=<20111010050401.29351248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 10:34:01, orodruin postfix/qmgr[6356], 29351248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1056, nrcpt=1 (queue active)
+Oct 10 10:34:01, orodruin postfix/smtp[10495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 10:34:01, orodruin postfix/smtp[10495], 29351248DF9, to=<impedimenta@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.06/0/0.14/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 5FFA513900)
+Oct 10 10:34:01, orodruin postfix/qmgr[6356], 29351248DF9, removed
+Oct 10 10:34:25, orodruin postfix/pickup[10398], C9CD1248DF9, uid=33 from=<www-data>
+Oct 10 10:34:25, orodruin postfix/cleanup[10493], C9CD1248DF9, message-id=<20111010050425.C9CD1248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 10:34:25, orodruin postfix/qmgr[6356], C9CD1248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1056, nrcpt=1 (queue active)
+Oct 10 10:34:25, orodruin postfix/smtp[10495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 10:34:25, orodruin postfix/smtp[10495], C9CD1248DF9, to=<impedimenta@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.06/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as F180913900)
+Oct 10 10:34:25, orodruin postfix/qmgr[6356], C9CD1248DF9, removed
+Oct 10 10:35:11, orodruin postfix/pickup[10398], 4CBA3248DF9, uid=33 from=<www-data>
+Oct 10 10:35:11, orodruin postfix/cleanup[10493], 4CBA3248DF9, message-id=<20111010050511.4CBA3248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 10:35:11, orodruin postfix/qmgr[6356], 4CBA3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1201, nrcpt=1 (queue active)
+Oct 10 10:35:11, orodruin postfix/smtp[10495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 10:35:11, orodruin postfix/smtp[10495], 4CBA3248DF9, to=<violinstix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.04/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 74E8A13900)
+Oct 10 10:35:11, orodruin postfix/qmgr[6356], 4CBA3248DF9, removed
+Oct 10 10:41:22, orodruin postfix/pickup[10398], 77362248DF9, uid=33 from=<www-data>
+Oct 10 10:41:22, orodruin postfix/cleanup[10571], 77362248DF9, message-id=<20111010051122.77362248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 10:41:22, orodruin postfix/qmgr[6356], 77362248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1030, nrcpt=1 (queue active)
+Oct 10 10:41:22, orodruin postfix/smtp[10573], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 10:41:22, orodruin postfix/smtp[10573], 77362248DF9, to=<violinstix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.04/0.01/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as A388F13900)
+Oct 10 10:41:22, orodruin postfix/qmgr[6356], 77362248DF9, removed
+Oct 10 10:41:29, orodruin postfix/pickup[10398], 06467248DF9, uid=33 from=<www-data>
+Oct 10 10:41:29, orodruin postfix/cleanup[10571], 06467248DF9, message-id=<20111010051129.06467248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 10:41:29, orodruin postfix/qmgr[6356], 06467248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1030, nrcpt=1 (queue active)
+Oct 10 10:41:29, orodruin postfix/smtp[10573], 06467248DF9, to=<violinstix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.08/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 2A47013900)
+Oct 10 10:41:29, orodruin postfix/qmgr[6356], 06467248DF9, removed
+Oct 10 11:19:07, orodruin postfix/pickup[10398], 7AF97248DF9, uid=33 from=<www-data>
+Oct 10 11:19:07, orodruin postfix/cleanup[10628], 7AF97248DF9, message-id=<20111010054907.7AF97248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 11:19:07, orodruin postfix/qmgr[6356], 7AF97248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 11:19:07, orodruin postfix/smtp[10630], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:19:07, orodruin postfix/smtp[10630], 7AF97248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.05/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as A32BF13900)
+Oct 10 11:19:07, orodruin postfix/qmgr[6356], 7AF97248DF9, removed
+Oct 10 11:20:10, orodruin postfix/pickup[10398], 06454248DF9, uid=33 from=<www-data>
+Oct 10 11:20:10, orodruin postfix/cleanup[10628], 06454248DF9, message-id=<20111010055010.06454248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 11:20:10, orodruin postfix/qmgr[6356], 06454248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 11:20:10, orodruin postfix/smtp[10630], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:20:10, orodruin postfix/smtp[10630], 06454248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.11, delays=0.02/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 266B513900)
+Oct 10 11:20:10, orodruin postfix/qmgr[6356], 06454248DF9, removed
+Oct 10 11:43:38, orodruin postfix/pickup[10662], 163DA248DF9, uid=33 from=<www-data>
+Oct 10 11:43:38, orodruin postfix/cleanup[10705], 163DA248DF9, message-id=<20111010061338.163DA248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 11:43:38, orodruin postfix/qmgr[6356], 163DA248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1074, nrcpt=1 (queue active)
+Oct 10 11:43:38, orodruin postfix/smtp[10707], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:43:39, orodruin postfix/smtp[10707], 163DA248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=1.6, delays=0.05/0.01/1.6/0.01, dsn=2.0.0, status=sent (250 Ok, queued as B039C13900)
+Oct 10 11:43:39, orodruin postfix/qmgr[6356], 163DA248DF9, removed
+Oct 10 11:47:02, orodruin postfix/pickup[10662], F28F3248DF9, uid=33 from=<www-data>
+Oct 10 11:47:02, orodruin postfix/cleanup[10711], F28F3248DF9, message-id=<20111010061702.F28F3248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 11:47:03, orodruin postfix/qmgr[6356], F28F3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1172, nrcpt=1 (queue active)
+Oct 10 11:47:03, orodruin postfix/pickup[10662], 032702481E1, uid=33 from=<www-data>
+Oct 10 11:47:03, orodruin postfix/cleanup[10711], 032702481E1, message-id=<20111010061703.032702481E1@orodruin.cse.iitb.ac.in>
+Oct 10 11:47:03, orodruin postfix/qmgr[6356], 032702481E1, from=<www-data@orodruin.cse.iitb.ac.in>, size=1165, nrcpt=1 (queue active)
+Oct 10 11:47:03, orodruin postfix/pickup[10662], 05C1B248DFC, uid=33 from=<www-data>
+Oct 10 11:47:03, orodruin postfix/cleanup[10711], 05C1B248DFC, message-id=<20111010061703.05C1B248DFC@orodruin.cse.iitb.ac.in>
+Oct 10 11:47:03, orodruin postfix/qmgr[6356], 05C1B248DFC, from=<www-data@orodruin.cse.iitb.ac.in>, size=1166, nrcpt=1 (queue active)
+Oct 10 11:47:03, orodruin postfix/smtp[10720], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:47:03, orodruin postfix/smtp[10720], 032702481E1, to=<varsha@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.02/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 29A5F13900)
+Oct 10 11:47:03, orodruin postfix/qmgr[6356], 032702481E1, removed
+Oct 10 11:47:03, orodruin postfix/smtp[10716], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:47:03, orodruin postfix/smtp[10721], 05C1B248DFC, to=<saxophonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.04/0.01/0.13/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3932013906)
+Oct 10 11:47:03, orodruin postfix/qmgr[6356], 05C1B248DFC, removed
+Oct 10 11:47:03, orodruin postfix/smtp[10716], F28F3248DF9, to=<puru@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.26, delays=0.05/0.01/0.2/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3FB4F13908)
+Oct 10 11:47:03, orodruin postfix/qmgr[6356], F28F3248DF9, removed
+Oct 10 11:49:44, orodruin postfix/pickup[10662], 6DC7F248DF9, uid=33 from=<www-data>
+Oct 10 11:49:44, orodruin postfix/cleanup[10737], 6DC7F248DF9, message-id=<20111010061944.6DC7F248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 11:49:44, orodruin postfix/qmgr[6356], 6DC7F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1193, nrcpt=1 (queue active)
+Oct 10 11:49:44, orodruin postfix/smtp[10739], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:49:44, orodruin postfix/smtp[10739], 6DC7F248DF9, to=<vitalstatistix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.03/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 957EF13900)
+Oct 10 11:49:44, orodruin postfix/qmgr[6356], 6DC7F248DF9, removed
+Oct 10 11:50:25, orodruin postfix/pickup[10662], 63E11248DF9, uid=33 from=<www-data>
+Oct 10 11:50:25, orodruin postfix/cleanup[10737], 63E11248DF9, message-id=<20111010062025.63E11248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 11:50:25, orodruin postfix/qmgr[6356], 63E11248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1172, nrcpt=1 (queue active)
+Oct 10 11:50:25, orodruin postfix/pickup[10662], 6BD212481E1, uid=33 from=<www-data>
+Oct 10 11:50:25, orodruin postfix/cleanup[10737], 6BD212481E1, message-id=<20111010062025.6BD212481E1@orodruin.cse.iitb.ac.in>
+Oct 10 11:50:25, orodruin postfix/qmgr[6356], 6BD212481E1, from=<www-data@orodruin.cse.iitb.ac.in>, size=1165, nrcpt=1 (queue active)
+Oct 10 11:50:25, orodruin postfix/pickup[10662], 732E5248DFC, uid=33 from=<www-data>
+Oct 10 11:50:25, orodruin postfix/cleanup[10737], 732E5248DFC, message-id=<20111010062025.732E5248DFC@orodruin.cse.iitb.ac.in>
+Oct 10 11:50:25, orodruin postfix/qmgr[6356], 732E5248DFC, from=<www-data@orodruin.cse.iitb.ac.in>, size=1166, nrcpt=1 (queue active)
+Oct 10 11:50:25, orodruin postfix/smtp[10739], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:50:25, orodruin postfix/smtp[10750], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:50:25, orodruin postfix/smtp[10750], 6BD212481E1, to=<varsha@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.29, delays=0.05/0.01/0.23/0.01, dsn=2.0.0, status=sent (250 Ok, queued as B585D13900)
+Oct 10 11:50:25, orodruin postfix/qmgr[6356], 6BD212481E1, removed
+Oct 10 11:50:25, orodruin postfix/smtp[10739], 63E11248DF9, to=<puru@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.35, delays=0.07/0/0.28/0, dsn=2.0.0, status=sent (250 Ok, queued as B7D1413906)
+Oct 10 11:50:25, orodruin postfix/qmgr[6356], 63E11248DF9, removed
+Oct 10 11:50:25, orodruin postfix/smtp[10751], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:50:25, orodruin postfix/smtp[10751], 732E5248DFC, to=<saxophonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.33, delays=0.05/0.01/0.27/0.01, dsn=2.0.0, status=sent (250 Ok, queued as C670913908)
+Oct 10 11:50:25, orodruin postfix/qmgr[6356], 732E5248DFC, removed
+Oct 10 11:52:50, orodruin postfix/pickup[10662], 7543D248DF9, uid=33 from=<www-data>
+Oct 10 11:52:50, orodruin postfix/cleanup[10778], 7543D248DF9, message-id=<20111010062250.7543D248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 11:52:50, orodruin postfix/qmgr[6356], 7543D248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1172, nrcpt=1 (queue active)
+Oct 10 11:52:50, orodruin postfix/pickup[10662], 7CEF82481E1, uid=33 from=<www-data>
+Oct 10 11:52:50, orodruin postfix/cleanup[10778], 7CEF82481E1, message-id=<20111010062250.7CEF82481E1@orodruin.cse.iitb.ac.in>
+Oct 10 11:52:50, orodruin postfix/qmgr[6356], 7CEF82481E1, from=<www-data@orodruin.cse.iitb.ac.in>, size=1165, nrcpt=1 (queue active)
+Oct 10 11:52:50, orodruin postfix/pickup[10662], 84441248DFC, uid=33 from=<www-data>
+Oct 10 11:52:50, orodruin postfix/cleanup[10778], 84441248DFC, message-id=<20111010062250.84441248DFC@orodruin.cse.iitb.ac.in>
+Oct 10 11:52:50, orodruin postfix/smtp[10783], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:52:50, orodruin postfix/qmgr[6356], 84441248DFC, from=<www-data@orodruin.cse.iitb.ac.in>, size=1166, nrcpt=1 (queue active)
+Oct 10 11:52:50, orodruin postfix/smtp[10787], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:52:50, orodruin postfix/smtp[10787], 7CEF82481E1, to=<varsha@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.06/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as A9E6313900)
+Oct 10 11:52:50, orodruin postfix/qmgr[6356], 7CEF82481E1, removed
+Oct 10 11:52:50, orodruin postfix/smtp[10783], 7543D248DF9, to=<puru@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.23, delays=0.05/0.01/0.12/0.05, dsn=2.0.0, status=sent (250 Ok, queued as AA14C13906)
+Oct 10 11:52:50, orodruin postfix/qmgr[6356], 7543D248DF9, removed
+Oct 10 11:52:50, orodruin postfix/smtp[10788], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:52:50, orodruin postfix/smtp[10788], 84441248DFC, to=<saxophonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.25, delays=0.05/0.01/0.19/0.01, dsn=2.0.0, status=sent (250 Ok, queued as C46AC13908)
+Oct 10 11:52:50, orodruin postfix/qmgr[6356], 84441248DFC, removed
+Oct 10 11:53:10, orodruin postfix/pickup[10662], A01C3248DF9, uid=33 from=<www-data>
+Oct 10 11:53:10, orodruin postfix/cleanup[10778], A01C3248DF9, message-id=<20111010062310.A01C3248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 11:53:10, orodruin postfix/qmgr[6356], A01C3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1152, nrcpt=1 (queue active)
+Oct 10 11:53:10, orodruin postfix/smtp[10787], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 11:53:10, orodruin postfix/smtp[10787], A01C3248DF9, to=<vitalstatistix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.08/0/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as CABF813900)
+Oct 10 11:53:10, orodruin postfix/qmgr[6356], A01C3248DF9, removed
+Oct 10 12:04:47, orodruin postfix/pickup[10662], 92923248DF9, uid=33 from=<www-data>
+Oct 10 12:04:47, orodruin postfix/cleanup[10830], 92923248DF9, message-id=<20111010063447.92923248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:04:47, orodruin postfix/qmgr[6356], 92923248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct 10 12:04:47, orodruin postfix/smtp[10832], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:04:47, orodruin postfix/smtp[10832], 92923248DF9, to=<unhygenix@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.08/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as B693C13900)
+Oct 10 12:04:47, orodruin postfix/qmgr[6356], 92923248DF9, removed
+Oct 10 12:05:06, orodruin postfix/pickup[10662], 76526248DF9, uid=33 from=<www-data>
+Oct 10 12:05:06, orodruin postfix/cleanup[10830], 76526248DF9, message-id=<20111010063506.76526248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:05:06, orodruin postfix/qmgr[6356], 76526248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct 10 12:05:06, orodruin postfix/smtp[10832], 76526248DF9, to=<unhygenix@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.1, delays=0.04/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 92EEF13900)
+Oct 10 12:05:06, orodruin postfix/qmgr[6356], 76526248DF9, removed
+Oct 10 12:05:31, orodruin postfix/pickup[10662], E4709248DF9, uid=33 from=<www-data>
+Oct 10 12:05:31, orodruin postfix/cleanup[10830], E4709248DF9, message-id=<20111010063531.E4709248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:05:31, orodruin postfix/qmgr[6356], E4709248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct 10 12:05:31, orodruin postfix/smtp[10832], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:05:32, orodruin postfix/smtp[10832], E4709248DF9, to=<unhygenix@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.03/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 106C213900)
+Oct 10 12:05:32, orodruin postfix/qmgr[6356], E4709248DF9, removed
+Oct 10 12:26:17, orodruin postfix/pickup[10662], 8436E248DF9, uid=33 from=<www-data>
+Oct 10 12:26:17, orodruin postfix/cleanup[10885], 8436E248DF9, message-id=<20111010065617.8436E248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:26:17, orodruin postfix/qmgr[6356], 8436E248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 12:26:17, orodruin postfix/smtp[10887], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:26:17, orodruin postfix/smtp[10887], 8436E248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.05/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as A6AA913900)
+Oct 10 12:26:17, orodruin postfix/qmgr[6356], 8436E248DF9, removed
+Oct 10 12:26:59, orodruin postfix/pickup[10662], 081F5248DF9, uid=33 from=<www-data>
+Oct 10 12:26:59, orodruin postfix/cleanup[10885], 081F5248DF9, message-id=<20111010065659.081F5248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:26:59, orodruin postfix/qmgr[6356], 081F5248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1143, nrcpt=1 (queue active)
+Oct 10 12:26:59, orodruin postfix/smtp[10887], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:26:59, orodruin postfix/smtp[10887], 081F5248DF9, to=<vitalstatistix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.06/0/0.07/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 27A6013900)
+Oct 10 12:26:59, orodruin postfix/qmgr[6356], 081F5248DF9, removed
+Oct 10 12:27:32, orodruin postfix/pickup[10662], 2C863248DF9, uid=33 from=<www-data>
+Oct 10 12:27:32, orodruin postfix/cleanup[10885], 2C863248DF9, message-id=<20111010065732.2C863248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:27:32, orodruin postfix/qmgr[6356], 2C863248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1031, nrcpt=1 (queue active)
+Oct 10 12:27:32, orodruin postfix/smtp[10887], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:27:32, orodruin postfix/smtp[10887], 2C863248DF9, to=<jellibabix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.05/0/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 5240D13900)
+Oct 10 12:27:32, orodruin postfix/qmgr[6356], 2C863248DF9, removed
+Oct 10 12:28:58, orodruin postfix/pickup[10662], 34FF8248DF9, uid=33 from=<www-data>
+Oct 10 12:28:58, orodruin postfix/cleanup[10885], 34FF8248DF9, message-id=<20111010065858.34FF8248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:28:58, orodruin postfix/qmgr[6356], 34FF8248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 12:28:58, orodruin postfix/smtp[10887], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:28:58, orodruin postfix/smtp[10887], 34FF8248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.06/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 5629513900)
+Oct 10 12:28:58, orodruin postfix/qmgr[6356], 34FF8248DF9, removed
+Oct 10 12:29:08, orodruin postfix/pickup[10662], 7115C248DF9, uid=33 from=<www-data>
+Oct 10 12:29:08, orodruin postfix/cleanup[10885], 7115C248DF9, message-id=<20111010065908.7115C248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:29:08, orodruin postfix/qmgr[6356], 7115C248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1031, nrcpt=1 (queue active)
+Oct 10 12:29:08, orodruin postfix/smtp[10887], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:29:08, orodruin postfix/smtp[10887], 7115C248DF9, to=<jellibabix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.04/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 904FA13900)
+Oct 10 12:29:08, orodruin postfix/qmgr[6356], 7115C248DF9, removed
+Oct 10 12:29:36, orodruin postfix/pickup[10662], 344A2248DF9, uid=33 from=<www-data>
+Oct 10 12:29:36, orodruin postfix/cleanup[10885], 344A2248DF9, message-id=<20111010065936.344A2248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:29:36, orodruin postfix/qmgr[6356], 344A2248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1160, nrcpt=1 (queue active)
+Oct 10 12:29:36, orodruin postfix/smtp[10887], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:29:36, orodruin postfix/smtp[10887], 344A2248DF9, to=<vitalstatistix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.06/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 5363113900)
+Oct 10 12:29:36, orodruin postfix/qmgr[6356], 344A2248DF9, removed
+Oct 10 12:30:28, orodruin postfix/pickup[10662], BC74E248DF9, uid=33 from=<www-data>
+Oct 10 12:30:28, orodruin postfix/cleanup[10885], BC74E248DF9, message-id=<20111010070028.BC74E248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:30:28, orodruin postfix/qmgr[6356], BC74E248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1186, nrcpt=1 (queue active)
+Oct 10 12:30:28, orodruin postfix/smtp[10887], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:30:28, orodruin postfix/smtp[10887], BC74E248DF9, to=<vitalstatistix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.05/0/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as DF01513900)
+Oct 10 12:30:28, orodruin postfix/qmgr[6356], BC74E248DF9, removed
+Oct 10 12:37:32, orodruin postfix/pickup[10662], AA788248DF9, uid=33 from=<www-data>
+Oct 10 12:37:32, orodruin postfix/cleanup[10930], AA788248DF9, message-id=<20111010070732.AA788248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:37:32, orodruin postfix/qmgr[6356], AA788248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1064, nrcpt=1 (queue active)
+Oct 10 12:37:32, orodruin postfix/smtp[10932], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:37:32, orodruin postfix/smtp[10932], AA788248DF9, to=<influenza@iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.05/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D006213900)
+Oct 10 12:37:32, orodruin postfix/qmgr[6356], AA788248DF9, removed
+Oct 10 12:41:42, orodruin postfix/pickup[10662], 9C10A248DF9, uid=33 from=<www-data>
+Oct 10 12:41:42, orodruin postfix/cleanup[10948], 9C10A248DF9, message-id=<20111010071142.9C10A248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:41:42, orodruin postfix/qmgr[6356], 9C10A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1107, nrcpt=1 (queue active)
+Oct 10 12:41:42, orodruin postfix/smtp[10951], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:41:42, orodruin postfix/smtp[10951], 9C10A248DF9, to=<jellibabix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.04/0.01/0.08/0.03, dsn=2.0.0, status=sent (250 Ok, queued as BE60413900)
+Oct 10 12:41:42, orodruin postfix/qmgr[6356], 9C10A248DF9, removed
+Oct 10 12:44:17, orodruin postfix/pickup[10952], E215E248DF9, uid=33 from=<www-data>
+Oct 10 12:44:17, orodruin postfix/cleanup[10956], E215E248DF9, message-id=<20111010071417.E215E248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:44:17, orodruin postfix/qmgr[6356], E215E248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1107, nrcpt=1 (queue active)
+Oct 10 12:44:17, orodruin postfix/smtp[10958], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:44:18, orodruin postfix/smtp[10958], E215E248DF9, to=<jellibabix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.05/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 0E98913900)
+Oct 10 12:44:18, orodruin postfix/qmgr[6356], E215E248DF9, removed
+Oct 10 12:52:24, orodruin postfix/pickup[10952], 0E5A3248DF9, uid=33 from=<www-data>
+Oct 10 12:52:24, orodruin postfix/cleanup[10962], 0E5A3248DF9, message-id=<20111010072224.0E5A3248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 12:52:24, orodruin postfix/qmgr[6356], 0E5A3248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 12:52:24, orodruin postfix/smtp[10964], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 12:52:24, orodruin postfix/smtp[10964], 0E5A3248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.21, delays=0.06/0.01/0.13/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3CD8B13900)
+Oct 10 12:52:24, orodruin postfix/qmgr[6356], 0E5A3248DF9, removed
+Oct 10 13:06:29, orodruin postfix/pickup[10952], DBD44248DF9, uid=33 from=<www-data>
+Oct 10 13:06:29, orodruin postfix/cleanup[10972], DBD44248DF9, message-id=<20111010073629.DBD44248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 13:06:29, orodruin postfix/qmgr[6356], DBD44248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1025, nrcpt=1 (queue active)
+Oct 10 13:06:29, orodruin postfix/smtp[10974], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 13:06:30, orodruin postfix/smtp[10974], DBD44248DF9, to=<ekonomikrisis@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.2, delays=0.09/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 103F213900)
+Oct 10 13:06:30, orodruin postfix/qmgr[6356], DBD44248DF9, removed
+Oct 10 13:13:31, orodruin postfix/pickup[10952], B3E2E248DF9, uid=33 from=<www-data>
+Oct 10 13:13:31, orodruin postfix/cleanup[11008], B3E2E248DF9, message-id=<20111010074331.B3E2E248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 13:13:31, orodruin postfix/qmgr[6356], B3E2E248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct 10 13:13:31, orodruin postfix/smtp[11010], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 13:13:31, orodruin postfix/smtp[11010], B3E2E248DF9, to=<vitalstatistix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.04/0.01/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as DF9CA13900)
+Oct 10 13:13:31, orodruin postfix/qmgr[6356], B3E2E248DF9, removed
+Oct 10 13:22:30, orodruin postfix/pickup[10952], 09ED8248DF9, uid=33 from=<www-data>
+Oct 10 13:22:30, orodruin postfix/cleanup[11028], 09ED8248DF9, message-id=<20111010075230.09ED8248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 13:22:30, orodruin postfix/qmgr[6356], 09ED8248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 13:22:30, orodruin postfix/smtp[11030], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 13:22:30, orodruin postfix/smtp[11030], 09ED8248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.05/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as 2E7F113900)
+Oct 10 13:22:30, orodruin postfix/qmgr[6356], 09ED8248DF9, removed
+Oct 10 13:26:59, orodruin postfix/pickup[10952], 17A6A248DF9, uid=33 from=<www-data>
+Oct 10 13:26:59, orodruin postfix/cleanup[11067], 17A6A248DF9, message-id=<20111010075659.17A6A248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 13:26:59, orodruin postfix/qmgr[6356], 17A6A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct 10 13:27:00, orodruin postfix/smtp[11069], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 13:27:00, orodruin postfix/smtp[11069], 17A6A248DF9, to=<vitalstatistix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=1.2, delays=0.06/0.01/1.1/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 4071E13900)
+Oct 10 13:27:00, orodruin postfix/qmgr[6356], 17A6A248DF9, removed
+Oct 10 13:27:19, orodruin postfix/pickup[10952], 3D83B248DF9, uid=33 from=<www-data>
+Oct 10 13:27:19, orodruin postfix/cleanup[11067], 3D83B248DF9, message-id=<20111010075719.3D83B248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 13:27:19, orodruin postfix/qmgr[6356], 3D83B248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1065, nrcpt=1 (queue active)
+Oct 10 13:27:19, orodruin postfix/smtp[11069], 3D83B248DF9, to=<vitalstatistix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.05/0/0.07/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 5AACD13900)
+Oct 10 13:27:19, orodruin postfix/qmgr[6356], 3D83B248DF9, removed
+Oct 10 13:34:09, orodruin postfix/pickup[10952], 0E871248DF9, uid=33 from=<www-data>
+Oct 10 13:34:09, orodruin postfix/cleanup[11081], 0E871248DF9, message-id=<20111010080409.0E871248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 13:34:09, orodruin postfix/qmgr[6356], 0E871248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1033, nrcpt=1 (queue active)
+Oct 10 13:34:09, orodruin postfix/smtp[11083], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 13:34:09, orodruin postfix/smtp[11083], 0E871248DF9, to=<geriatrix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.23, delays=0.03/0.01/0.18/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 43CCC13900)
+Oct 10 13:34:09, orodruin postfix/qmgr[6356], 0E871248DF9, removed
+Oct 10 13:42:21, orodruin postfix/pickup[10952], 089CA248DF9, uid=33 from=<www-data>
+Oct 10 13:42:21, orodruin postfix/cleanup[11101], 089CA248DF9, message-id=<20111010081221.089CA248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 13:42:21, orodruin postfix/qmgr[6356], 089CA248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1072, nrcpt=1 (queue active)
+Oct 10 13:42:21, orodruin postfix/smtp[11103], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 13:42:21, orodruin postfix/smtp[11103], 089CA248DF9, to=<cacofonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.04/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 2511613900)
+Oct 10 13:42:21, orodruin postfix/qmgr[6356], 089CA248DF9, removed
+Oct 10 14:02:02, orodruin postfix/pickup[10952], C20A5248DF9, uid=33 from=<www-data>
+Oct 10 14:02:02, orodruin postfix/cleanup[11165], C20A5248DF9, message-id=<20111010083202.C20A5248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:02:02, orodruin postfix/qmgr[6356], C20A5248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1039, nrcpt=1 (queue active)
+Oct 10 14:02:02, orodruin postfix/smtp[11167], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:02:02, orodruin postfix/smtp[11167], C20A5248DF9, to=<pompey@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.04/0.01/0.09/0.04, dsn=2.0.0, status=sent (250 Ok, queued as E1C8B13919)
+Oct 10 14:02:02, orodruin postfix/qmgr[6356], C20A5248DF9, removed
+Oct 10 14:02:18, orodruin postfix/pickup[10952], C9999248DF9, uid=33 from=<www-data>
+Oct 10 14:02:18, orodruin postfix/cleanup[11165], C9999248DF9, message-id=<20111010083218.C9999248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:02:18, orodruin postfix/qmgr[6356], C9999248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1039, nrcpt=1 (queue active)
+Oct 10 14:02:18, orodruin postfix/smtp[11167], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:02:18, orodruin postfix/smtp[11167], C9999248DF9, to=<pompey@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.03/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as DFB6F1391D)
+Oct 10 14:02:18, orodruin postfix/qmgr[6356], C9999248DF9, removed
+Oct 10 14:06:23, orodruin postfix/pickup[10952], E3B2D248DF9, uid=33 from=<www-data>
+Oct 10 14:06:23, orodruin postfix/cleanup[11205], E3B2D248DF9, message-id=<20111010083623.E3B2D248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:06:23, orodruin postfix/qmgr[6356], E3B2D248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1027, nrcpt=1 (queue active)
+Oct 10 14:06:23, orodruin postfix/smtp[11207], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:06:24, orodruin postfix/smtp[11207], E3B2D248DF9, to=<getafix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.04/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 0AD8C1392B)
+Oct 10 14:06:24, orodruin postfix/qmgr[6356], E3B2D248DF9, removed
+Oct 10 14:18:53, orodruin postfix/pickup[11224], A5B9D248DF9, uid=33 from=<www-data>
+Oct 10 14:18:53, orodruin postfix/cleanup[11251], A5B9D248DF9, message-id=<20111010084853.A5B9D248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:18:53, orodruin postfix/qmgr[6356], A5B9D248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=913, nrcpt=1 (queue active)
+Oct 10 14:18:53, orodruin postfix/smtp[11253], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:18:53, orodruin postfix/smtp[11253], A5B9D248DF9, to=<bacteria@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.05/0.01/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as C336F13900)
+Oct 10 14:18:53, orodruin postfix/qmgr[6356], A5B9D248DF9, removed
+Oct 10 14:19:50, orodruin postfix/pickup[11224], BF50C248DF9, uid=33 from=<www-data>
+Oct 10 14:19:50, orodruin postfix/cleanup[11251], BF50C248DF9, message-id=<20111010084950.BF50C248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:19:50, orodruin postfix/qmgr[6356], BF50C248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=664, nrcpt=1 (queue active)
+Oct 10 14:19:50, orodruin postfix/smtp[11253], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:19:50, orodruin postfix/smtp[11253], BF50C248DF9, to=<bacteria@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.05/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D8DC913906)
+Oct 10 14:19:50, orodruin postfix/qmgr[6356], BF50C248DF9, removed
+Oct 10 14:20:00, orodruin postfix/pickup[11224], CEC16248DF9, uid=33 from=<www-data>
+Oct 10 14:20:00, orodruin postfix/cleanup[11251], CEC16248DF9, message-id=<20111010085000.CEC16248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:20:00, orodruin postfix/qmgr[6356], CEC16248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1107, nrcpt=1 (queue active)
+Oct 10 14:20:00, orodruin postfix/smtp[11253], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:20:00, orodruin postfix/smtp[11253], CEC16248DF9, to=<jellibabix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.13, delays=0.04/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as E5AD513900)
+Oct 10 14:20:00, orodruin postfix/qmgr[6356], CEC16248DF9, removed
+Oct 10 14:23:24, orodruin postfix/pickup[11224], 729FD248DF9, uid=33 from=<www-data>
+Oct 10 14:23:24, orodruin postfix/cleanup[11300], 729FD248DF9, message-id=<20111010085324.729FD248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:23:24, orodruin postfix/qmgr[6356], 729FD248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1038, nrcpt=1 (queue active)
+Oct 10 14:23:24, orodruin postfix/smtp[11302], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:23:24, orodruin postfix/smtp[11302], 729FD248DF9, to=<obelix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.04/0.01/0.07/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 8880813900)
+Oct 10 14:23:24, orodruin postfix/qmgr[6356], 729FD248DF9, removed
+Oct 10 14:25:51, orodruin postfix/pickup[11224], 4DF6F248DF9, uid=33 from=<www-data>
+Oct 10 14:25:51, orodruin postfix/cleanup[11314], 4DF6F248DF9, message-id=<20111010085551.4DF6F248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:25:51, orodruin postfix/qmgr[6356], 4DF6F248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct 10 14:25:51, orodruin postfix/smtp[11316], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:25:51, orodruin postfix/smtp[11316], 4DF6F248DF9, to=<unhygenix@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.07/0.01/0.09/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 6C6CB13900)
+Oct 10 14:25:51, orodruin postfix/qmgr[6356], 4DF6F248DF9, removed
+Oct 10 14:25:56, orodruin postfix/pickup[11224], 938F5248DF9, uid=33 from=<www-data>
+Oct 10 14:25:56, orodruin postfix/cleanup[11314], 938F5248DF9, message-id=<20111010085556.938F5248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:25:56, orodruin postfix/qmgr[6356], 938F5248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct 10 14:25:56, orodruin postfix/smtp[11316], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:25:56, orodruin postfix/smtp[11316], 938F5248DF9, to=<unhygenix@gmail.com>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.04/0/0.07/0.01, dsn=2.0.0, status=sent (250 Ok, queued as AA9F613900)
+Oct 10 14:25:56, orodruin postfix/qmgr[6356], 938F5248DF9, removed
+Oct 10 14:26:48, orodruin postfix/pickup[11224], E4177248DF9, uid=33 from=<www-data>
+Oct 10 14:26:48, orodruin postfix/cleanup[11314], E4177248DF9, message-id=<20111010085648.E4177248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:26:48, orodruin postfix/qmgr[6356], E4177248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1180, nrcpt=1 (queue active)
+Oct 10 14:26:48, orodruin postfix/smtp[11316], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:26:49, orodruin postfix/smtp[11316], E4177248DF9, to=<bacteria@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.04/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 0B9EE13900)
+Oct 10 14:26:49, orodruin postfix/qmgr[6356], E4177248DF9, removed
+Oct 10 14:30:46, orodruin postfix/pickup[11224], 8854B248DF9, uid=33 from=<www-data>
+Oct 10 14:30:46, orodruin postfix/cleanup[11355], 8854B248DF9, message-id=<20111010090046.8854B248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:30:46, orodruin postfix/qmgr[6356], 8854B248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1089, nrcpt=1 (queue active)
+Oct 10 14:30:46, orodruin postfix/smtp[11357], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:30:46, orodruin postfix/smtp[11357], 8854B248DF9, to=<bacteria@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.04/0.01/0.12/0.01, dsn=2.0.0, status=sent (250 Ok, queued as AA2AB13900)
+Oct 10 14:30:46, orodruin postfix/qmgr[6356], 8854B248DF9, removed
+Oct 10 14:31:05, orodruin postfix/pickup[11224], D5857248DF9, uid=33 from=<www-data>
+Oct 10 14:31:05, orodruin postfix/cleanup[11355], D5857248DF9, message-id=<20111010090105.D5857248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:31:05, orodruin postfix/qmgr[6356], D5857248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1080, nrcpt=1 (queue active)
+Oct 10 14:31:05, orodruin postfix/smtp[11357], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:31:06, orodruin postfix/smtp[11357], D5857248DF9, to=<bacteria@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.04/0/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as F12B413900)
+Oct 10 14:31:06, orodruin postfix/qmgr[6356], D5857248DF9, removed
+Oct 10 14:31:46, orodruin postfix/pickup[11224], 0448D248DF9, uid=33 from=<www-data>
+Oct 10 14:31:46, orodruin postfix/cleanup[11355], 0448D248DF9, message-id=<20111010090146.0448D248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:31:46, orodruin postfix/qmgr[6356], 0448D248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=976, nrcpt=1 (queue active)
+Oct 10 14:31:46, orodruin postfix/smtp[11357], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:31:46, orodruin postfix/smtp[11357], 0448D248DF9, to=<bacteria@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.06/0/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 23A4A13900)
+Oct 10 14:31:46, orodruin postfix/qmgr[6356], 0448D248DF9, removed
+Oct 10 14:32:03, orodruin postfix/pickup[11224], D5868248DF9, uid=33 from=<www-data>
+Oct 10 14:32:03, orodruin postfix/cleanup[11355], D5868248DF9, message-id=<20111010090203.D5868248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:32:03, orodruin postfix/qmgr[6356], D5868248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=976, nrcpt=1 (queue active)
+Oct 10 14:32:03, orodruin postfix/smtp[11357], D5868248DF9, to=<bacteria@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.09, delays=0.03/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as E2FA913900)
+Oct 10 14:32:03, orodruin postfix/qmgr[6356], D5868248DF9, removed
+Oct 10 14:38:06, orodruin postfix/pickup[11224], 2E5EE248DF9, uid=33 from=<www-data>
+Oct 10 14:38:06, orodruin postfix/cleanup[11418], 2E5EE248DF9, message-id=<20111010090806.2E5EE248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:38:06, orodruin postfix/qmgr[6356], 2E5EE248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1034, nrcpt=1 (queue active)
+Oct 10 14:38:06, orodruin postfix/smtp[11420], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:38:06, orodruin postfix/smtp[11420], 2E5EE248DF9, to=<brawnix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.23, delays=0.05/0.01/0.15/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 598B913900)
+Oct 10 14:38:06, orodruin postfix/qmgr[6356], 2E5EE248DF9, removed
+Oct 10 14:39:13, orodruin postfix/pickup[11224], 2AED9248DF9, uid=33 from=<www-data>
+Oct 10 14:39:13, orodruin postfix/cleanup[11418], 2AED9248DF9, message-id=<20111010090913.2AED9248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:39:13, orodruin postfix/qmgr[6356], 2AED9248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1074, nrcpt=1 (queue active)
+Oct 10 14:39:13, orodruin postfix/smtp[11420], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:39:13, orodruin postfix/smtp[11420], 2AED9248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.05/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 42C0113900)
+Oct 10 14:39:13, orodruin postfix/qmgr[6356], 2AED9248DF9, removed
+Oct 10 14:48:50, orodruin postfix/pickup[11224], 4E5D8248DF9, uid=33 from=<www-data>
+Oct 10 14:48:50, orodruin postfix/cleanup[11464], 4E5D8248DF9, message-id=<20111010091850.4E5D8248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:48:50, orodruin postfix/qmgr[6356], 4E5D8248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1030, nrcpt=1 (queue active)
+Oct 10 14:48:50, orodruin postfix/smtp[11466], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:48:50, orodruin postfix/smtp[11466], 4E5D8248DF9, to=<violinstix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.05/0.01/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 6EAE813900)
+Oct 10 14:48:50, orodruin postfix/qmgr[6356], 4E5D8248DF9, removed
+Oct 10 14:53:15, orodruin postfix/pickup[11224], 65204248DF9, uid=33 from=<www-data>
+Oct 10 14:53:15, orodruin postfix/cleanup[11493], 65204248DF9, message-id=<20111010092315.65204248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:53:15, orodruin postfix/qmgr[6356], 65204248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=996, nrcpt=1 (queue active)
+Oct 10 14:53:15, orodruin postfix/smtp[11495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:53:15, orodruin postfix/smtp[11495], 65204248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.06/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 81C0813900)
+Oct 10 14:53:15, orodruin postfix/qmgr[6356], 65204248DF9, removed
+Oct 10 14:53:31, orodruin postfix/pickup[11224], B3787248DF9, uid=33 from=<www-data>
+Oct 10 14:53:31, orodruin postfix/cleanup[11493], B3787248DF9, message-id=<20111010092331.B3787248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:53:31, orodruin postfix/qmgr[6356], B3787248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=996, nrcpt=1 (queue active)
+Oct 10 14:53:31, orodruin postfix/smtp[11495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:53:31, orodruin postfix/smtp[11495], B3787248DF9, to=<cleopatra@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.28, delays=0.16/0/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as CFC9113900)
+Oct 10 14:53:31, orodruin postfix/qmgr[6356], B3787248DF9, removed
+Oct 10 14:54:18, orodruin postfix/pickup[11224], BAF64248DF9, uid=33 from=<www-data>
+Oct 10 14:54:18, orodruin postfix/cleanup[11493], BAF64248DF9, message-id=<20111010092418.BAF64248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:54:18, orodruin postfix/qmgr[6356], BAF64248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1182, nrcpt=1 (queue active)
+Oct 10 14:54:18, orodruin postfix/smtp[11495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:54:18, orodruin postfix/smtp[11495], BAF64248DF9, to=<beefix@iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.18, delays=0.06/0/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as D6F8A13900)
+Oct 10 14:54:18, orodruin postfix/qmgr[6356], BAF64248DF9, removed
+Oct 10 14:54:32, orodruin postfix/pickup[11224], 859F5248DF9, uid=33 from=<www-data>
+Oct 10 14:54:32, orodruin postfix/cleanup[11493], 859F5248DF9, message-id=<20111010092432.859F5248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:54:32, orodruin postfix/qmgr[6356], 859F5248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1069, nrcpt=1 (queue active)
+Oct 10 14:54:32, orodruin postfix/smtp[11495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:54:32, orodruin postfix/smtp[11495], 859F5248DF9, to=<beefix@iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.05/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as A117B13900)
+Oct 10 14:54:32, orodruin postfix/qmgr[6356], 859F5248DF9, removed
+Oct 10 14:54:50, orodruin postfix/pickup[11224], 21E9A248DF9, uid=33 from=<www-data>
+Oct 10 14:54:50, orodruin postfix/cleanup[11493], 21E9A248DF9, message-id=<20111010092450.21E9A248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 14:54:50, orodruin postfix/qmgr[6356], 21E9A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1055, nrcpt=1 (queue active)
+Oct 10 14:54:50, orodruin postfix/smtp[11495], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 14:54:50, orodruin postfix/smtp[11495], 21E9A248DF9, to=<fulliautomatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.07/0/0.08/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 3843D13900)
+Oct 10 14:54:50, orodruin postfix/qmgr[6356], 21E9A248DF9, removed
+Oct 10 15:10:00, orodruin postfix/pickup[11224], C3416248DF9, uid=33 from=<www-data>
+Oct 10 15:10:00, orodruin postfix/cleanup[11565], C3416248DF9, message-id=<20111010094000.C3416248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 15:10:00, orodruin postfix/qmgr[6356], C3416248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1079, nrcpt=1 (queue active)
+Oct 10 15:10:00, orodruin postfix/smtp[11567], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 15:10:00, orodruin postfix/smtp[11567], C3416248DF9, to=<saxophonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.04/0.01/0.1/0.03, dsn=2.0.0, status=sent (250 Ok, queued as DD63713900)
+Oct 10 15:10:00, orodruin postfix/qmgr[6356], C3416248DF9, removed
+Oct 10 15:10:13, orodruin postfix/pickup[11224], A0126248DF9, uid=33 from=<www-data>
+Oct 10 15:10:13, orodruin postfix/cleanup[11565], A0126248DF9, message-id=<20111010094013.A0126248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 15:10:13, orodruin postfix/qmgr[6356], A0126248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1079, nrcpt=1 (queue active)
+Oct 10 15:10:13, orodruin postfix/smtp[11567], A0126248DF9, to=<saxophonix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.12, delays=0.06/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as AD51713900)
+Oct 10 15:10:13, orodruin postfix/qmgr[6356], A0126248DF9, removed
+Oct 10 15:14:57, orodruin postfix/pickup[11224], 709BB248DF9, uid=33 from=<www-data>
+Oct 10 15:14:57, orodruin postfix/cleanup[11583], 709BB248DF9, message-id=<20111010094457.709BB248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 15:14:57, orodruin postfix/qmgr[6356], 709BB248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1074, nrcpt=1 (queue active)
+Oct 10 15:14:57, orodruin postfix/smtp[11585], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 15:14:57, orodruin postfix/smtp[11585], 709BB248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.05/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 89D9213900)
+Oct 10 15:14:57, orodruin postfix/qmgr[6356], 709BB248DF9, removed
+Oct 10 15:16:35, orodruin postfix/pickup[11224], 41D33248DF9, uid=33 from=<www-data>
+Oct 10 15:16:35, orodruin postfix/cleanup[11583], 41D33248DF9, message-id=<20111010094635.41D33248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 15:16:35, orodruin postfix/qmgr[6356], 41D33248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1027, nrcpt=1 (queue active)
+Oct 10 15:16:35, orodruin postfix/smtp[11585], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 15:16:35, orodruin postfix/smtp[11585], 41D33248DF9, to=<getafix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.15, delays=0.05/0/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 58E7E13900)
+Oct 10 15:16:35, orodruin postfix/qmgr[6356], 41D33248DF9, removed
+Oct 10 15:19:07, orodruin postfix/pickup[11224], D291A248DF9, uid=33 from=<www-data>
+Oct 10 15:19:07, orodruin postfix/cleanup[11627], D291A248DF9, message-id=<20111010094907.D291A248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 15:19:07, orodruin postfix/qmgr[6356], D291A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1066, nrcpt=1 (queue active)
+Oct 10 15:19:07, orodruin postfix/smtp[11629], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 15:19:07, orodruin postfix/smtp[11629], D291A248DF9, to=<prolix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.16, delays=0.06/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as EB76313900)
+Oct 10 15:19:07, orodruin postfix/qmgr[6356], D291A248DF9, removed
+Oct 10 15:28:10, orodruin postfix/pickup[11650], 3A8B8248DF9, uid=33 from=<www-data>
+Oct 10 15:28:10, orodruin postfix/cleanup[11657], 3A8B8248DF9, message-id=<20111010095810.3A8B8248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 15:28:10, orodruin postfix/qmgr[6356], 3A8B8248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1074, nrcpt=1 (queue active)
+Oct 10 15:28:10, orodruin postfix/smtp[11659], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 15:28:10, orodruin postfix/smtp[11659], 3A8B8248DF9, to=<dogmatix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.03/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 50FCF13900)
+Oct 10 15:28:10, orodruin postfix/qmgr[6356], 3A8B8248DF9, removed
+Oct 10 15:29:54, orodruin postfix/pickup[11650], E3A08248DF9, uid=33 from=<www-data>
+Oct 10 15:29:54, orodruin postfix/cleanup[11671], E3A08248DF9, message-id=<20111010095954.E3A08248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 15:29:54, orodruin postfix/qmgr[6356], E3A08248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1027, nrcpt=1 (queue active)
+Oct 10 15:29:55, orodruin postfix/smtp[11673], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 15:29:55, orodruin postfix/smtp[11673], E3A08248DF9, to=<getafix@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.59, delays=0.03/0.01/0.52/0.03, dsn=2.0.0, status=sent (250 Ok, queued as 7098513900)
+Oct 10 15:29:55, orodruin postfix/qmgr[6356], E3A08248DF9, removed
+Oct 10 15:44:17, orodruin postfix/pickup[11650], 66218248DF9, uid=33 from=<www-data>
+Oct 10 15:44:17, orodruin postfix/cleanup[11725], 66218248DF9, message-id=<20111010101417.66218248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 15:44:17, orodruin postfix/qmgr[6356], 66218248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1198, nrcpt=1 (queue active)
+Oct 10 15:44:17, orodruin postfix/smtp[11727], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 15:44:17, orodruin postfix/smtp[11727], 66218248DF9, to=<crismusbonus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.19, delays=0.05/0.01/0.13/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 8836D13900)
+Oct 10 15:44:17, orodruin postfix/qmgr[6356], 66218248DF9, removed
+Oct 10 19:23:25, orodruin postfix/pickup[12164], F419A248DF9, uid=33 from=<www-data>
+Oct 10 19:23:26, orodruin postfix/cleanup[12243], F419A248DF9, message-id=<20111010135325.F419A248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 19:23:26, orodruin postfix/qmgr[6356], F419A248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1378, nrcpt=1 (queue active)
+Oct 10 19:23:26, orodruin postfix/smtp[12245], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 19:23:26, orodruin postfix/smtp[12245], F419A248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.17, delays=0.07/0.01/0.09/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 0195A13900)
+Oct 10 19:23:26, orodruin postfix/qmgr[6356], F419A248DF9, removed
+Oct 10 19:24:04, orodruin postfix/pickup[12164], 4D864248DF9, uid=33 from=<www-data>
+Oct 10 19:24:04, orodruin postfix/cleanup[12243], 4D864248DF9, message-id=<20111010135404.4D864248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 19:24:04, orodruin postfix/qmgr[6356], 4D864248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1381, nrcpt=1 (queue active)
+Oct 10 19:24:04, orodruin postfix/smtp[12245], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 19:24:04, orodruin postfix/smtp[12245], 4D864248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.32, delays=0.07/0/0.24/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 7509613900)
+Oct 10 19:24:04, orodruin postfix/qmgr[6356], 4D864248DF9, removed
+Oct 10 19:24:12, orodruin postfix/pickup[12164], 1A1AA248DF9, uid=33 from=<www-data>
+Oct 10 19:24:12, orodruin postfix/cleanup[12243], 1A1AA248DF9, message-id=<20111010135412.1A1AA248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 19:24:12, orodruin postfix/qmgr[6356], 1A1AA248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1384, nrcpt=1 (queue active)
+Oct 10 19:24:12, orodruin postfix/smtp[12245], 1A1AA248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.09, delays=0.02/0/0.06/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 0A58413900)
+Oct 10 19:24:12, orodruin postfix/qmgr[6356], 1A1AA248DF9, removed
+Oct 10 19:24:58, orodruin postfix/pickup[12164], 84DE5248DF9, uid=33 from=<www-data>
+Oct 10 19:24:58, orodruin postfix/cleanup[12243], 84DE5248DF9, message-id=<20111010135458.84DE5248DF9@orodruin.cse.iitb.ac.in>
+Oct 10 19:24:58, orodruin postfix/qmgr[6356], 84DE5248DF9, from=<www-data@orodruin.cse.iitb.ac.in>, size=1327, nrcpt=1 (queue active)
+Oct 10 19:24:58, orodruin postfix/smtp[12245], certificate verification failed for smtp-auth.iitb.ac.in[10.200.1.125]:25, untrusted issuer /C=IN/ST=MAHARASHTRA/L=MUMBAI/O=IIT BOMBAY/OU=COMPUTER CENTRE/CN=smtp-auth.iitb.ac.in/emailAddress=postmaster@smtp-auth.iitb.ac.in
+Oct 10 19:24:58, orodruin postfix/smtp[12245], 84DE5248DF9, to=<asparagus@cse.iitb.ac.in>, relay=smtp-auth.iitb.ac.in[10.200.1.125]:25, delay=0.14, delays=0.02/0/0.11/0.01, dsn=2.0.0, status=sent (250 Ok, queued as 8293313900)
+Oct 10 19:24:58, orodruin postfix/qmgr[6356], 84DE5248DF9, removed

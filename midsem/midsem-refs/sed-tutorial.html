@@ -1,0 +1,1140 @@
+<HTML>
+<HEAD>
+<TITLE>sed tutorial. sed command help</TITLE>
+<link rel="stylesheet" type="text/css" href="/style.css" />
+
+</HEAD>
+<BODY>
+<a href=http://www.sedtutorial.com><img src=logo.gif border=0></a><hr>
+<table width=900><tr><td width=500 valign=top>
+<h3>SED Tutorial | Learn Linux SED</h3>
+<ul>
+<li>The sed utility is an "editor"
+<li>It is also noninteractive. This means you have to insert commands to be executed on the data at the command line or in a script to be processed.
+<li>sed accepts a series of commands and executes them on a file (or set of files).
+<li>sed fittingly stands for stream editor.
+<li>It can be used to change all occurrences (for example... in a file) of "SAD" to "SED" or "New York" to "Newport."
+<li>The stream editor is ideally suited to performing repetitive edits that would take considerable time if done manually.
+</ul>
+
+<P>
+<b>How sed Works</b>
+</P>
+<P>
+
+The sed utility works by sequentially reading a file, line by line,
+ into memory. It then performs all actions specified for the line
+
+and places the line back in memory to dump to the terminal with the
+
+requested changes made. After all actions have taken place to this
+
+one line, it reads the next line of the file and repeats the
+
+process until it is finished with the file, the
+
+output can be redirected to another file to save the changes;
+
+second, the original file, by default, is left unchanged. The
+
+default is for sed to read the entire file and make changes to each
+
+line within it.
+</P>
+<P>
+
+<b>The syntax for the utility is:</b>
+</P>
+<P>
+<PRE class=indent>
+sed [options] '{command}' [filename]
+</PRE>
+</P>
+<P>
+In this tutorial we will walk through the most commonly used commands
+and options and illustrate how they work and where they would be
+appropriate for use.
+</P>
+<P>
+
+<b>The Substitute Command</b>
+</P>
+<P>
+One of the most common uses of the sed utility, and any similar
+
+editor, is to substitute one value for another. To accomplish this,
+
+the syntax for the command portion of the operation is:
+</P>
+<P>
+<PRE class=indent>
+sed 's/{old value}/{new value}/'
+s/regular-expression/replacement text/{flags}
+</pre>
+<table border=1>
+<tr ><td colspan=2>The flags can be any of the following:</td></tr>
+<tr><td>n</td><td> replace nth instance of pattern with replacement</td></tr>
+<tr><td>g</td><td> replace all instances of pattern with replacement</td></tr>
+<tr><td>p</td><td> write pattern space to STDOUT if a successful substitution takes place</td></tr>
+<tr><td>w</td><td> file Write the pattern space to file if a successful substitution takes place </td></tr>
+</table>
+
+</P>
+<P>
+Thus, the following illustrates how "replace" can be changed to "replace with sed" very simply:
+</P>
+<P>
+<PRE class=indent>
+$ echo "learn replace" | sed 's/replace/replace with sed/'
+$ learn replace with sed
+</PRE>
+</P>
+
+
+<P>
+Notice that it is not necessary to specify a filename if input is
+
+being derived from the output of a preceding command the same
+
+as is true for awk, sort, and most other Linux/UNIX command-line
+
+utility programs.
+</P>
+<p>
+To replace contents of file "myfile.txt" (note original file is not changed)
+<PRE class=indent>
+$ sed 's/replace/replace with sed/' myfile.txt
+ learn replace with sed
+</PRE>
+</p>
+
+<P>
+
+
+<b>Multiple Changes</b>
+</P><P>
+If multiple changes need to be made to the same file or line, there
+
+are three methods by which this can be accomplished. The first is
+
+to use the "-e" option, which informs the program that more than
+
+one editing command is being used. For example:
+</P>
+<P>
+<PRE class=indent>
+$ echo "The linux group will release code after 4:00 PM" | sed -e '
+   s/linux/unix/' -e 's/after/before/'
+The unix group will release code before 4:00 PM
+$
+</PRE>
+</P>
+<P>
+This is pretty much the long way of going about it, and the "-e"
+
+option is not commonly used to any great extent. A more preferable
+
+way is to separate command with semicolons:
+</P>
+<P>
+<PRE class=indent>
+$ echo "The linux group will release code after 4:00 PM" | sed '
+   s/linux/unix/; s/after/before/'
+The unix group will release code before 4:00 PM
+$
+</PRE>
+</P>
+<P>
+Notice that the semicolon must be the next character following the
+
+slash. If a space is between the two, the operation will not
+
+successfully complete and an error message will be returned.
+</P>
+<P>
+<PRE class=indent>
+$ echo "The linux group will release code after 4:00 PM" | sed '
+> s/linux/unix/
+> s/after/before/'
+The unix group will release code before 4:00 PM
+$
+</PRE>
+</P>
+<P>
+<b>Global Changes</b>
+</P>
+<P>
+Let's begin with a deceptively simple edit. Suppose the message
+
+that is to be changed contains more than one occurrence of the item
+
+to be changed. By default, the result can be different than what
+
+was expected, as the following illustrates:
+</P>
+<P>
+<PRE class=indent>
+$ echo "The linux group will release code (linux2.5.6) after 4:00 PM" |
+sed 's/linux/unix/'
+The unix group will release code (linux2.5.6) after 4:00 PM
+$</PRE>
+</p>
+<P>
+To make changes of both occurances of linux we can use a flag "g" as below
+<PRE class=indent>
+$ echo "The linux group will release code (linux2.5.6) after 4:00 PM" |
+sed 's/linux/unix/g'
+The unix group will release code (unix2.5.6) after 4:00 PM
+$
+</PRE>
+</P>
+<P>
+<b>Selective changes</b><br>
+If you only want to make a change if certain
+
+conditions are met for example, following a match of some
+
+other data. To illustrate, consider the following text file:
+</P>
+<P>
+<PRE class=indent>
+$ cat myfile.txt
+one     1
+two     1
+three   1
+one     1
+two     1
+two     1
+three   1
+$
+</PRE>
+</P>
+<P>
+Suppose that it would be desirable for "1" to be substituted with
+
+"2," but only after the word "two" and not throughout every line.
+
+This can be accomplished by specifying that a match is to be found
+
+before giving the substitute command:
+</P>
+<P>
+<PRE class=indent>
+$ sed '/two/ s/1/2/' myfile.txt
+one     1
+two     2
+three   1
+one     1
+two     2
+two     2
+three   1
+$
+</PRE>
+</P>
+<P>
+And now, to make it even more accurate:
+</P>
+<P>
+<PRE class=indent>
+$ sed '
+> /two/ s/1/2/
+> /three/ s/1/3/' myfile.txt
+one     1
+two     2
+three   3
+one     1
+two     2
+two     2
+three   3
+$
+</PRE>
+</P>
+<P>
+The original file, it is the same as it always was.
+
+You must save the output to another file to create permanence like..
+<pre>
+$ sed '
+> /two/ s/1/2/
+> /three/ s/1/3/' myfile.txt >out.txt
+</pre>
+
+</P>
+<P>
+The output file has all the changes.
+</P>
+<P>
+
+<b>Script Files</b>
+</P>
+<P>
+The sed tool allows you to create a script file containing commands
+
+that are processed from the file, rather than at the command line,
+
+and is referenced via the "-f" option. By creating a script file,
+
+you have the ability to run the same operations over and over
+
+again, and to specify far more detailed operations than what you
+
+would want to try to tackle from the command line each time.
+</P>
+<P>
+
+Consider the following script file:
+</P>
+<P>
+<PRE class=indent>
+$ cat sedlist
+/two/ s/1/2/
+/three/ s/1/3/
+$
+</PRE>
+</P>
+<P>
+It can now be used on the data file to obtain the same results we
+
+saw earlier:
+</P>
+<P>
+<PRE class=indent>
+$ sed -f sedlist myfile.txt
+one     1
+two     2
+three   3
+one     1
+two     2
+two     2
+three   3
+$
+</PRE>
+</P>
+<P>
+Notice that apostrophes are not used inside the source file, or
+
+from the command line when the "-f" option is invoked. Script
+
+files, also known as source files, are invaluable for operations
+
+that you intend to repeat more than once and for complicated
+
+commands where there is a possibility that you may make an error at
+
+the command line. It is far easier to edit the source file and
+
+change one character than to retype a multiple-line entry at the
+
+command line.
+</P>
+<P>
+
+<b>Restricting Lines</b>
+</P>
+<P>
+The default is for the editor to look at, and for editing to take
+
+place on, every line that is input to the stream editor. This can
+
+be changed by specifying restrictions preceding the command. For
+
+example, to substitute "1" with "2" only in the fifth and sixth
+
+lines of the sample file's output, the command would be:
+</P>
+<P>
+<PRE class=indent>
+$ sed '5,6 s/1/2/' myfile.txt
+one     1
+two     1
+three   1
+one     1
+two     2
+two     2
+three   1
+$
+</PRE>
+</P>
+<P>
+In this case, since the lines to changes were specifically
+
+specified, the substitute command was not needed. Thus you have the
+
+flexibility of choosing which lines to changes (essentially,
+
+restricting the changes) based upon matching criteria that can be
+
+either line numbers or a matched pattern.
+</P>
+<P>
+
+<b>Prohibiting the Display</b>
+</P>
+<P>
+The default is for sed to display on the screen (or to a file, if
+
+so redirected) every line from the original file, whether it is
+
+affected by an edit operation or not; the "-n" parameter overrides
+
+this action. "-n" overrides all printing and displays no lines
+
+whatsoever, whether they were changed by the edit or not. For
+
+example:
+</P>
+<P>
+<PRE class=indent>
+$ sed -n -f sedlist myfile.txt
+$
+
+$ sed -n -f sedlist myfile.txt > sample_two
+$ cat sample_two
+$
+</PRE>
+</P>
+<P>
+In the first example, nothing is displayed on the screen. In the
+
+second example, nothing is changed, and thus nothing is written to
+
+the new file it ends up being empty. Doesn't this negate the
+
+whole purpose of the edit? Why is this useful? It is useful only
+
+because the "-n" option has the ability to be overridden by a print
+
+command (-p). To illustrate, suppose the script file were modified
+
+to now resemble the following:
+</P>
+<P>
+<PRE class=indent>
+$ cat sedlist
+/two/ s/1/2/p
+/three/ s/1/3/p
+$
+</PRE>
+</P>
+<P>
+Then this would be the result of running it:
+</P>
+<P>
+<PRE class=indent>
+$ sed -n -f sedlist myfile.txt
+two     2
+three   3
+two     2
+two     2
+three   3
+$
+</PRE>
+</P>
+<P>
+Lines that stay the same as they were are not displayed at all.
+
+Only the lines affected by the edit are displayed.  In this manner,
+
+it is possible to pull those lines only, make the changes, and
+
+place them in a separate file:
+</P>
+<P>
+<PRE class=indent>
+$ sed -n -f sedlist myfile.txt > sample_two
+$
+
+$ cat sample_two
+two     2
+three   3
+two     2
+two     2
+three   3
+$
+</PRE>
+</P>
+<P>
+Another method of utilizing this is to print only a set number of
+
+lines. For example, to print only lines two through six while
+
+making no other editing changes:
+</P>
+<P>
+<PRE class=indent>
+$ sed -n '2,6p' myfile.txt
+two     1
+three   1
+one     1
+two     1
+two     1
+$
+</PRE>
+</P>
+<P>
+All other lines are ignored, and only lines two through six are
+
+printed as output. This is something remarkable that you cannot do
+
+easily with any other utility. head will print the top of a file,
+
+and tail will print the bottom, but sed allows you to pull anything
+
+you want to from anywhere.
+</P>
+<P>
+
+<b>Deleting Lines</b>
+</P>
+<P>
+Substituting one value for another is far from the only function
+
+that can be performed with a stream editor. There are many more
+
+possibilities, and the second-most-used function in my opinion is
+
+delete. Delete works in the same manner as substitute, only it
+
+removes the specified lines (if you want to remove a word and not a
+
+line, don't think of deleting, but think of substituting it for
+
+nothing<TT>s/cat//</TT>).
+</P>
+<P>
+
+The syntax for the command is:
+</P>
+<P>
+<PRE class=indent>
+'{what to find} d'
+</PRE>
+</P>
+<P>
+To remove all of the lines containing "two" from the myfile.txt
+
+file:
+</P>
+<P>
+<PRE class=indent>
+$ sed '/two/ d' myfile.txt
+one     1
+three   1
+one     1
+three   1
+$
+</PRE>
+</P>
+<P>
+To remove the first three lines from the display, regardless of
+
+what they are:
+</P>
+<P>
+<PRE class=indent>
+$ sed '1,3 d' myfile.txt
+one     1
+two     1
+two     1
+three   1
+$
+</PRE>
+</P>
+<P>
+Only the remaining lines are shown, and the first three cease to
+
+exist in the display. There are several things to keep in mind with
+
+the stream editor as they relate to global expressions in general,
+
+and as they apply to deletions in particular:
+
+</P>
+<P>
+
+<LI> The up carat (^) signifies the beginning of a line, thus
+</P>
+<P>
+<PRE class=indent>
+sed '/^two/ d' myfile.txt
+</PRE>
+</P>
+<P>
+   would only delete the line if "two" were the first three
+
+characters of the line.</LI>
+
+<LI> The dollar sign ($) represents the end of the file, or the end
+
+of a line, thus
+</P>
+<P>
+<PRE class=indent>
+sed '/two$/ d' myfile.txt
+</PRE>
+</P>
+<P>
+would delete the line only if "two" were the last three characters
+
+of the line.</LI>
+
+</P>
+<P>
+
+The result of putting these two together:
+</P>
+<P>
+<PRE class=indent>
+sed '/^$/ d' {filename}
+</PRE>
+</P>
+<P>
+deletes all blank lines from a file. For example, the following
+
+substitutes "1" for "2" as well as "1" for "3" and removes any
+
+trailing lines in the file:
+</P>
+<P>
+<PRE class=indent>
+$ sed '/two/ s/1/2/; /three/ s/1/3/; /^$/ d' myfile.txt
+one     1
+two     1
+three   1
+one     1
+two     2
+two     2
+three   1
+$
+</PRE>
+</P>
+<P>
+A common use for this is to delete a header. The following command
+
+will delete all lines in a file, from the first line through to the
+
+first blank line:
+</P>
+<P>
+<PRE class=indent>
+sed '1,/^$/ d' {filename}
+</PRE>
+</P>
+<P>
+<b>Appending and Inserting Text</b>
+</P>
+<P>
+Text can be appended to the end of a file by using sed with the "a"
+
+option. This is done in the following manner:
+</P>
+<P>
+<PRE class=indent>
+$ sed '$a
+> This is where we stop
+> the test' myfile.txt
+one     1
+two     1
+three   1
+one     1
+two     1
+two     1
+three   1
+This is where we stop
+the test
+$
+</PRE>
+</P>
+<P>
+Within the command, the dollar sign ($) signifies that the text is
+
+to be appended to the end of the file. The backslashes () are
+
+necessary to signify that a carriage return is coming. If they are
+
+left out, an error will result proclaiming that the command is
+
+garbled; anywhere that a carriage return is to be entered, you must
+
+use the backslash.
+</P>
+<P>
+
+To append the lines into the fourth and fifth positions instead of
+
+at the end, the command becomes:
+</P>
+<P>
+<PRE class=indent>
+$ sed '3a
+> This is where we stop
+> the test' myfile.txt
+one     1
+two     1
+three   1
+This is where we stop
+the test
+one     1
+two     1
+two     1
+three   1
+$
+</PRE>
+</P>
+<P>
+This appends the text after the third line. As with almost any
+
+editor, you can choose to insert rather than append if you so
+
+desire. The difference between the two is that append follows the
+
+line specified, and insert starts with the line specified. When
+
+using insert instead of append, just replace the "a" with an "i,"
+
+as shown below:
+</P>
+<P>
+<PRE class=indent>
+$ sed '3i
+> This is where we stop
+> the test' myfile.txt
+one     1
+two     1
+This is where we stop
+the test
+three   1
+one     1
+two     1
+two     1
+three   1
+$
+</PRE>
+</P>
+<P>
+The new text appears in the middle of the output, and processing
+
+resumes normally after the specified operation is carried out.
+</P>
+<P>
+
+<b>Reading and Writing Files</b>
+</P>
+<P>
+The ability to redirect the output has already been illustrated,
+
+but it needs to be pointed out that files can be read in and
+
+written out to simultaneously during operation of the editing
+
+commands. For example, to perform the substitution and write the
+
+lines between one and three to a file called sample_three:
+</P>
+<P>
+<PRE class=indent>
+$ sed '
+> /two/ s/1/2/
+> /three/ s/1/3/
+> 1,3 w sample_three' myfile.txt
+one     1
+two     2
+three   3
+one     1
+two     2
+two     2
+three   3
+$
+
+$ cat sample_three
+one     1
+two     2
+three   3
+$
+</PRE>
+</P>
+<P>
+Only the lines specified are written to the new file, thanks to the
+
+"1,3" specification given to the w (write) command. Regardless of
+
+those written, all lines are displayed in the default output.
+</P>
+<P>
+
+<b>The Change Command</b>
+</P>
+<P>
+In addition to substituting entries, it is possible to change the
+
+lines from one value to another. The thing to keep in mind is that
+
+substitute works on a character-for-character basis, whereas change
+
+functions like delete in that it affects the entire line:
+</P>
+<P>
+<PRE class=indent>
+$ sed '/two/ c
+> We are no longer using two' myfile.txt
+one     1
+We are no longer using two
+three   1
+one     1
+We are no longer using two
+We are no longer using two
+three   1
+$
+</PRE>
+</P>
+<P>
+Working much like substitute, the change command is greater in
+
+scale completely replacing the one entry for another,
+
+regardless of character content, or context. At the risk of
+
+overstating the obvious, when substitute was used, then only the
+
+character "1" was replaced with "2," while when using change, the
+
+entire original line was modified. In both situations, the match to
+
+look for was simply the "two."
+</P>
+<P>
+
+<b>Change All but...</b>
+</P>
+<P>
+With most sed commands, the functions are spelled out as to what
+
+changes are to take place. Using the exclamation mark, it is
+
+possible to have the changes take place everywhere but those
+
+specified completely reversing the default operation.
+</P>
+<P>
+
+For example, to delete all lines that contain the phrase "two," the
+
+operation is:
+</P>
+<P>
+<PRE class=indent>
+$ sed '/two/ d' myfile.txt
+one     1
+three   1
+one     1
+three   1
+$
+</PRE>
+</P>
+<P>
+And to delete all lines except those that contain the phrase "two,"
+
+the syntax becomes:
+</P>
+<P>
+<PRE class=indent>
+$ sed '/two/ !d' myfile.txt
+two     1
+two     1
+two     1
+$
+</PRE>
+</P>
+<P>
+If you have a file that contains a list of items and want to
+
+perform an operation on each of the items in the file, then it is
+
+important that you first do an intelligent scan of those entries
+
+and think about what you are doing. To make matters easier, you can
+
+do so by combining sed with any iteration routine (for, while,
+
+until).
+</P>
+<P>
+
+As an example, assume you have a text file named "animals" with the
+
+following entries:
+</P>
+<P>
+
+pig<BR>
+horse<BR>
+elephant<BR>
+cow<BR>
+dog<BR>
+cat
+</P>
+<P>
+
+And you want to run the following routine:
+</P>
+<P>
+<PRE class=indent>
+#mcd.ksh
+for I in $*
+do
+echo Old McDonald had a $I
+echo E-I, E-I-O
+done
+</PRE>
+</P>
+<P>
+The result will be that each line is printed at the end of "Old
+
+McDonald has a." While this is correct for the majority of the
+
+entries, it is grammatically incorrect for the "elephant" entry, as
+
+the result should be "an elephant" rather than "a elephant." Using
+
+sed, you can scan the output from your shell file for such
+
+grammatical errors and correct them on the fly, by first creating a
+
+file of commands:
+</P>
+<P>
+<PRE class=indent>
+#sublist
+/ a a/ s/ a / an /
+/ a e/ s/ a / an /
+/a i/ s / a / an /
+/a o/ s/ a / an /
+/a u/ s/ a / an /
+</PRE>
+</P>
+<P>
+and then executing the process as follows:
+</P>
+<P>
+<PRE class=indent>
+$ sh mcd.ksh 'cat animals' | sed -f sublist
+</PRE>
+</P>
+<P>
+Now, after the mcd script has been run, sed will scan the output
+
+for anywhere that the single letter a (space, "a," space) is
+
+followed by a vowel. If such exists, it will change the sequence to
+
+space, "an," space. This corrects the problem before it ever prints
+
+on the screen and ensures that editors everywhere sleep easier at
+
+night. The result is:
+</P>
+<P>
+Old McDonald had a pig<BR>
+E-I, E-I-O<BR>
+Old McDonald had a horse<BR>
+E-I, E-I-O<BR>
+Old McDonald had an elephant<BR>
+E-I, E-I-O<BR>
+Old McDonald had a cow<BR>
+E-I, E-I-O<BR>
+Old McDonald had a dog<BR>
+E-I, E-I-O<BR>
+Old McDonald had a cat<BR>
+E-I, E-I-O
+</P>
+<P>
+
+<b>Quitting Early</b>
+</P>
+<P>
+The default is for sed to read through an entire file and stop only
+
+when the end is reached. You can stop processing early, however, by
+
+using the quit command. Only one quit command can be specified, and
+
+processing will continue until the condition calling the quit
+
+command is satisfied.
+</P>
+<P>
+
+For example, to perform substitution only on the first five lines
+
+of a file and then quit:
+</P>
+<P>
+<PRE class=indent>
+$ sed '
+> /two/ s/1/2/
+> /three/ s/1/3/
+> 5q' myfile.txt
+one     1
+two     2
+three   3
+one     1
+two     2
+$
+</PRE>
+</P>
+<P>
+The entry preceding the quit command can be a line number, as
+
+shown, or a find/matching command like the following:
+</P>
+<P>
+<PRE class=indent>
+$ sed '
+> /two/ s/1/2/
+> /three/ s/1/3/
+> /three/q' myfile.txt
+one     1
+two     2
+three   3
+$
+</PRE>
+</P>
+<P>
+You can also use the quit command to view lines beyond a standard
+
+number and add functionality that exceeds those in head. For
+
+example, the head command allows you to specify how many of the
+
+first lines of a file you want to see—the default number is
+
+ten, but any number can be used from one to ninety-nine. If you
+
+want to see the first 110 lines of a file, you cannot do so with
+
+head, but you can with sed:
+</P>
+<P>
+<PRE class=indent>
+sed 110q filename
+</PRE>
+</P>
+<P>
+<b>Handling Problems</b>
+</P>
+<P>
+The main thing to keep in mind when dealing with sed is how it
+
+works. It works by reading one line in, performing all the tasks it
+
+knows to perform on that one line, and then moving on to the next
+
+line. Each line is subjected to every editing command given.
+</P>
+<P>
+
+This can be troublesome if the order of your operations is not
+
+thoroughly thought out. For example, suppose you need to change all
+
+"two" entries to "three" and all "three" to "four":
+</P>
+<P>
+<PRE class=indent>
+$ sed '
+> /two/ s/two/three/
+> /three/ s/three/four/' myfile.txt
+one     1
+four     1
+four   1
+one     1
+four     1
+four     1
+four   1
+$
+</PRE>
+</P>
+<P>
+The very first "two" read was changed to "three." It then meets the
+
+criteria established for the next edit and becomes "four." The end
+
+result is not what was wanted there are now no entries but
+
+"four" where there should be "three" and "four."
+</P>
+<P>
+
+When performing such an operation, you must pay diligent attention
+
+to the manner in which the operations are specified and arrange
+
+them in an order in which one will not clobber another. For
+
+example:
+</P>
+<P>
+<PRE class=indent>
+$ sed '
+> /three/ s/three/four/
+> /two/ s/two/three/' myfile.txt
+one     1
+three     1
+four   1
+one     1
+three     1
+three     1
+four   1
+$
+</PRE>
+</P>
+<P>
+This works perfectly, since the "three" value is changed prior to
+
+"two" becoming "three."
+</P>
+
+
+
+</td><td valign=top>
+<h3>Examples</h3>
+<p>Eliminate HTML Tags from file Using sed
+<pre class=indent1>
+$ sed -e 's/<[^>]*>//g'
+This <b> is </b> an <i>example</i>.
+This  is  an example.
+</pre>
+</p><p>
+In the example below, in the output line 1. Linux Sysadmin, Linux-Unix Scripting etc. only 2nd occurance of Linux is replaced by Linux-Unix.
+<pre class=indent1>
+$ sed 's/Linux/Linux-Unix/2' myfile.txt
+</pre>
+</p>
+<p>
+Remove the first word on each line (including any leading spaces and the trailing space):
+
+<pre class=indent1>
+cat test.txt | sed -e 's/^ *[^ ]* //'
+</pre>
+</p>
+
+
+</td></tr></table>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-283671-15");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<hr>contact us | privacy | terms
+
+
+</body>
+</html>

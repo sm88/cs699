@@ -1,0 +1,22 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.7.24)  31 AUG 2013 11:15
+entering extended mode
+ %&-line parsing enabled.
+**./tex2pdf-a.sh
+(./tex2pdf-a.sh
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+! You can't use `macro parameter character #' in vertical mode.
+l.1 #
+     /bin/bash
+? X
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 495062
+ 144 string characters out of 1182644
+ 45108 words of memory out of 3000000
+ 3282 multiletter control sequences out of 15000+50000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 5i,0n,1p,29b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

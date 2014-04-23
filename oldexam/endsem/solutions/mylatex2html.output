@@ -1,0 +1,249 @@
+Grammar
+
+    0 $accept: TABLE $end
+
+    1 TABLE: BEGIN_TABLE ROWS END_TABLE
+
+    2 BEGIN_TABLE: BEGIN_TOK TABULAR_TOK
+
+    3 END_TABLE: END_TOK TABULAR_TOK
+
+    4 ROWS: ROWS ROW ROW_END_TOK
+    5     | ROW ROW_END_TOK
+
+    6 ROW: CELL_AND_AMPS CELL
+    7    | CELL
+
+    8 CELL_AND_AMPS: CELL_AND_AMPS CELL_AND_AMP
+    9              | CELL_AND_AMP
+
+   10 CELL_AND_AMP: CELL '&'
+
+   11 CELL: WORDS
+
+   12 WORDS: WORDS WORD_TOK
+   13      | /* empty */
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'&' (38) 10
+error (256)
+BEGIN_TOK (258) 2
+END_TOK (259) 3
+TABULAR_TOK (260) 2 3
+WORD_TOK (261) 12
+ROW_END_TOK (262) 4 5
+
+
+Nonterminals, with rules where they appear
+
+$accept (9)
+    on left: 0
+TABLE (10)
+    on left: 1, on right: 0
+BEGIN_TABLE (11)
+    on left: 2, on right: 1
+END_TABLE (12)
+    on left: 3, on right: 1
+ROWS (13)
+    on left: 4 5, on right: 1 4
+ROW (14)
+    on left: 6 7, on right: 4 5
+CELL_AND_AMPS (15)
+    on left: 8 9, on right: 6 8
+CELL_AND_AMP (16)
+    on left: 10, on right: 8 9
+CELL (17)
+    on left: 11, on right: 6 7 10
+WORDS (18)
+    on left: 12 13, on right: 11 12
+
+
+state 0
+
+    0 $accept: . TABLE $end
+
+    BEGIN_TOK  shift, and go to state 1
+
+    TABLE        go to state 2
+    BEGIN_TABLE  go to state 3
+
+
+state 1
+
+    2 BEGIN_TABLE: BEGIN_TOK . TABULAR_TOK
+
+    TABULAR_TOK  shift, and go to state 4
+
+
+state 2
+
+    0 $accept: TABLE . $end
+
+    $end  shift, and go to state 5
+
+
+state 3
+
+    1 TABLE: BEGIN_TABLE . ROWS END_TABLE
+
+    $default  reduce using rule 13 (WORDS)
+
+    ROWS           go to state 6
+    ROW            go to state 7
+    CELL_AND_AMPS  go to state 8
+    CELL_AND_AMP   go to state 9
+    CELL           go to state 10
+    WORDS          go to state 11
+
+
+state 4
+
+    2 BEGIN_TABLE: BEGIN_TOK TABULAR_TOK .
+
+    $default  reduce using rule 2 (BEGIN_TABLE)
+
+
+state 5
+
+    0 $accept: TABLE $end .
+
+    $default  accept
+
+
+state 6
+
+    1 TABLE: BEGIN_TABLE ROWS . END_TABLE
+    4 ROWS: ROWS . ROW ROW_END_TOK
+
+    END_TOK  shift, and go to state 12
+
+    $default  reduce using rule 13 (WORDS)
+
+    END_TABLE      go to state 13
+    ROW            go to state 14
+    CELL_AND_AMPS  go to state 8
+    CELL_AND_AMP   go to state 9
+    CELL           go to state 10
+    WORDS          go to state 11
+
+
+state 7
+
+    5 ROWS: ROW . ROW_END_TOK
+
+    ROW_END_TOK  shift, and go to state 15
+
+
+state 8
+
+    6 ROW: CELL_AND_AMPS . CELL
+    8 CELL_AND_AMPS: CELL_AND_AMPS . CELL_AND_AMP
+
+    $default  reduce using rule 13 (WORDS)
+
+    CELL_AND_AMP  go to state 16
+    CELL          go to state 17
+    WORDS         go to state 11
+
+
+state 9
+
+    9 CELL_AND_AMPS: CELL_AND_AMP .
+
+    $default  reduce using rule 9 (CELL_AND_AMPS)
+
+
+state 10
+
+    7 ROW: CELL .
+   10 CELL_AND_AMP: CELL . '&'
+
+    '&'  shift, and go to state 18
+
+    $default  reduce using rule 7 (ROW)
+
+
+state 11
+
+   11 CELL: WORDS .
+   12 WORDS: WORDS . WORD_TOK
+
+    WORD_TOK  shift, and go to state 19
+
+    $default  reduce using rule 11 (CELL)
+
+
+state 12
+
+    3 END_TABLE: END_TOK . TABULAR_TOK
+
+    TABULAR_TOK  shift, and go to state 20
+
+
+state 13
+
+    1 TABLE: BEGIN_TABLE ROWS END_TABLE .
+
+    $default  reduce using rule 1 (TABLE)
+
+
+state 14
+
+    4 ROWS: ROWS ROW . ROW_END_TOK
+
+    ROW_END_TOK  shift, and go to state 21
+
+
+state 15
+
+    5 ROWS: ROW ROW_END_TOK .
+
+    $default  reduce using rule 5 (ROWS)
+
+
+state 16
+
+    8 CELL_AND_AMPS: CELL_AND_AMPS CELL_AND_AMP .
+
+    $default  reduce using rule 8 (CELL_AND_AMPS)
+
+
+state 17
+
+    6 ROW: CELL_AND_AMPS CELL .
+   10 CELL_AND_AMP: CELL . '&'
+
+    '&'  shift, and go to state 18
+
+    $default  reduce using rule 6 (ROW)
+
+
+state 18
+
+   10 CELL_AND_AMP: CELL '&' .
+
+    $default  reduce using rule 10 (CELL_AND_AMP)
+
+
+state 19
+
+   12 WORDS: WORDS WORD_TOK .
+
+    $default  reduce using rule 12 (WORDS)
+
+
+state 20
+
+    3 END_TABLE: END_TOK TABULAR_TOK .
+
+    $default  reduce using rule 3 (END_TABLE)
+
+
+state 21
+
+    4 ROWS: ROWS ROW ROW_END_TOK .
+
+    $default  reduce using rule 4 (ROWS)

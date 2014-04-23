@@ -1,0 +1,112 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: marks; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE marks (
+    quiz1 real NOT NULL,
+    midsem real NOT NULL,
+    quiz2 real NOT NULL,
+    project real NOT NULL,
+    endsem real NOT NULL,
+    roll_no text NOT NULL
+);
+
+
+ALTER TABLE public.marks OWNER TO postgres;
+
+--
+-- Name: users; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE users (
+    roll_no text NOT NULL,
+    name text NOT NULL,
+    email text NOT NULL,
+    password text NOT NULL
+);
+
+
+ALTER TABLE public.users OWNER TO postgres;
+
+--
+-- Data for Name: marks; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY marks (quiz1, midsem, quiz2, project, endsem, roll_no) FROM stdin;
+10	20	10	30	30	133059007
+9	11.5	6	25	20	133059008
+7.5	12	6.5	26	20	133059009
+\.
+
+
+--
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY users (roll_no, name, email, password) FROM stdin;
+133059007	Sushant Mahajan	smahajan@cse.iitb.ac.in	123456
+133059008	Abc Def	test@cse.iitb.ac.in	123456
+133059009	GHI Jkl	test2@cse.iitb.ac.in	123456
+\.
+
+
+--
+-- Name: users_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY users
+    ADD CONSTRAINT users_pkey PRIMARY KEY (roll_no);
+
+
+--
+-- Name: marks_roll_no_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY marks
+    ADD CONSTRAINT marks_roll_no_fkey FOREIGN KEY (roll_no) REFERENCES users(roll_no);
+
+
+--
+-- Name: public; Type: ACL; Schema: -; Owner: postgres
+--
+
+REVOKE ALL ON SCHEMA public FROM PUBLIC;
+REVOKE ALL ON SCHEMA public FROM postgres;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO PUBLIC;
+
+
+--
+-- PostgreSQL database dump complete
+--
+

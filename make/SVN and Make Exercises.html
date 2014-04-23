@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>SVN and Make Exercises</title>
+<link rel="stylesheet" href="SVN%20and%20Make%20Exercises_files/style.css" type="text/css">
+
+</head>
+
+<body>
+<h2>SVN and Make Exercises</h2>
+
+<p><b>Example C/C++ program:</b></p>
+
+<p>
+
+</p><ul>
+  <li>As a precursor, write a simple example C or C++ program.
+  </li>
+  <li>Do not copy this program from somewhere or from some friend: you
+      should write it yourself.
+  </li>
+  <li>It should consist of at least one header file and at
+      least three C/C++ files.
+  </li>
+  <li>The header file should be included in at least two of the C/C++
+  files.
+  </li>
+  <li>All these files should reside in a
+      particular directory (called cprog henceforth in this document for
+      convenience; you can call it whatever you want).
+  </li>
+  <li>You may have
+      sub-directories within the main parent directory.
+  </li>
+</ul>
+
+<p><b>Example Latex report (necessary only for the make exercise):</b></p>
+
+<ul>
+  <li>Also as a precursor, write an example latex report.
+  </li>
+  <li>The report should consist of at least three latex files
+  including the main latex file (which includes the other latex files).
+  </li>
+  <li>The report should also consist of a bib file which is to be
+  included after compilation using the "bibliography" command in the
+  main latex file.
+  </li>
+  <li>All of the above files should reside within a directory (called
+  latexrep henceforth in this document for convenience; you can call
+  it whatever you want).
+  </li>
+  <li>The report should also include at least two xfig figures
+  included as eps within one of the latex files.  The figures should
+  reside in a sub-directory called figures.
+  </li>
+  <li>The report should also include at least two eps graphs generated
+  from a gnuplot script; the plots should involve at least three data
+  files from where the data is plotted.  The graphs should reside in a
+  sub-directory called graphs.
+  </li>
+</ul>
+
+<h3>SVN Exercises</h3>
+
+<ol>
+  <li>Create an svn repository
+  </li>
+  <li>Import the entire C/C++ program directory into the SVN
+  repository.  You can now delete the entire directory from which you
+  made the import (don't delete the repository!).
+  </li>
+  <li>Now checkout the entire directory in a directory called copy1.
+  Also checkout the entire directory in another directory called
+  copy2.  (Imagine that copy2 is being edited by your colleague who is
+  jointly working on the C program).
+  </li>
+  <li>Make some changes in some file(s) of copy1 and commit these
+  changes to the svn repository.  And then checkout in copy2 to see if
+  these changes are reflected.
+  </li>
+  <li>Make some "simultaneous" changes to the same file in copy1 and
+  copy2.  But ensure that the changes are to different parts of the
+  file (say in two different functions).  Now commit both changes.
+  Now when you do svn update in copy1 (or copy2) automatic merging
+  must take place.  Observe this.
+  </li>
+  <li>Do the same exercise as above, but create a conflict.  For
+  instance, change the same set of lines in copy1 and copy2.  Observe
+  how, when you do svn update in copy1 (or copy2), svn will try to
+  merge, but report a conflict.  Now resolve the conflict manually (by
+  editing the file) and commit the resolved version.
+  </li>
+  <li><span class="em">Optional [1 HP]:</span>Create a situation where
+  svn reports a successful merge, but the resultant C program has
+      syntax errors (does not compile).
+  </li>
+  <li><span class="em">Optional [1 HP]:</span>Create a situation where svn reports a successful merge, the
+  resultant C program compiles, but fails to link (linker error).
+  </li>
+  <li><span class="em">Optional [2 HP]:</span>Create a situation where svn reports a successful merge, the
+  resultant C program compiles and links, but has a logical bug.
+  </li>
+  <li>Use the svn log command to view the log of changes to a
+  particular file.
+  </li>
+  <li>Use the svn diff command to view the set of changes between the
+  working copy version and any particular revision in the svn
+  repository.
+  </li>
+  <li>Repeat some or all of the above commands by checking out copy2
+  on a different machine, and using the appropriate repository
+  specification (use svn+ssh).  Note that you do not have to specify
+  the repository explicitly after the initial checkout, since its
+  stored in the .svn directory!
+  </li>
+</ol>
+
+<p><b>Submission instructions:</b>svn submissions must be as a single
+tar.gz created from the parent directory of the svn repository
+directory.  Upload the submission to moodle.  For the optional
+questions carrying house points, you must show your submission
+(downloaded from moodle) to one of the TAs or the instructor in the
+lab.</p>
+
+<h3>Make Exercises</h3>
+
+<ol>
+  <li>Write an appropriate Makefile for the C program.
+      <ol class="a">
+	<li>Modify one or more of the source files or header files and check
+	    that running "make" executes only the necessary commands.  Do this
+	    for multiple scenarios (modify different sets of files each time).<br>
+	    Learn to use the "touch" command to "pretend" to have modified a
+	    file.  This is sometimes useful to force recompilation without
+	    actually modifying the source file(s).
+	</li>
+	<li>Delete one or more object files and/or the executable file.
+	    Check that running "make" executes only the necessary commands.  Do
+	    this for multiple scenarios (delete different sets of files each
+	    time).
+	</li>
+	<li>Now add the Makefile to the SVN repository using "svn add"
+	</li>
+      </ol>
+  </li>
+  <li>Write an appropriate Makefile for the latex report.  Your final
+  target should be a PDF file of the report.  Note that you will have
+  to use the following commands appropriately in the Makefile recipes:
+  latex, bibtex, pdflatex (or dvips followed by ps2pdf), fig2eps (or
+  convert), gnuplot.
+      <ol class="a">
+	<li>Like for the C program, modify or touch various sets of
+  files (latex source, bib file, figure sources, gnuplot data files,
+  gnuplot script files) and verify that running "make" executes only
+  the required commands and generates the correct PDF.
+	</li>
+	<li>Like for the C program, delete various sets of the
+  following files: dvi, pdf, ps, figure eps, graph eps.  Verify that
+  running "make" executes only the required commands and generates the
+  correct PDF.
+	</li>
+      </ol>
+  </li>
+  <li>Make the following enhancements to each of the above
+      Makefile scenarios.  For each enhancement, do not forget
+      to check if running "make" is indeed executing only the
+      required commands.
+      <ol class="a">
+	
+	<li>Enhance the Makefile by using some appropriate variables.
+	</li>
+	<li>Further enhance the Makefile by using implicit rules.
+	</li>
+	<li>Further enhance the Makefile by writing "clean" as a phony
+	    target.
+	</li>
+      </ol>
+  </li>
+</ol>
+
+<hr>
+<address>Bhaskaran Raman</address>
+<!-- hhmts start -->
+Last modified: Mon Aug  5 18:48:21 IST 2013
+<!-- hhmts end -->
+ 
+</body></html>

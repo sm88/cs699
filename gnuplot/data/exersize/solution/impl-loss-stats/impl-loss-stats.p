@@ -1,0 +1,22 @@
+set term postscript eps
+
+set size .75,.75
+
+set xrange [1:10]
+set yrange [0:3.5]
+
+set xlabel "Node Id"
+set ylabel "Packet Drop (%)"
+
+set key right top
+
+set style data boxes
+set boxwidth 0.15
+set bmargin 4
+set grid
+
+set output "impl-loss-stats-sm.eps"
+
+plot    "impl-loss-stats.txt" u ($1-.17):(($2+$3)/10) w boxes fs pattern 3 title "Total", \
+        "impl-loss-stats.txt" u 1:($2/10) w boxes fs pattern 1 title "Overflow", \
+        "impl-loss-stats.txt" u ($1+.17):($3/10) w boxes fs pattern 2 title "Retry-Limit" 
